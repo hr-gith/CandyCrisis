@@ -1,4 +1,4 @@
-package Models;
+package models;
 
 /**
  * Created by hamideh on 02/02/2018.
@@ -32,17 +32,17 @@ public class Token {
         this.yPos = yPos;
     }
 
-    public boolean moveUp (){
-
+    public void moveUp (){
+        this.yPos--;
     }
 
-    public boolean moveDown (){
-
+    public void moveDown (){
+        this.yPos++;
     }
-    public boolean moveRight (){
-
+    public void moveRight (){
+        this.xPos++;
     }
-    public boolean moveLeft (){
-
+    public void moveLeft (){
+        this.xPos--;
     }
 }

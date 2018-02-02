@@ -1,0 +1,6 @@
+<BorderPane fx:controller="controllers.GameController"
+            xmlns:fx="http://javafx.com/fxml">
+
+
+
+</BorderPane>
