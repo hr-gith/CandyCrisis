@@ -5,8 +5,7 @@ package models;
  */
 public class Token {
     private char sign;
-    private int xPos;
-    private int yPos;
+    private Position pos;
 
     public char getSign() {
         return sign;
@@ -16,33 +15,25 @@ public class Token {
         this.sign = sign;
     }
 
-    public int getxPos() {
-        return xPos;
+    public Position getPos() {
+        return pos;
     }
 
-    public void setxPos(int xPos) {
-        this.xPos = xPos;
-    }
-
-    public int getyPos() {
-        return yPos;
-    }
-
-    public void setyPos(int yPos) {
-        this.yPos = yPos;
+    public void setPos(Position pos) {
+        this.pos = pos;
     }
 
     public void moveUp (){
-        this.yPos--;
+        this.pos.moveUp();
     }
 
     public void moveDown (){
-        this.yPos++;
+        this.pos.moveDown();
     }
     public void moveRight (){
-        this.xPos++;
+        this.pos.moveRight();
     }
     public void moveLeft (){
-        this.xPos--;
+        this.pos.moveLeft();
     }
 }
