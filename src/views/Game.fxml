@@ -1,6 +1,7 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
 <BorderPane fx:controller="controllers.GameController"
             xmlns:fx="http://javafx.com/fxml">
-
-
 
 </BorderPane>
