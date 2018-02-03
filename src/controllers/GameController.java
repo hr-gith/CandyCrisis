@@ -18,8 +18,11 @@ public class GameController extends Application{
     public void start(Stage primaryStage) throws Exception {
 
         Parent root = FXMLLoader.load(getClass().getResource("../views/Game.fxml"));
-        Scene scene=new Scene(root,400,600);
+        Scene scene=new Scene(root,600,400);
+        primaryStage.setTitle("Candy Crisis");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
+
+
 }

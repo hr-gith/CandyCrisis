@@ -1,7 +1,33 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Label?>
-<BorderPane fx:controller="controllers.GameController"
-            xmlns:fx="http://javafx.com/fxml">
 
-</BorderPane>
+<GridPane fx:controller="controllers.GameController"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="CENTER"
+
+            id="grid" vgap="30" hgap="30">
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="0">
+
+    </Label>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" text="1"></Label>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="2" text="2"></Label>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="3" text="3"></Label>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="4" text="4"></Label>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="0"></Label>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="1" text="1"></Label>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="2" text="2"></Label>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="3" text="3"></Label>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="4" text="4"></Label>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="0"></Label>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="1" text="1"></Label>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="2" text="2"></Label>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="3" text="3"></Label>
+    <Label GridPane.rowIndex="2" GridPane.columnIndex="4" text="4"></Label>
+
+
+
+
+
+</GridPane>
+
