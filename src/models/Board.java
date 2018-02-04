@@ -71,20 +71,15 @@ public class Board {
         this.gridToken = gridToken;
     }
 
-    public void displayBoard(){
-
-    }
 
     public boolean checkGoal(){
-        boolean result = false;
-
+        boolean result = true;
+        for(int i = 0; i < Configuration.COLUMNS; ++i){
+            if (this.gridToken[0][i].getSign() != this.gridToken[Configuration.ROWS-1][i].getSign()){
+                result = false;
+            }
+        }
         return result;
-    }
-
-    public Position findNewCoordinates(char direction){
-        Position newPos = new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-
-        return newPos;
     }
 
     public boolean validateMove(char direction){
@@ -117,11 +112,6 @@ public class Board {
         return result;
     }
 
-    public boolean setBoard(){
-        boolean result = false;
-
-        return result;
-    }
 
     public void print(){
         for(int i=0;i<3;i++){
