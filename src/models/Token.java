@@ -7,6 +7,18 @@ public class Token {
     private char sign;
     private Position pos;
 
+
+    @Override
+    public String toString() {
+        return "Token{" +
+                "sign=" + sign +
+                ", pos=" + pos +
+                '}';
+    }
+
+    public Token(char sign){
+        this.sign=sign;
+    }
     public char getSign() {
         return sign;
     }

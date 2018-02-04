@@ -3,8 +3,12 @@ package models;
 
 
 import javafx.geometry.Point2D;
+import utilities.Configuration;
+import utilities.FileOps;
 
 import java.awt.*;
+import java.io.File;
+import java.util.Arrays;
 
 /**
  * Created by hamideh on 02/02/2018.
@@ -15,7 +19,26 @@ public class Board {
     private Token emptyTokenRef;
     private Token[][] gridToken;
 
+    public Board(){
+        gridToken=new Token[3][5];
+        String[] characters= FileOps.readFile();
+        System.out.println("char array "+ Arrays.toString(characters));
+        int indexCharac=0;
+        for(int i=0;i<Configuration.ROWS;i++){
+            for(int j=0;j<Configuration.COLUMNS;j++){
+                        //characters.
+                System.out.println(characters[indexCharac].charAt(0));
+                gridToken[i][j]=new Token(characters[indexCharac].charAt(0));
+                Position tempPos=new Position(i,j);
+                gridToken[i][j].setPos(tempPos);
+                if (characters[indexCharac].charAt(0)=='e')
+                    emptyTokenRef=  gridToken[i][j];
 
+                indexCharac++;
+
+            }
+        }
+    }
     public int getLength() {
         return length;
     }
@@ -65,8 +88,32 @@ public class Board {
     }
 
     public boolean validateMove(char direction){
-        boolean result = false;
+        boolean result = true;
+        int currentX = emptyTokenRef.getPos().getX();
+        int currentY = emptyTokenRef.getPos().getY();
+        switch (direction)
+        {
+            case 'U':
+                if(currentX==0)
+                    return false;
+                break;
+            case 'D':
+                if(currentX== Configuration.ROWS-1)
+                    return false;
 
+                break;
+            case 'L':
+                if(currentY==0)
+                    return false;
+
+                break;
+            case 'R':
+                if(currentY==Configuration.COLUMNS-1)
+                    return false;
+
+                break;
+
+        }
         return result;
     }
 
@@ -76,11 +123,43 @@ public class Board {
         return result;
     }
 
+    public void print(){
+        for(int i=0;i<3;i++){
+            for(int j=0;j<5;j++) {
+                System.out.print("   "+ gridToken[i][j].getSign());//+" Position :"+gridToken[i][j].getPos().getX() +" , "+gridToken[i][j].getPos().getY());
+
+            }
+            System.out.println();
+        }
+    }
+    public Position getNewPosition(char direction){
+        Position pos=emptyTokenRef.getPos();
+        switch (direction){
+        case 'U':
+            pos.setX(pos.getX()-1);
+            break;
+        case 'D':
+            pos.setX(pos.getX()+1);
+            break;
+        case 'L':
+            pos.setY(pos.getY()-1);
+            break;
+        case 'R':
+            pos.setY(pos.getY()+1);
+            break;
+
+        }
+        return pos;
+    }
 
     // TO-DO: can return int for each error message
     public boolean move(char direction){
         boolean result = false;
+            if (validateMove(direction)){
 
+            }else{
+                //TO-DO: Pop saying move is not valid
+            }
         return result;
     }
 
