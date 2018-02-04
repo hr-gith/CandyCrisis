@@ -72,6 +72,14 @@ public class GameController extends Application implements Initializable{
         System.out.println(Arrays.toString(FileOps.readFile()));
         Board b1=new Board();
         b1.print();
+        b1.move('R');
+        b1.print();
+        b1.move('D');
+        b1.print();
+        b1.move('L');
+        b1.print();
+        b1.move('U');
+        b1.print();
         //label1.setText("23");
         System.out.println("validate move: U "+b1.validateMove('U'));
         System.out.println("validate move: D "+b1.validateMove('D'));
