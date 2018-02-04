@@ -2,32 +2,59 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Label?>
 
-<GridPane fx:controller="controllers.GameController"
-          xmlns:fx="http://javafx.com/fxml"
-          alignment="CENTER"
-
-            id="grid" vgap="30" hgap="30">
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="0">
-
-    </Label>
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" text="1" id="label1"></Label>
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="2" text="2"></Label>
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="3" text="3"></Label>
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="4" text="4"></Label>
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="0"></Label>
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="1" text="1"></Label>
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="2" text="2"></Label>
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="3" text="3"></Label>
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="4" text="4"></Label>
-    <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="0"></Label>
-    <Label GridPane.rowIndex="2" GridPane.columnIndex="1" text="1"></Label>
-    <Label GridPane.rowIndex="2" GridPane.columnIndex="2" text="2"></Label>
-    <Label GridPane.rowIndex="2" GridPane.columnIndex="3" text="3"></Label>
-    <Label GridPane.rowIndex="2" GridPane.columnIndex="4" text="4"></Label>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
 
 
+<?import javafx.scene.control.Button?>
+<BorderPane fx:controller="controllers.GameController"
+            xmlns:fx="http://javafx.com/fxml" >
+    <top>
+
+    </top>
+
+    <center>
+        <GridPane id="gpBoard" alignment="CENTER" gridLinesVisible="true"
+                  style="-fx-background-color: gray; -fx-pref-width: 600">
+
+            <columnConstraints>
+                <ColumnConstraints percentWidth="15.0"/>
+                <ColumnConstraints percentWidth="15.0"/>
+                <ColumnConstraints percentWidth="15.0"/>
+                <ColumnConstraints percentWidth="15.0"/>
+                <ColumnConstraints percentWidth="15.0"/>
+            </columnConstraints>
+            <Label fx:id="lblTile00" GridPane.rowIndex="0" GridPane.columnIndex="0" ></Label>
+            <Label fx:id="lblTile01" GridPane.rowIndex="0" GridPane.columnIndex="1" text="1"></Label>
+            <Label fx:id="lblTile02" GridPane.rowIndex="0" GridPane.columnIndex="2" text="2"></Label>
+            <Label fx:id="lblTile03" GridPane.rowIndex="0" GridPane.columnIndex="3" text="3"></Label>
+            <Label fx:id="lblTile04" GridPane.rowIndex="0" GridPane.columnIndex="4" text="4"></Label>
+            <Label fx:id="lblTile10" GridPane.rowIndex="1" GridPane.columnIndex="0" text="0"></Label>
+            <Label fx:id="lblTile11" GridPane.rowIndex="1" GridPane.columnIndex="1" text="1"></Label>
+            <Label fx:id="lblTile12" GridPane.rowIndex="1" GridPane.columnIndex="2" text="2"></Label>
+            <Label fx:id="lblTile13" GridPane.rowIndex="1" GridPane.columnIndex="3" text="3"></Label>
+            <Label fx:id="lblTile14" GridPane.rowIndex="1" GridPane.columnIndex="4" text="4"></Label>
+            <Label fx:id="lblTile20" GridPane.rowIndex="2" GridPane.columnIndex="0" text="0"></Label>
+            <Label fx:id="lblTile21" GridPane.rowIndex="2" GridPane.columnIndex="1" text="1"></Label>
+            <Label fx:id="lblTile22" GridPane.rowIndex="2" GridPane.columnIndex="2" text="2"></Label>
+            <Label fx:id="lblTile23" GridPane.rowIndex="2" GridPane.columnIndex="3" text="3"></Label>
+            <Label fx:id="lblTile24" GridPane.rowIndex="2" GridPane.columnIndex="4" text="4"></Label>
+
+        </GridPane>
+
+    </center>
+    <bottom>
+        <GridPane fx:id="gpKeys" alignment="BOTTOM_RIGHT">
+            <Button fx:id="btnLeft" text="Left" onAction="#OnButtonclicked" GridPane.rowIndex="1" GridPane.columnIndex="0"></Button>
+            <Button fx:id="btnRight" text="Right" onAction="#OnButtonclicked" GridPane.rowIndex="1" GridPane.columnIndex="2"></Button>
+            <Button fx:id="btnUp" text="Up" onAction="#OnButtonclicked" GridPane.rowIndex="0" GridPane.columnIndex="1"></Button>
+            <Button fx:id="btnDown" text="Down" onAction="#OnButtonclicked" GridPane.rowIndex="1" GridPane.columnIndex="1"></Button>
+        </GridPane>
+    </bottom>
+
+</BorderPane>
 
 
 
-</GridPane>
 
