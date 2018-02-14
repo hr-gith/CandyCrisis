@@ -145,27 +145,26 @@ public class Board {
     // TO-DO: can return int for each error message
     public boolean move(char direction){
         boolean result = false;
-            if (validateMove(direction)){
-                Position oldEmptyPos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-                System.out.println("Old empty position :"+ oldEmptyPos);
-                Position newEmptyPos=getNewPosition(direction);
-                System.out.println("new empty position :"+ newEmptyPos);
-                //emptyTokenRef.setPos(newPos);
-                //gridToken[][]
-                gridToken[newEmptyPos.getX()][newEmptyPos.getY()].setPos(oldEmptyPos);
-                gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()].setPos(newEmptyPos);
+        if (validateMove(direction)){
+            Position oldEmptyPos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
+            System.out.println("Old empty position :"+ oldEmptyPos);
+            Position newEmptyPos=getNewPosition(direction);
+            System.out.println("new empty position :"+ newEmptyPos);
+            //emptyTokenRef.setPos(newPos);
+            //gridToken[][]
+            gridToken[newEmptyPos.getX()][newEmptyPos.getY()].setPos(oldEmptyPos);
+            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()].setPos(newEmptyPos);
 
-                //Changing References in array[][]
-                Token tempTOken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
+            //Changing References in array[][]
+            Token tempTOken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
 
 
-                gridToken[newEmptyPos.getX()][newEmptyPos.getY()]=gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()];
-                gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempTOken;
-                emptyTokenRef=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
-                //System.out.println(newPos);
-            }else{
-                //TO-DO: Pop saying move is not valid
-            }
+            gridToken[newEmptyPos.getX()][newEmptyPos.getY()]=gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()];
+            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempTOken;
+            emptyTokenRef=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
+            //System.out.println(newPos);
+            result = true;
+        }
         return result;
     }
 
