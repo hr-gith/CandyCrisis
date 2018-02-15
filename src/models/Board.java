@@ -18,9 +18,11 @@ public class Board {
     private int width;
     private Token emptyTokenRef;
     private Token[][] gridToken;
+    private static int nbMoves;
 
     public Board(){
         gridToken=new Token[3][5];
+        nbMoves = 0;
         String[] characters= FileOps.readFile();
         //System.out.println("char array "+ Arrays.toString(characters));
         int indexCharac=0;
@@ -84,6 +86,12 @@ public class Board {
                 result = false;
             }
         }
+        if (result){
+            //write to the output file
+            String characters = this.toString();
+            String strNbMoves = ("Number of moves:"+ nbMoves);
+            FileOps.writeFile(characters, strNbMoves);
+        }
         return result;
     }
 
@@ -127,6 +135,21 @@ public class Board {
             System.out.println();
         }
     }
+
+    public String toString(){
+        String board = "";
+        for(int i=0;i<Configuration.ROWS;i++){
+            for(int j=0;j<Configuration.COLUMNS;j++) {
+                if (gridToken[i][j].getSign() != ' ') {
+                    board += Character.toString(gridToken[i][j].getSign());
+                    board += " ";
+                }else{
+                    board += "e ";
+                }
+            }
+        }
+        return board;
+    }
     public Position getNewPosition(char direction){
         Position pos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
         switch (direction){
@@ -161,13 +184,14 @@ public class Board {
             gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()].setPos(newEmptyPos);
 
             //Changing References in array[][]
-            Token tempTOken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
+            Token tempToken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
 
 
             gridToken[newEmptyPos.getX()][newEmptyPos.getY()]=gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()];
-            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempTOken;
+            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempToken;
             emptyTokenRef=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
             //System.out.println(newPos);
+            nbMoves ++;
             result = true;
         }
         return result;

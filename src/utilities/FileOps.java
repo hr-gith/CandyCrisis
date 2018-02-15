@@ -1,8 +1,11 @@
 package utilities;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Arrays;
+import java.util.Timer;
 
 public class FileOps {
     public static String[] readFile(){
@@ -19,5 +22,17 @@ public class FileOps {
         }
         //System.out.println("fileops"+characters);
     return characters;
+    }
+
+    public static void writeFile(String characters, String nbMoves){
+        try{
+            BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFile));
+            writer.write(characters);
+            writer.newLine();
+            writer.write(nbMoves);
+            writer.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
