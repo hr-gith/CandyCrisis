@@ -28,7 +28,12 @@ public class Board {
             for(int j=0;j<Configuration.COLUMNS;j++){
                         //characters.
                 //System.out.println(characters[indexCharac].charAt(0));
-                gridToken[i][j]=new Token(characters[indexCharac].charAt(0));
+                char sign = characters[indexCharac].charAt(0);
+                if (sign != 'e') {
+                    gridToken[i][j] = new Token(sign);
+                }else{
+                    gridToken[i][j] = new Token(' ');
+                }
                 Position tempPos=new Position(i,j);
                 gridToken[i][j].setPos(tempPos);
                 if (characters[indexCharac].charAt(0)=='e')
