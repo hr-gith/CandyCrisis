@@ -17,11 +17,13 @@ import models.Board;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import static javafx.application.Application.launch;
+
 
 /**
  * Created by hamideh on 02/02/2018.
  */
-public class GameController extends Application implements Initializable{
+public class GameController implements Initializable{
 
 
     private Board gameBoard;
@@ -59,19 +61,6 @@ public class GameController extends Application implements Initializable{
     private Text tile23;
     @FXML
     private Text tile24;
-
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-
-        Parent root = FXMLLoader.load(getClass().getResource("../views/Game.fxml"));
-        Scene scene=new Scene(root,600,400);
-
-        primaryStage.setTitle("Candy Crisis");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
-    }
 
 
     @FXML
@@ -162,8 +151,27 @@ public class GameController extends Application implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
         gameBoard = new Board();
         state = false;
         displayBoard();
     }
+
+/*
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+
+        Parent root = FXMLLoader.load(getClass().getResource("../views/game.fxml"));
+        Scene scene=new Scene(root,600,400);
+
+        primaryStage.setTitle("Candy Crisis");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+*/
 }

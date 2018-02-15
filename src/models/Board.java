@@ -22,12 +22,12 @@ public class Board {
     public Board(){
         gridToken=new Token[3][5];
         String[] characters= FileOps.readFile();
-        System.out.println("char array "+ Arrays.toString(characters));
+        //System.out.println("char array "+ Arrays.toString(characters));
         int indexCharac=0;
         for(int i=0;i<Configuration.ROWS;i++){
             for(int j=0;j<Configuration.COLUMNS;j++){
                         //characters.
-                System.out.println(characters[indexCharac].charAt(0));
+                //System.out.println(characters[indexCharac].charAt(0));
                 gridToken[i][j]=new Token(characters[indexCharac].charAt(0));
                 Position tempPos=new Position(i,j);
                 gridToken[i][j].setPos(tempPos);
@@ -147,9 +147,9 @@ public class Board {
         boolean result = false;
         if (validateMove(direction)){
             Position oldEmptyPos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-            System.out.println("Old empty position :"+ oldEmptyPos);
+            //System.out.println("Old empty position :"+ oldEmptyPos);
             Position newEmptyPos=getNewPosition(direction);
-            System.out.println("new empty position :"+ newEmptyPos);
+            //System.out.println("new empty position :"+ newEmptyPos);
             //emptyTokenRef.setPos(newPos);
             //gridToken[][]
             gridToken[newEmptyPos.getX()][newEmptyPos.getY()].setPos(oldEmptyPos);

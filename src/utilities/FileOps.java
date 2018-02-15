@@ -17,7 +17,7 @@ public class FileOps {
         }catch(Exception e){
             e.printStackTrace();
         }
-        System.out.println("fileops"+characters);
+        //System.out.println("fileops"+characters);
     return characters;
     }
 }
