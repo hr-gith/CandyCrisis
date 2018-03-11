@@ -80,6 +80,7 @@
             <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
             <Text fx:id="tile24"/>
         </StackPane>
+
     </HBox>
     <Button alignment="CENTER" text="UP" prefWidth="70"  onKeyPressed="#onKeyPressed" onAction="#OnButtonClicked"></Button>
     <HBox spacing="50" alignment="CENTER">
@@ -88,6 +89,7 @@
     </HBox>
     <Button alignment="CENTER" prefWidth="70" text="DOWN" onKeyPressed="#onKeyPressed"  onAction="#OnButtonClicked"></Button>
     <Label fx:id="message"/>
+    <Button text="Automatic Mode" onAction="#automaticMode"></Button>
 </VBox>
 
 

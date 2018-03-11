@@ -6,9 +6,10 @@ import javafx.geometry.Point2D;
 import utilities.Configuration;
 import utilities.FileOps;
 
+import javax.xml.transform.sax.SAXSource;
 import java.awt.*;
 import java.io.File;
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * Created by hamideh on 02/02/2018.
@@ -78,23 +79,37 @@ public class Board {
         this.gridToken = gridToken;
     }
 
-
-    public boolean checkGoal(){
+    public void copyGrid(Token[][] gridToken){
+        for(int i=0;i<Configuration.ROWS;i++){
+            for(int j=0;j<Configuration.COLUMNS;j++){
+                this.gridToken[i][j]=new Token(gridToken[i][j].getSign());
+               // this.gridToken[i][j]=gridToken[i][j];
+                Position ps=new Position(gridToken[i][j].getPos().getX(),gridToken[i][j].getPos().getY());
+                this.gridToken[i][j].setPos(ps);
+            }
+        }
+    }
+    public void copyEmptyRef(Token emptyTokenRef){
+        Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
+        //ps.setY(emptyTokenRef.getPos().getY());
+        //ps.setX(emptyTokenRef.getPos().getX());
+        this.emptyTokenRef.setPos(ps);
+    }
+    public boolean checkGoal() {
         boolean result = true;
-        for(int i = 0; i < Configuration.COLUMNS; ++i){
-            if (this.gridToken[0][i].getSign() != this.gridToken[Configuration.ROWS-1][i].getSign()){
+        for (int i = 0; i < Configuration.COLUMNS; ++i) {
+            if (this.gridToken[0][i].getSign() != this.gridToken[Configuration.ROWS - 1][i].getSign()) {
                 result = false;
             }
         }
-        if (result){
+        if (result) {
             //write to the output file
             String characters = this.toString();
-            String strNbMoves = ("Number of moves:"+ nbMoves);
+            String strNbMoves = ("Number of moves:" + nbMoves);
             FileOps.writeFile(characters, strNbMoves);
         }
         return result;
     }
-
     public boolean validateMove(char direction){
         boolean result = true;
         int currentX = emptyTokenRef.getPos().getX();
@@ -139,6 +154,7 @@ public class Board {
     public String toString(){
         String board = "";
         for(int i=0;i<Configuration.ROWS;i++){
+            board+="\n";
             for(int j=0;j<Configuration.COLUMNS;j++) {
                 if (gridToken[i][j].getSign() != ' ') {
                     board += Character.toString(gridToken[i][j].getSign());
@@ -146,6 +162,7 @@ public class Board {
                 }else{
                     board += "e ";
                 }
+
             }
         }
         return board;
@@ -169,7 +186,109 @@ public class Board {
         }
         return pos;
     }
+    //*
+    // This Function calculates the number of types of each tile in bottom an top row and then calculates the difference between them
+    // eg:
+    //  r e r r r
+    //  r b w b b
+    //  w y b r y
+    // TOP:
+    // count(r)=4
+    //  count(e)=1
+    //
+    // Bottom:
+    // count(w)=1
+    // count(y)=2
+    //  count(b)=1
+    // // count(r)=1
+    // h(n)= abs(count(r)[top]-count(r)[Bottom])
+    // */
+    public int heuricticFunction(){
+        
+        HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();
+        HashMap<Character,Integer> bottomRow=new HashMap<Character, Integer>();
 
+            for(int j=0;j<Configuration.COLUMNS;j++) {
+                if(topRow.containsKey(this.gridToken[0][j].getSign())){
+                    int newCount=topRow.get(this.gridToken[0][j].getSign())+1;
+                    topRow.put(this.gridToken[0][j].getSign(),newCount);
+                }else{
+                    topRow.put(this.gridToken[0][j].getSign(),1);
+                }
+            }
+        for(int j=0;j<Configuration.COLUMNS;j++) {
+            if(bottomRow.containsKey(this.gridToken[Configuration.ROWS-1][j].getSign())){
+                int newCount=bottomRow.get(this.gridToken[Configuration.ROWS-1][j].getSign())+1;
+                bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),newCount);
+            }else{
+                bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),1);
+            }
+        }
+        //ArrayList<Character> keys=new ArrayList<Character>();
+        Set<Character> keys=new HashSet();
+            //--Calculating Heuristic
+        for ( Character key : topRow.keySet() ) {
+            keys.add(key);
+        }
+        for ( Character key : bottomRow.keySet() ) {
+            keys.add(key);
+        }
+        int heuristic=0;
+        for(Character key:keys){
+            int top=0,bottom=0;
+
+            if(topRow.containsKey(key))
+                top=topRow.get(key);
+            if(bottomRow.containsKey(key))
+                bottom=bottomRow.get(key);
+            heuristic+=Math.abs(top-bottom);
+
+        }
+        System.out.println("----------------------");
+        System.out.println("Keys : "+keys);
+        System.out.println(topRow);
+        System.out.println(bottomRow);
+        System.out.println("Heuristic : "+heuristic);
+                return 0;
+    }
+    public Board[] sucessorFunction(){
+        //TO-DO: Make sucessors of given Model by checking if model exists
+        Board[] sucessors=new Board[4];
+        //Board currentBoard=this.clone();
+        for(int i=0;i<4;i++){
+            sucessors[i]=new Board();
+            sucessors[i].copyEmptyRef(this.emptyTokenRef);
+            sucessors[i].copyGrid(this.gridToken);
+           // sucessors[i].length=this.length;
+            //sucessors[i].width=this.width;
+            System.out.println(sucessors[i].emptyTokenRef.getPos());
+        }
+        for(Board sucessor:sucessors){
+            System.out.println(sucessor.emptyTokenRef.getPos());
+        }
+        if(sucessors[0].validateMove('L')){
+            sucessors[0].move('L');
+            System.out.println("Left: "+sucessors[0].emptyTokenRef.getPos());
+            System.out.println(sucessors[0]);
+        }
+        if(sucessors[1].validateMove('R')){
+            sucessors[1].move('R');
+            System.out.println("Right: "+sucessors[1].emptyTokenRef.getPos());
+            System.out.println(sucessors[1]);
+        }
+        if(sucessors[2].validateMove('D')){
+            sucessors[2].move('D');
+            System.out.println("Down: "+sucessors[2].emptyTokenRef.getPos());
+            System.out.println(sucessors[2]);
+        }
+        if(sucessors[3].validateMove('U')){
+            sucessors[3].move('U');
+            System.out.println("Up: "+sucessors[3].emptyTokenRef.getPos());
+            System.out.println(sucessors[3]);
+        }
+
+        return sucessors;
+    }
     // TO-DO: can return int for each error message
     public boolean move(char direction){
         boolean result = false;

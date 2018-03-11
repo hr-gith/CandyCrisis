@@ -95,7 +95,15 @@ public class GameController implements Initializable{
             this.displayBoard();
         }
     }
-
+    @FXML
+    private void automaticMode(ActionEvent event){
+        System.out.println("Automatic mode");
+        Board[]sucessors=gameBoard.sucessorFunction();
+        for(int i=0;i<sucessors.length;i++)
+        { System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
+            sucessors[i].heuricticFunction();
+        }
+    }
     @FXML
     private void OnButtonClicked(ActionEvent event){
         if (!state) {
@@ -125,6 +133,9 @@ public class GameController implements Initializable{
         }
     }
 
+    public void heuristicFunction(Board boardModel){
+        //TO-DO: Make a heuristic function
+    }
     public void displayBoard(){
         /*for(int i = 0 ; i< Configuration.ROWS; ++i){
             for (int j = 0; j <Configuration.COLUMNS; ++j){
