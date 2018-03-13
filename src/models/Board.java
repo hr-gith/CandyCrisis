@@ -257,7 +257,7 @@ public class Board {
         if(this.emptyTokenRef.getPos().getX()!=other.emptyTokenRef.getPos().getX()){
             return false;
         }else{
-            if(this.emptyTokenRef.getPos().getX()!=other.emptyTokenRef.getPos().getY()){
+            if(this.emptyTokenRef.getPos().getY()!=other.emptyTokenRef.getPos().getY()){
                 return false;
             }
             else {
