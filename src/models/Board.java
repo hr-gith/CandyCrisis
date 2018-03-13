@@ -89,6 +89,22 @@ public class Board implements Comparable{
         this.gridToken = gridToken;
     }
 
+    public Board getParent() {
+        return parent;
+    }
+
+    public void setParent(Board parent) {
+        this.parent = parent;
+    }
+
+    public char getDirectionFromParent() {
+        return directionFromParent;
+    }
+
+    public void setDirectionFromParent(char directionFromParent) {
+        this.directionFromParent = directionFromParent;
+    }
+
     public boolean checkGoal() {
         boolean result = true;
         for (int i = 0; i < Configuration.COLUMNS; ++i) {

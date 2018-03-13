@@ -7,7 +7,7 @@ public class BestFirstSearch {
     private PriorityQueue<Board> openList;
     private ArrayList<Board> visitedList;
     private Board root;
-    private char[] solution;
+    private String solution;
 
     public BestFirstSearch(){
         openList = new PriorityQueue<>();
@@ -31,13 +31,24 @@ public class BestFirstSearch {
     }
 
     private void setSolution() {
-        //TO-DO: Find solution based on visited successors
-        
-
-        this.solution = solution;
+        solution = null;
+        if (!visitedList.isEmpty()) {
+            if (visitedList.get(visitedList.size() - 1).getHeurictic() != 0) {
+                //there is no solution
+                return;
+            } else {
+                StringBuilder solutionStb = new StringBuilder();
+                Board current = visitedList.get(visitedList.size() - 1);
+                while(current.getParent() != null) {
+                    solutionStb.append(current.getDirectionFromParent());
+                    current = current.getParent();
+                }
+                this.solution = solutionStb.reverse().toString();
+            }
+        }
     }
 
-    public char[] getSolution() {
+    public String getSolution() {
         return solution;
     }
 
