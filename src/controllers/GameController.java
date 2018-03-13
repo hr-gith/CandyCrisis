@@ -147,11 +147,20 @@ public class GameController implements Initializable{
 
     @FXML
     private void nextLevelClicked(ActionEvent event){
+        if (status==false){
+            message.setText("Complete this level First!!");
+            return;
+        }
         currentLevel++;
-        gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
-        status = false;
-        displayBoard();
-    }
+        if(currentLevel<levels.getListOfLevels().size())
+        {
+            gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
+            status = false;
+            displayBoard();
+        }else{
+            message.setText("This was last Level!!");
+        }
+        }
 
     public void displayBoard(){
         /*for(int i = 0 ; i< Configuration.ROWS; ++i){

@@ -4,24 +4,26 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Timer;
 
 public class FileOps {
-    public static String[] readFile(){
-        String characters[]=null;
+    public static ArrayList<String> readFile(){
+        ArrayList<String> fileConfigs=new ArrayList<String>();
         try {
             BufferedReader reader=new BufferedReader(new FileReader(Configuration.inputFile));
             String readLine="";
-            if ((readLine = reader.readLine()) != null) {
-                characters=readLine.split(" ");
+            while ((readLine = reader.readLine()) != null) {
+                fileConfigs.add(readLine);
+                //characters=readLine.split(" ");
                 //characters.replaceAll("\\s","");
             }
         }catch(Exception e){
             e.printStackTrace();
         }
         //System.out.println("fileops"+characters);
-    return characters;
+    return fileConfigs;
     }
 
     public static void writeFile(String characters, String nbMoves){
