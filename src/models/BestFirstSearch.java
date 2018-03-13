@@ -32,7 +32,7 @@ public class BestFirstSearch {
 
     private void setSolution() {
         //TO-DO: Find solution based on visited successors
-
+        
 
         this.solution = solution;
     }

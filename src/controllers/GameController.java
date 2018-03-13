@@ -13,8 +13,11 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import models.Board;
+import models.GameLevel;
+import models.GameLevels;
 
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import static javafx.application.Application.launch;
@@ -27,7 +30,9 @@ public class GameController implements Initializable{
 
 
     private Board gameBoard;
-    private boolean state;
+    private boolean status;
+    private GameLevels levels;
+    private int currentLevel;
 
     @FXML
     private Label message;
@@ -65,7 +70,7 @@ public class GameController implements Initializable{
 
     @FXML
     private void onKeyPressed(KeyEvent event){
-        if (!state) {
+        if (!status) {
             String key = event.getCode().toString();
             boolean validMove = true;
             boolean validKey = true;
@@ -90,7 +95,8 @@ public class GameController implements Initializable{
 
             if (gameBoard.checkGoal()) {
                 message.setText("You Won!!!");
-                state = true;
+                status = true;
+                this.levels.getListOfLevels().get(currentLevel).setStatus(true);
             }
             this.displayBoard();
         }
@@ -98,17 +104,20 @@ public class GameController implements Initializable{
     @FXML
     private void automaticMode(ActionEvent event){
         System.out.println("Automatic mode");
-        Board[]sucessors=gameBoard.sucessorFunction();
+        Board[]sucessors=gameBoard.getSucessors();
         for(int i=0;i<sucessors.length;i++)
         {
             System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
             //sucessors[i].heuricticFunction();
         }
+        //TO-DO: do search
+
+
 
     }
     @FXML
     private void OnButtonClicked(ActionEvent event){
-        if (!state) {
+        if (!status) {
             String btnText = ((Button) event.getSource()).getText();
             boolean validMove = true;
 
@@ -129,15 +138,21 @@ public class GameController implements Initializable{
 
             if (gameBoard.checkGoal()) {
                 message.setText("You Won!!!");
-                state = true;
+                status = true;
+                this.levels.getListOfLevels().get(currentLevel).setStatus(true);
             }
             this.displayBoard();
         }
     }
 
-    public void heuristicFunction(Board boardModel){
-        //TO-DO: Make a heuristic function
+    @FXML
+    private void nextLevelClicked(ActionEvent event){
+        currentLevel++;
+        gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
+        status = false;
+        displayBoard();
     }
+
     public void displayBoard(){
         /*for(int i = 0 ; i< Configuration.ROWS; ++i){
             for (int j = 0; j <Configuration.COLUMNS; ++j){
@@ -164,27 +179,11 @@ public class GameController implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
-        gameBoard = new Board();
-        state = false;
+        levels = new GameLevels();
+        currentLevel = 0;
+        gameBoard = new Board(levels.getListOfLevels().get(currentLevel).getCharacters());
+        status = false;
         displayBoard();
     }
 
-/*
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-
-        Parent root = FXMLLoader.load(getClass().getResource("../views/game.fxml"));
-        Scene scene=new Scene(root,600,400);
-
-        primaryStage.setTitle("Candy Crisis");
-        primaryStage.setScene(scene);
-        primaryStage.show();
-
-    }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-*/
 }

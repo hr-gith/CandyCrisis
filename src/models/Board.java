@@ -20,13 +20,21 @@ public class Board implements Comparable{
     private int width;
     private Token emptyTokenRef;
     private Token[][] gridToken;
-    private Board parent;//we might keep only the parent gridToken?????????
+    private Board parent;
+    private char directionFromParent;
     private static int nbMoves;
 
-    public Board(){
-        gridToken=new Token[3][5];
-        nbMoves = 0;
-        String[] characters= FileOps.readFile();
+    public Board (){ }
+    public Board(String[] characters) {
+        setBoard(characters);
+    }
+
+    public void setBoard(String[] characters){
+        this.gridToken=new Token[3][5];
+        this.nbMoves = 0;
+        this.parent = null;
+        this.directionFromParent = 'X';
+        //String[] characters= FileOps.readFile();
         //System.out.println("char array "+ Arrays.toString(characters));
         int indexCharac=0;
         for(int i=0;i<Configuration.ROWS;i++){
@@ -264,6 +272,8 @@ public class Board implements Comparable{
 
         if(sucessor1.validateMove('L')){
             sucessor1.move('L');
+            sucessor1.directionFromParent='L';
+
             System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
             System.out.println(sucessor1);
             sucessors.add(sucessor1);
@@ -279,6 +289,7 @@ public class Board implements Comparable{
 
         if(sucessor2.validateMove('R')){
             sucessor2.move('R');
+            sucessor2.directionFromParent='R';
             System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
             System.out.println(sucessor2);
             sucessors.add(sucessor2);
@@ -296,6 +307,7 @@ public class Board implements Comparable{
             sucessor3.move('D');
             System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
             System.out.println(sucessor3);
+            sucessor3.directionFromParent='D';
             sucessors.add(sucessor3);
         }
         else{
@@ -311,6 +323,7 @@ public class Board implements Comparable{
             sucessor4.move('U');
             System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
             System.out.println(sucessor4);
+            sucessor4.directionFromParent='U';
             sucessors.add(sucessor4);
         }
         else{
