@@ -9,6 +9,7 @@ import utilities.FileOps;
 import javax.xml.transform.sax.SAXSource;
 import java.awt.*;
 import java.io.File;
+import java.sql.Array;
 import java.util.*;
 
 /**
@@ -251,43 +252,101 @@ public class Board {
         System.out.println("Heuristic : "+heuristic);
                 return 0;
     }
+    public boolean equals(Board other){
+        boolean isEqual=true;
+        if(this.emptyTokenRef.getPos().getX()!=other.emptyTokenRef.getPos().getX()){
+            return false;
+        }else{
+            if(this.emptyTokenRef.getPos().getX()!=other.emptyTokenRef.getPos().getY()){
+                return false;
+            }
+            else {
+                for (int i = 0; i < Configuration.ROWS; i++) {
+                    for (int j = 0; j < Configuration.COLUMNS; j++) {
+                        if (this.gridToken[i][j].getSign() != other.gridToken[i][j].getSign()) {
+                            return false;
+                        }
+                    }
+                }
+            }}
+            return true;
+    }
     public Board[] sucessorFunction(){
         //TO-DO: Make sucessors of given Model by checking if model exists
-        Board[] sucessors=new Board[4];
+        //Board[] sucessors=new Board[4];
+        ArrayList<Board> sucessors=new ArrayList<Board>();
         //Board currentBoard=this.clone();
+/*
         for(int i=0;i<4;i++){
-            sucessors[i]=new Board();
-            sucessors[i].copyEmptyRef(this.emptyTokenRef);
-            sucessors[i].copyGrid(this.gridToken);
+            Board sucessor=new Board();
+            sucessor.copyEmptyRef(this.emptyTokenRef);
+            sucessor.copyGrid(this.gridToken);
            // sucessors[i].length=this.length;
             //sucessors[i].width=this.width;
-            System.out.println(sucessors[i].emptyTokenRef.getPos());
+            System.out.println(sucessor.emptyTokenRef.getPos());
+            sucessors.add(sucessor);
         }
         for(Board sucessor:sucessors){
             System.out.println(sucessor.emptyTokenRef.getPos());
         }
-        if(sucessors[0].validateMove('L')){
-            sucessors[0].move('L');
-            System.out.println("Left: "+sucessors[0].emptyTokenRef.getPos());
-            System.out.println(sucessors[0]);
-        }
-        if(sucessors[1].validateMove('R')){
-            sucessors[1].move('R');
-            System.out.println("Right: "+sucessors[1].emptyTokenRef.getPos());
-            System.out.println(sucessors[1]);
-        }
-        if(sucessors[2].validateMove('D')){
-            sucessors[2].move('D');
-            System.out.println("Down: "+sucessors[2].emptyTokenRef.getPos());
-            System.out.println(sucessors[2]);
-        }
-        if(sucessors[3].validateMove('U')){
-            sucessors[3].move('U');
-            System.out.println("Up: "+sucessors[3].emptyTokenRef.getPos());
-            System.out.println(sucessors[3]);
-        }
+*/
+        Board sucessor1=new Board();
+        sucessor1.copyEmptyRef(this.emptyTokenRef);
+        sucessor1.copyGrid(this.gridToken);
+        System.out.println(sucessor1.emptyTokenRef.getPos());
 
-        return sucessors;
+        if(sucessor1.validateMove('L')){
+            sucessor1.move('L');
+            System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
+            System.out.println(sucessor1);
+            sucessors.add(sucessor1);
+        }
+        else{
+            sucessor1=null;
+        }
+        Board sucessor2=new Board();
+        sucessor2.copyEmptyRef(this.emptyTokenRef);
+        sucessor2.copyGrid(this.gridToken);
+        System.out.println(sucessor2.emptyTokenRef.getPos());
+
+        if(sucessor2.validateMove('R')){
+            sucessor2.move('R');
+            System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
+            System.out.println(sucessor2);
+            sucessors.add(sucessor2);
+        }
+        else{
+            sucessor2=null;
+        }
+        Board sucessor3=new Board();
+        sucessor3.copyEmptyRef(this.emptyTokenRef);
+        sucessor3.copyGrid(this.gridToken);
+        System.out.println(sucessor3.emptyTokenRef.getPos());
+
+        if(sucessor3.validateMove('D')){
+            sucessor3.move('D');
+            System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
+            System.out.println(sucessor3);
+            sucessors.add(sucessor3);
+        }
+        else{
+            sucessor3=null;
+        }
+        Board sucessor4=new Board();
+        sucessor4.copyEmptyRef(this.emptyTokenRef);
+        sucessor4.copyGrid(this.gridToken);
+        System.out.println(sucessor4.emptyTokenRef.getPos());
+
+        if(sucessor4.validateMove('U')){
+            sucessor4.move('U');
+            System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
+            System.out.println(sucessor4);
+            sucessors.add(sucessor4);
+        }
+        else{
+            sucessor4=null;
+        }
+        return sucessors.toArray(new Board[sucessors.size()]);
     }
     // TO-DO: can return int for each error message
     public boolean move(char direction){

@@ -100,9 +100,11 @@ public class GameController implements Initializable{
         System.out.println("Automatic mode");
         Board[]sucessors=gameBoard.sucessorFunction();
         for(int i=0;i<sucessors.length;i++)
-        { System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
-            sucessors[i].heuricticFunction();
+        {
+            System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
+            //sucessors[i].heuricticFunction();
         }
+
     }
     @FXML
     private void OnButtonClicked(ActionEvent event){
