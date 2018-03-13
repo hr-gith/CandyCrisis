@@ -15,11 +15,12 @@ import java.util.*;
 /**
  * Created by hamideh on 02/02/2018.
  */
-public class Board {
+public class Board implements Comparable{
     private int length;
     private int width;
     private Token emptyTokenRef;
     private Token[][] gridToken;
+    private Board parent;//we might keep only the parent gridToken?????????
     private static int nbMoves;
 
     public Board(){
@@ -80,22 +81,6 @@ public class Board {
         this.gridToken = gridToken;
     }
 
-    public void copyGrid(Token[][] gridToken){
-        for(int i=0;i<Configuration.ROWS;i++){
-            for(int j=0;j<Configuration.COLUMNS;j++){
-                this.gridToken[i][j]=new Token(gridToken[i][j].getSign());
-               // this.gridToken[i][j]=gridToken[i][j];
-                Position ps=new Position(gridToken[i][j].getPos().getX(),gridToken[i][j].getPos().getY());
-                this.gridToken[i][j].setPos(ps);
-            }
-        }
-    }
-    public void copyEmptyRef(Token emptyTokenRef){
-        Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-        //ps.setY(emptyTokenRef.getPos().getY());
-        //ps.setX(emptyTokenRef.getPos().getX());
-        this.emptyTokenRef.setPos(ps);
-    }
     public boolean checkGoal() {
         boolean result = true;
         for (int i = 0; i < Configuration.COLUMNS; ++i) {
@@ -140,34 +125,34 @@ public class Board {
         }
         return result;
     }
+    // TO-DO: can return int for each error message
+    public boolean move(char direction){
+        boolean result = false;
+        if (validateMove(direction)){
+            Position oldEmptyPos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
+            //System.out.println("Old empty position :"+ oldEmptyPos);
+            Position newEmptyPos=getNewPosition(direction);
+            //System.out.println("new empty position :"+ newEmptyPos);
+            //emptyTokenRef.setPos(newPos);
+            //gridToken[][]
+            gridToken[newEmptyPos.getX()][newEmptyPos.getY()].setPos(oldEmptyPos);
+            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()].setPos(newEmptyPos);
+
+            //Changing References in array[][]
+            Token tempToken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
 
 
-    public void print(){
-        for(int i=0;i<Configuration.ROWS;i++){
-            for(int j=0;j<Configuration.COLUMNS;j++) {
-                System.out.print("   "+ gridToken[i][j].getSign());//+" Position :"+gridToken[i][j].getPos().getX() +" , "+gridToken[i][j].getPos().getY());
-
-            }
-            System.out.println();
+            gridToken[newEmptyPos.getX()][newEmptyPos.getY()]=gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()];
+            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempToken;
+            emptyTokenRef=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
+            //System.out.println(newPos);
+            nbMoves ++;
+            result = true;
         }
+        return result;
     }
 
-    public String toString(){
-        String board = "";
-        for(int i=0;i<Configuration.ROWS;i++){
-            board+="\n";
-            for(int j=0;j<Configuration.COLUMNS;j++) {
-                if (gridToken[i][j].getSign() != ' ') {
-                    board += Character.toString(gridToken[i][j].getSign());
-                    board += " ";
-                }else{
-                    board += "e ";
-                }
 
-            }
-        }
-        return board;
-    }
     public Position getNewPosition(char direction){
         Position pos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
         switch (direction){
@@ -204,7 +189,7 @@ public class Board {
     // // count(r)=1
     // h(n)= abs(count(r)[top]-count(r)[Bottom])
     // */
-    public int heuricticFunction(){
+    public int getHeurictic(){
         
         HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();
         HashMap<Character,Integer> bottomRow=new HashMap<Character, Integer>();
@@ -252,26 +237,7 @@ public class Board {
         System.out.println("Heuristic : "+heuristic);
                 return 0;
     }
-    public boolean equals(Board other){
-        boolean isEqual=true;
-        if(this.emptyTokenRef.getPos().getX()!=other.emptyTokenRef.getPos().getX()){
-            return false;
-        }else{
-            if(this.emptyTokenRef.getPos().getY()!=other.emptyTokenRef.getPos().getY()){
-                return false;
-            }
-            else {
-                for (int i = 0; i < Configuration.ROWS; i++) {
-                    for (int j = 0; j < Configuration.COLUMNS; j++) {
-                        if (this.gridToken[i][j].getSign() != other.gridToken[i][j].getSign()) {
-                            return false;
-                        }
-                    }
-                }
-            }}
-            return true;
-    }
-    public Board[] sucessorFunction(){
+    public Board[] getSucessors(){
         //TO-DO: Make sucessors of given Model by checking if model exists
         //Board[] sucessors=new Board[4];
         ArrayList<Board> sucessors=new ArrayList<Board>();
@@ -293,6 +259,7 @@ public class Board {
         Board sucessor1=new Board();
         sucessor1.copyEmptyRef(this.emptyTokenRef);
         sucessor1.copyGrid(this.gridToken);
+        sucessor1.parent = this;
         System.out.println(sucessor1.emptyTokenRef.getPos());
 
         if(sucessor1.validateMove('L')){
@@ -307,6 +274,7 @@ public class Board {
         Board sucessor2=new Board();
         sucessor2.copyEmptyRef(this.emptyTokenRef);
         sucessor2.copyGrid(this.gridToken);
+        sucessor2.parent = this;
         System.out.println(sucessor2.emptyTokenRef.getPos());
 
         if(sucessor2.validateMove('R')){
@@ -321,6 +289,7 @@ public class Board {
         Board sucessor3=new Board();
         sucessor3.copyEmptyRef(this.emptyTokenRef);
         sucessor3.copyGrid(this.gridToken);
+        sucessor3.parent = this;
         System.out.println(sucessor3.emptyTokenRef.getPos());
 
         if(sucessor3.validateMove('D')){
@@ -335,6 +304,7 @@ public class Board {
         Board sucessor4=new Board();
         sucessor4.copyEmptyRef(this.emptyTokenRef);
         sucessor4.copyGrid(this.gridToken);
+        sucessor4.parent = this;
         System.out.println(sucessor4.emptyTokenRef.getPos());
 
         if(sucessor4.validateMove('U')){
@@ -348,31 +318,84 @@ public class Board {
         }
         return sucessors.toArray(new Board[sucessors.size()]);
     }
-    // TO-DO: can return int for each error message
-    public boolean move(char direction){
-        boolean result = false;
-        if (validateMove(direction)){
-            Position oldEmptyPos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-            //System.out.println("Old empty position :"+ oldEmptyPos);
-            Position newEmptyPos=getNewPosition(direction);
-            //System.out.println("new empty position :"+ newEmptyPos);
-            //emptyTokenRef.setPos(newPos);
-            //gridToken[][]
-            gridToken[newEmptyPos.getX()][newEmptyPos.getY()].setPos(oldEmptyPos);
-            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()].setPos(newEmptyPos);
-
-            //Changing References in array[][]
-            Token tempToken=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
-
-
-            gridToken[newEmptyPos.getX()][newEmptyPos.getY()]=gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()];
-            gridToken[oldEmptyPos.getX()][oldEmptyPos.getY()]=tempToken;
-            emptyTokenRef=gridToken[newEmptyPos.getX()][newEmptyPos.getY()];
-            //System.out.println(newPos);
-            nbMoves ++;
-            result = true;
+    public void copyGrid(Token[][] gridToken){
+        for(int i=0;i<Configuration.ROWS;i++){
+            for(int j=0;j<Configuration.COLUMNS;j++){
+                this.gridToken[i][j]=new Token(gridToken[i][j].getSign());
+                // this.gridToken[i][j]=gridToken[i][j];
+                Position ps=new Position(gridToken[i][j].getPos().getX(),gridToken[i][j].getPos().getY());
+                this.gridToken[i][j].setPos(ps);
+            }
         }
-        return result;
+    }
+    public void copyEmptyRef(Token emptyTokenRef){
+        Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
+        //ps.setY(emptyTokenRef.getPos().getY());
+        //ps.setX(emptyTokenRef.getPos().getX());
+        this.emptyTokenRef.setPos(ps);
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (obj instanceof Board) {
+            Board other = (Board) obj;
+            if (this.emptyTokenRef.getPos().getX() != other.emptyTokenRef.getPos().getX()) {
+                return false;
+            } else {
+                if (this.emptyTokenRef.getPos().getY() != other.emptyTokenRef.getPos().getY()) {
+                    return false;
+                } else {
+                    for (int i = 0; i < Configuration.ROWS; i++) {
+                        for (int j = 0; j < Configuration.COLUMNS; j++) {
+                            if (this.gridToken[i][j].getSign() != other.gridToken[i][j].getSign()) {
+                                return false;
+                            }
+                        }
+                    }
+                }
+            }
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    @Override
+    public int compareTo(Object obj) {
+        if (obj instanceof Board) {
+            Board other = (Board) obj;
+            return Integer.compare(this.getHeurictic(), other.getHeurictic());
+        }
+        else{
+            throw new IllegalArgumentException("Incompatible Object: "+obj.toString());
+        }
+    }
+
+    public void print(){
+        for(int i=0;i<Configuration.ROWS;i++){
+            for(int j=0;j<Configuration.COLUMNS;j++) {
+                System.out.print("   "+ gridToken[i][j].getSign());//+" Position :"+gridToken[i][j].getPos().getX() +" , "+gridToken[i][j].getPos().getY());
+
+            }
+            System.out.println();
+        }
+    }
+
+    public String toString(){
+        String board = "";
+        for(int i=0;i<Configuration.ROWS;i++){
+            board+="\n";
+            for(int j=0;j<Configuration.COLUMNS;j++) {
+                if (gridToken[i][j].getSign() != ' ') {
+                    board += Character.toString(gridToken[i][j].getSign());
+                    board += " ";
+                }else{
+                    board += "e ";
+                }
+
+            }
+        }
+        return board;
     }
 
 }
