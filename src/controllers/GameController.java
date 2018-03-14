@@ -12,10 +12,7 @@ import javafx.scene.control.Label;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import models.BestFirstSearch;
-import models.Board;
-import models.GameLevel;
-import models.GameLevels;
+import models.*;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -104,6 +101,34 @@ public class GameController implements Initializable{
     }
     @FXML
     private void automaticMode(ActionEvent event){
+        int currentLevel=0;
+        Board automaticBoard=new Board();
+        while(currentLevel<levels.getListOfLevels().size())
+        {
+            LoggingView.getLoggingViewObject().AddAction("\n ******************************************************\n Solving game "+(currentLevel+1));
+            automaticBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
+            BestFirstSearch bfs = new BestFirstSearch();
+            bfs.search(automaticBoard);
+            LoggingView.getLoggingViewObject().AddAction("\n Current Config : \n"+automaticBoard);
+            String solution = bfs.getSolution();
+            LoggingView.getLoggingViewObject().AddAction("\n Length of Solution Path : "+solution.length());
+            for(int i = 0; i<solution.length(); ++i){
+                LoggingView.getLoggingViewObject().AddAction("\t \t"+automaticBoard.toString());
+                LoggingView.getLoggingViewObject().AddAction("\n \t Moving to "+solution.charAt(i));
+
+                automaticBoard.move(solution.charAt(i));
+
+
+              //  displayBoard();
+
+                System.out.println( automaticBoard.toString());
+            }
+            //displayBoard();
+        currentLevel++;
+        }
+    }
+    @FXML
+    private void solveCurrentGame(ActionEvent event){
         System.out.println("Automatic mode");
         /*Board[]sucessors=gameBoard.getSucessors();
         for(int i=0;i<sucessors.length;i++)
@@ -117,10 +142,12 @@ public class GameController implements Initializable{
         String solution = bfs.getSolution();
         for(int i = 0; i<solution.length(); ++i){
             gameBoard.move(solution.charAt(i));
+            //displayBoard();
             System.out.println( gameBoard.toString());
         }
-        displayBoard();
 
+        displayBoard();
+    status=true;
     }
     @FXML
     private void OnButtonClicked(ActionEvent event){
@@ -197,11 +224,13 @@ public class GameController implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("Start");
         levels = new GameLevels();
         currentLevel = 0;
         gameBoard = new Board();
         gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
         status = false;
+        LoggingView.getLoggingViewObject().AddAction("Starting game...");
         displayBoard();
     }
 

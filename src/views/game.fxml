@@ -90,9 +90,10 @@
     <Button alignment="CENTER" prefWidth="70" text="DOWN" onKeyPressed="#onKeyPressed"  onAction="#OnButtonClicked"></Button>
 
     <Label fx:id="message"/>
-    <HBox spacing="20">
-        <Button text="Next Level" prefWidth="200" onAction="#nextLevelClicked"></Button>
-        <Button text="Automatic Mode" prefWidth="200" onAction="#automaticMode"></Button>
+    <HBox spacing="10">
+        <Button text="Next Level" prefWidth="250" onAction="#nextLevelClicked"></Button>
+        <Button text="Solve Current Puzzle" prefWidth="250" onAction="#solveCurrentGame"></Button>
+        <Button text="Automatic Mode" prefWidth="250" onAction="#automaticMode"></Button>
     </HBox>
 </VBox>
 

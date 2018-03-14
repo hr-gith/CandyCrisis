@@ -23,7 +23,7 @@ public class Board implements Comparable{
     private Board parent;
     private char directionFromParent;
     private static int nbMoves;
-
+    private int heuristicValue;
     public Board (){
         this.nbMoves = 0;
         this.parent = null;
@@ -349,7 +349,7 @@ public class Board implements Comparable{
         if(sucessor1.validateMove('L')){
             sucessor1.move('L');
             sucessor1.directionFromParent='L';
-
+            sucessor1.heuristicValue=sucessor1.getHeuristic2();
             //System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
             //System.out.println(sucessor1);
             sucessors.add(sucessor1);
@@ -366,6 +366,7 @@ public class Board implements Comparable{
         if(sucessor2.validateMove('R')){
             sucessor2.move('R');
             sucessor2.directionFromParent='R';
+            sucessor2.heuristicValue=sucessor2.getHeuristic2();
             //System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
             //System.out.println(sucessor2);
             sucessors.add(sucessor2);
@@ -383,6 +384,7 @@ public class Board implements Comparable{
             sucessor3.move('D');
             //System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
             //System.out.println(sucessor3);
+            sucessor3.heuristicValue=sucessor3.getHeuristic2();
             sucessor3.directionFromParent='D';
             sucessors.add(sucessor3);
         }
@@ -399,6 +401,7 @@ public class Board implements Comparable{
             sucessor4.move('U');
             //System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
             //System.out.println(sucessor4);
+            sucessor4.heuristicValue=sucessor4.getHeuristic2();
             sucessor4.directionFromParent='U';
             sucessors.add(sucessor4);
         }
@@ -454,7 +457,7 @@ public class Board implements Comparable{
     public int compareTo(Object obj) {
         if (obj instanceof Board) {
             Board other = (Board) obj;
-            return Integer.compare(this.getHeuristic2(), other.getHeuristic2());
+            return Integer.compare(this.heuristicValue, other.heuristicValue);
         }
         else{
             throw new IllegalArgumentException("Incompatible Object: "+obj.toString());
