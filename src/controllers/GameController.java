@@ -12,6 +12,7 @@ import javafx.scene.control.Label;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import models.BestFirstSearch;
 import models.Board;
 import models.GameLevel;
 import models.GameLevels;
@@ -104,15 +105,21 @@ public class GameController implements Initializable{
     @FXML
     private void automaticMode(ActionEvent event){
         System.out.println("Automatic mode");
-        Board[]sucessors=gameBoard.getSucessors();
+        /*Board[]sucessors=gameBoard.getSucessors();
         for(int i=0;i<sucessors.length;i++)
         {
             System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
             //sucessors[i].heuricticFunction();
-        }
+        }*/
         //TO-DO: do search
-
-
+        BestFirstSearch bfs = new BestFirstSearch();
+        bfs.search(this.gameBoard);
+        String solution = bfs.getSolution();
+        for(int i = 0; i<solution.length(); ++i){
+            gameBoard.move(solution.charAt(i));
+            System.out.println( gameBoard.toString());
+        }
+        displayBoard();
 
     }
     @FXML
@@ -162,7 +169,7 @@ public class GameController implements Initializable{
         }else{
             message.setText("This was last Level!!");
         }
-        }
+    }
 
     public void displayBoard(){
         /*for(int i = 0 ; i< Configuration.ROWS; ++i){
@@ -192,7 +199,8 @@ public class GameController implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
         levels = new GameLevels();
         currentLevel = 0;
-        gameBoard = new Board(levels.getListOfLevels().get(currentLevel).getCharacters());
+        gameBoard = new Board();
+        gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
         status = false;
         displayBoard();
     }

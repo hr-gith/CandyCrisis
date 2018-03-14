@@ -18,6 +18,7 @@ public class Token {
 
     public Token(char sign){
         this.sign=sign;
+        this.pos = new Position(0,0);
     }
     public char getSign() {
         return sign;

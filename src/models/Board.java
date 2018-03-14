@@ -24,17 +24,21 @@ public class Board implements Comparable{
     private char directionFromParent;
     private static int nbMoves;
 
-    public Board (){ }
-    public Board(String[] characters) {
-        setBoard(characters);
-    }
-
-    public void setBoard(String[] characters){
-        this.gridToken=new Token[3][5];
+    public Board (){
         this.nbMoves = 0;
         this.parent = null;
         this.directionFromParent = 'X';
-        //String[] characters= FileOps.readFile();
+        this.gridToken=new Token[3][5];
+        for(int i=0;i<Configuration.ROWS;i++) {
+            for (int j = 0; j < Configuration.COLUMNS; j++) {
+                this.gridToken[i][j] = new Token('X');
+            }
+        }
+        this.emptyTokenRef = new Token(' ');
+    }
+
+    public void setBoard(String[] characters){
+
         //System.out.println("char array "+ Arrays.toString(characters));
         int indexCharac=0;
         for(int i=0;i<Configuration.ROWS;i++){
@@ -87,6 +91,22 @@ public class Board implements Comparable{
 
     public void setGridToken(Token[][] gridToken) {
         this.gridToken = gridToken;
+    }
+
+    public Board getParent() {
+        return parent;
+    }
+
+    public void setParent(Board parent) {
+        this.parent = parent;
+    }
+
+    public char getDirectionFromParent() {
+        return directionFromParent;
+    }
+
+    public void setDirectionFromParent(char directionFromParent) {
+        this.directionFromParent = directionFromParent;
     }
 
     public boolean checkGoal() {
@@ -316,14 +336,14 @@ public class Board implements Comparable{
         sucessor1.copyEmptyRef(this.emptyTokenRef);
         sucessor1.copyGrid(this.gridToken);
         sucessor1.parent = this;
-        System.out.println(sucessor1.emptyTokenRef.getPos());
+        //System.out.println(sucessor1.emptyTokenRef.getPos());
 
         if(sucessor1.validateMove('L')){
             sucessor1.move('L');
             sucessor1.directionFromParent='L';
 
-            System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
-            System.out.println(sucessor1);
+            //System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
+            //System.out.println(sucessor1);
             sucessors.add(sucessor1);
         }
         else{
@@ -333,13 +353,13 @@ public class Board implements Comparable{
         sucessor2.copyEmptyRef(this.emptyTokenRef);
         sucessor2.copyGrid(this.gridToken);
         sucessor2.parent = this;
-        System.out.println(sucessor2.emptyTokenRef.getPos());
+        //System.out.println(sucessor2.emptyTokenRef.getPos());
 
         if(sucessor2.validateMove('R')){
             sucessor2.move('R');
             sucessor2.directionFromParent='R';
-            System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
-            System.out.println(sucessor2);
+            //System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
+            //System.out.println(sucessor2);
             sucessors.add(sucessor2);
         }
         else{
@@ -349,12 +369,12 @@ public class Board implements Comparable{
         sucessor3.copyEmptyRef(this.emptyTokenRef);
         sucessor3.copyGrid(this.gridToken);
         sucessor3.parent = this;
-        System.out.println(sucessor3.emptyTokenRef.getPos());
+        //System.out.println(sucessor3.emptyTokenRef.getPos());
 
         if(sucessor3.validateMove('D')){
             sucessor3.move('D');
-            System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
-            System.out.println(sucessor3);
+            //System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
+            //System.out.println(sucessor3);
             sucessor3.directionFromParent='D';
             sucessors.add(sucessor3);
         }
@@ -365,12 +385,12 @@ public class Board implements Comparable{
         sucessor4.copyEmptyRef(this.emptyTokenRef);
         sucessor4.copyGrid(this.gridToken);
         sucessor4.parent = this;
-        System.out.println(sucessor4.emptyTokenRef.getPos());
+        //System.out.println(sucessor4.emptyTokenRef.getPos());
 
         if(sucessor4.validateMove('U')){
             sucessor4.move('U');
-            System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
-            System.out.println(sucessor4);
+            //System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
+            //System.out.println(sucessor4);
             sucessor4.directionFromParent='U';
             sucessors.add(sucessor4);
         }
@@ -382,18 +402,19 @@ public class Board implements Comparable{
     public void copyGrid(Token[][] gridToken){
         for(int i=0;i<Configuration.ROWS;i++){
             for(int j=0;j<Configuration.COLUMNS;j++){
-                this.gridToken[i][j]=new Token(gridToken[i][j].getSign());
-                // this.gridToken[i][j]=gridToken[i][j];
-                Position ps=new Position(gridToken[i][j].getPos().getX(),gridToken[i][j].getPos().getY());
-                this.gridToken[i][j].setPos(ps);
+                this.gridToken[i][j].setSign(gridToken[i][j].getSign());
+                this.gridToken[i][j].getPos().setX(gridToken[i][j].getPos().getX());
+                this.gridToken[i][j].getPos().setY(gridToken[i][j].getPos().getY());
             }
         }
     }
     public void copyEmptyRef(Token emptyTokenRef){
-        Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
+        /*Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
         //ps.setY(emptyTokenRef.getPos().getY());
         //ps.setX(emptyTokenRef.getPos().getX());
-        this.emptyTokenRef.setPos(ps);
+        this.emptyTokenRef.setPos(ps);*/
+        this.emptyTokenRef.getPos().setX(emptyTokenRef.getPos().getX());
+        this.emptyTokenRef.getPos().setY(emptyTokenRef.getPos().getY());
     }
 
     @Override

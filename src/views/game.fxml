@@ -88,9 +88,12 @@
         <Button text="RIGHT" prefWidth="70" onKeyPressed="#onKeyPressed" onAction="#OnButtonClicked"></Button>
     </HBox>
     <Button alignment="CENTER" prefWidth="70" text="DOWN" onKeyPressed="#onKeyPressed"  onAction="#OnButtonClicked"></Button>
+
     <Label fx:id="message"/>
-    <Button text="Next Level" onAction="#nextLevelClicked"></Button>
-    <Button text="Automatic Mode" onAction="#automaticMode"></Button>
+    <HBox spacing="20">
+        <Button text="Next Level" prefWidth="200" onAction="#nextLevelClicked"></Button>
+        <Button text="Automatic Mode" prefWidth="200" onAction="#automaticMode"></Button>
+    </HBox>
 </VBox>
 
 

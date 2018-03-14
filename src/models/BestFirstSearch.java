@@ -7,7 +7,7 @@ public class BestFirstSearch {
     private PriorityQueue<Board> openList;
     private ArrayList<Board> visitedList;
     private Board root;
-    private char[] solution;
+    private String solution;
 
     public BestFirstSearch(){
         openList = new PriorityQueue<>();
@@ -31,17 +31,28 @@ public class BestFirstSearch {
     }
 
     private void setSolution() {
-        //TO-DO: Find solution based on visited successors
-        
-
-        this.solution = solution;
+        solution = null;
+        if (!visitedList.isEmpty()) {
+            if (visitedList.get(visitedList.size() - 1).getHeurictic() != 0) {
+                //there is no solution
+                return;
+            } else {
+                StringBuilder solutionStb = new StringBuilder();
+                Board current = visitedList.get(visitedList.size() - 1);
+                while(current.getParent() != null) {
+                    solutionStb.append(current.getDirectionFromParent());
+                    current = current.getParent();
+                }
+                this.solution = solutionStb.reverse().toString();
+            }
+        }
     }
 
-    public char[] getSolution() {
+    public String getSolution() {
         return solution;
     }
 
-    public void bestFirstSearch(Board root){
+    public void search(Board root){
         this.root = root;
         boolean isGoal = false;
         openList.add(this.root);
@@ -54,9 +65,26 @@ public class BestFirstSearch {
             }else{
                 Board[] successors = current.getSucessors();
                 for(Board successor: successors){
-                    if (!openList.contains(successor) && !visitedList.contains(successor)){
+                    boolean exist = false;
+                    for(Board b: visitedList)
+                    {
+                        if(b.equals(successor)){
+                            exist = true;
+                            break;
+                        }
+                    }
+                    if (!exist) {
+                        for (Board bm : openList) {
+                            if (bm.equals(successor)) {
+                                exist = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (!exist) {
                         openList.add(successor);
                     }
+
                 }
             }
         }
