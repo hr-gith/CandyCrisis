@@ -231,7 +231,15 @@ public class Board implements Comparable{
                     }
                     if(this.gridToken[2][i].getSign()==this.gridToken[1][j].getSign()){
                         //TO-DO: Make sure we choose position closest to j
-                        bottomMatchPosition=j;
+                        int currentBottomMatchPosition=bottomMatchPosition;
+
+                        if(currentBottomMatchPosition==10)
+                            bottomMatchPosition=j;
+                        else{
+                            if(Math.abs(currentBottomMatchPosition-i)<Math.abs(i-j)){
+                                bottomMatchPosition=j;
+                            }
+                        }
                         System.out.println("bottomMatchPosition : "+bottomMatchPosition+"  J: "+j);
                     }
                 }
@@ -446,7 +454,7 @@ public class Board implements Comparable{
     public int compareTo(Object obj) {
         if (obj instanceof Board) {
             Board other = (Board) obj;
-            return Integer.compare(this.getHeurictic(), other.getHeurictic());
+            return Integer.compare(this.getHeuristic2(), other.getHeuristic2());
         }
         else{
             throw new IllegalArgumentException("Incompatible Object: "+obj.toString());
