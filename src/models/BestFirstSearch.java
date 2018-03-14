@@ -52,7 +52,7 @@ public class BestFirstSearch {
         return solution;
     }
 
-    public void bestFirstSearch(Board root){
+    public void search(Board root){
         this.root = root;
         boolean isGoal = false;
         openList.add(this.root);
@@ -65,9 +65,26 @@ public class BestFirstSearch {
             }else{
                 Board[] successors = current.getSucessors();
                 for(Board successor: successors){
-                    if (!openList.contains(successor) && !visitedList.contains(successor)){
+                    boolean exist = false;
+                    for(Board b: visitedList)
+                    {
+                        if(b.equals(successor)){
+                            exist = true;
+                            break;
+                        }
+                    }
+                    if (!exist) {
+                        for (Board bm : openList) {
+                            if (bm.equals(successor)) {
+                                exist = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (!exist) {
                         openList.add(successor);
                     }
+
                 }
             }
         }
