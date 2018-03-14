@@ -180,6 +180,52 @@ public class Board implements Comparable{
         }
         return pos;
     }
+    /**
+     * Manhattan distance
+     *
+    **/
+    public int getHeuristic2(){
+        int heuristicValue=0;
+        for(int i=0;i<Configuration.COLUMNS;i++){
+            System.out.println("********* Index " +i+"*********");
+            int topMatchPosition=10;
+            int bottomMatchPosition=10;
+
+            if(this.gridToken[0][i].getSign()==this.gridToken[2][i].getSign())
+                continue;
+            else{
+                for(int j=0;j<Configuration.COLUMNS;j++){
+                    System.out.println("-----Checking "+j+"th Column---");
+                    if(this.gridToken[0][i].getSign()==this.gridToken[1][j].getSign()){
+                        //TO-DO: Make sure we choose position closest to j
+                            int currentTopMatchPosition=topMatchPosition;
+
+                            if(currentTopMatchPosition==10)
+                                topMatchPosition=j;
+                            else{
+                                if(Math.abs(currentTopMatchPosition-i)<Math.abs(i-j)){
+                                    topMatchPosition=j;
+                                }
+                            }
+                                System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
+                    }
+                    if(this.gridToken[2][i].getSign()==this.gridToken[1][j].getSign()){
+                        //TO-DO: Make sure we choose position closest to j
+                        bottomMatchPosition=j;
+                        System.out.println("bottomMatchPosition : "+bottomMatchPosition+"  J: "+j);
+                    }
+                }
+            }
+            if(Math.abs(i-bottomMatchPosition)<Math.abs(i-topMatchPosition)){
+                //Bottom is near to desired tile
+                heuristicValue+=Math.abs(i-bottomMatchPosition);
+            }else{
+                heuristicValue+=Math.abs(i-topMatchPosition);
+            }
+        }
+
+        return heuristicValue;
+    }
     //*
     // This Function calculates the number of types of each tile in bottom an top row and then calculates the difference between them
     // eg:
@@ -197,6 +243,8 @@ public class Board implements Comparable{
     // // count(r)=1
     // h(n)= abs(count(r)[top]-count(r)[Bottom])
     // */
+
+
     public int getHeurictic(){
         
         HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();

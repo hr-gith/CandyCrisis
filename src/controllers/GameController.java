@@ -147,6 +147,8 @@ public class GameController implements Initializable{
 
     @FXML
     private void nextLevelClicked(ActionEvent event){
+       // System.out.println("heuristic value : "+ gameBoard.getHeuristic2());
+
         if (status==false){
             message.setText("Complete this level First!!");
             return;
