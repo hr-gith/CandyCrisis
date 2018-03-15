@@ -26,7 +26,7 @@ public class FileOps {
     return fileConfigs;
     }
 
-    public static void writeFile(String characters, String nbMoves){
+    /*public static void writeFile(String characters, String nbMoves){
         try{
             BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFile));
             writer.write(characters);
@@ -36,10 +36,19 @@ public class FileOps {
         }catch (Exception e){
             e.printStackTrace();
         }
-    }
-    public static void writeMoves(String line){
+    }*/
+    public static void writeFile1(String line){
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFileMoves,true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFile1,true));
+            writer.write(line);
+            writer.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    public static void writeFile2(String line){
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFile2,true));
             writer.write(line);
             writer.close();
         }catch (Exception e){

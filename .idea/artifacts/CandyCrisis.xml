@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="CandyCrisis">
+    <output-path>$PROJECT_DIR$/out/artifacts/CandyCrisis</output-path>
+    <root id="root">
+      <element id="archive" name="CandyCrisis.jar">
+        <element id="module-output" name="CandyCrisis" />
+      </element>
+    </root>
+  </artifact>
+</component>

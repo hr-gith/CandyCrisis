@@ -120,7 +120,7 @@ public class Board implements Comparable{
             //write to the output file
             String characters = this.toString();
             String strNbMoves = ("Number of moves:" + nbMoves);
-            FileOps.writeFile(characters, strNbMoves);
+           // FileOps.writeFile(characters, strNbMoves);
         }
         return result;
     }
