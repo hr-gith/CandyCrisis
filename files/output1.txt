@@ -1,11 +1,11 @@
 
  Solution Path : URULDLLDRUULLDDRURRDLULDLUURDRDRUULDLULDDRUURRDLULDDLURRRULLDLURRDDLUURDLURDDLUURRDLULDRRURDDLLULULDRRRDLLURDRULDRRULDLU Length : 120
- Time taken to solve : 3756 ms
+ Time taken to solve : 1169 ms
  Solution Path : RRDRDLLUULDRRRDLULDRRULLLURDRRDLU Length : 33
- Time taken to solve : 46 ms
+ Time taken to solve : 5 ms
  Solution Path : URULDRRDLULDRRULDRULDLU Length : 23
- Time taken to solve : 22 ms
+ Time taken to solve : 5 ms
  Solution Path : RRULLLULDRURD Length : 13
- Time taken to solve : 31 ms
+ Time taken to solve : 5 ms
  TOTAL MOVES : 189
- TOTAL TIME : 3855 ms
+ TOTAL TIME : 1184 ms

@@ -207,7 +207,7 @@ public class Board implements Comparable{
     public int getHeuristic2(){
         int heuristicValue=0;
         for(int i=0;i<Configuration.COLUMNS;i++){
-            System.out.println("********* Index " +i+"*********");
+            //System.out.println("********* Index " +i+"*********");
             int topMatchPosition=10;
             int bottomMatchPosition=10;
 
@@ -215,7 +215,7 @@ public class Board implements Comparable{
                 continue;
             else{
                 for(int j=0;j<Configuration.COLUMNS;j++){
-                    System.out.println("-----Checking "+j+"th Column---");
+                    //System.out.println("-----Checking "+j+"th Column---");
                     if(this.gridToken[0][i].getSign()==this.gridToken[1][j].getSign()){
                         //TO-DO: Make sure we choose position closest to j
                             int currentTopMatchPosition=topMatchPosition;
@@ -227,7 +227,7 @@ public class Board implements Comparable{
                                     topMatchPosition=j;
                                 }
                             }
-                                System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
+                               // System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
                     }
                     if(this.gridToken[2][i].getSign()==this.gridToken[1][j].getSign()){
                         //TO-DO: Make sure we choose position closest to j
@@ -240,7 +240,7 @@ public class Board implements Comparable{
                                 bottomMatchPosition=j;
                             }
                         }
-                        System.out.println("bottomMatchPosition : "+bottomMatchPosition+"  J: "+j);
+                        //System.out.println("bottomMatchPosition : "+bottomMatchPosition+"  J: "+j);
                     }
                 }
             }
@@ -273,7 +273,7 @@ public class Board implements Comparable{
     // */
 
 
-    public int getHeurictic(){
+   /* public int getHeurictic(){
         
         HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();
         HashMap<Character,Integer> bottomRow=new HashMap<Character, Integer>();
@@ -320,7 +320,7 @@ public class Board implements Comparable{
         System.out.println(bottomRow);
         System.out.println("Heuristic : "+heuristic);
                 return 0;
-    }
+    }*/
     public Board[] getSucessors(){
         //TO-DO: Make sucessors of given Model by checking if model exists
         //Board[] sucessors=new Board[4];
