@@ -37,4 +37,13 @@ public class FileOps {
             e.printStackTrace();
         }
     }
+    public static void writeMoves(String line){
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(Configuration.outputFileMoves,true));
+            writer.write(line);
+            writer.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 }

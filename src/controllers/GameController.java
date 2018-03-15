@@ -13,7 +13,10 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import models.*;
+import utilities.Configuration;
+import utilities.FileOps;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -102,20 +105,34 @@ public class GameController implements Initializable{
     @FXML
     private void automaticMode(ActionEvent event){
         int currentLevel=0;
+            int totalLengthSolution=0;
+        long totalTime=0;
         Board automaticBoard=new Board();
         while(currentLevel<levels.getListOfLevels().size())
         {
             LoggingView.getLoggingViewObject().AddAction("\n ******************************************************\n Solving game "+(currentLevel+1));
+            FileOps.writeMoves("\n Solving game "+(currentLevel+1) );
             automaticBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
+            long startTime = System.currentTimeMillis();
+
             BestFirstSearch bfs = new BestFirstSearch();
             bfs.search(automaticBoard);
             LoggingView.getLoggingViewObject().AddAction("\n Current Config : \n"+automaticBoard);
+            FileOps.writeMoves("\n Current Config : \n"+automaticBoard);
             String solution = bfs.getSolution();
-            LoggingView.getLoggingViewObject().AddAction("\n Length of Solution Path : "+solution.length());
+            long stopTime = System.currentTimeMillis();
+            long elapsedTime = stopTime - startTime;
+            totalLengthSolution+=solution.length();
+            FileOps.writeMoves("\n Time taken to solve : "+elapsedTime+" ms");
+            LoggingView.getLoggingViewObject().AddAction("\n Time taken to solve : "+elapsedTime+" ms");
+            totalTime+=elapsedTime;
+            LoggingView.getLoggingViewObject().AddAction("\n Solution Path : "+solution+" Length : "+solution.length());
+            FileOps.writeMoves("\n Solution Path : "+solution+" Length : "+solution.length());
             for(int i = 0; i<solution.length(); ++i){
                 LoggingView.getLoggingViewObject().AddAction("\t \t"+automaticBoard.toString());
+                FileOps.writeMoves("\t \t"+automaticBoard.toString());
+                FileOps.writeMoves("\n \t Moving to "+solution.charAt(i));
                 LoggingView.getLoggingViewObject().AddAction("\n \t Moving to "+solution.charAt(i));
-
                 automaticBoard.move(solution.charAt(i));
 
 
@@ -123,9 +140,12 @@ public class GameController implements Initializable{
 
                 System.out.println( automaticBoard.toString());
             }
+
             //displayBoard();
         currentLevel++;
         }
+        FileOps.writeMoves("\n TOTAL MOVES : "+totalLengthSolution);
+        FileOps.writeMoves("\n TOTAL TIME : "+totalTime+" ms");
     }
     @FXML
     private void solveCurrentGame(ActionEvent event){
@@ -225,6 +245,16 @@ public class GameController implements Initializable{
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         System.out.println("Start");
+        //Delete previous output files
+        File file1 = new File(Configuration.outputFile);
+        File file2 = new File(Configuration.outputFileMoves);
+        if(file1.exists()){
+            file1.delete();
+        }
+        if(file2.exists()){
+            file2.delete();
+        }
+
         levels = new GameLevels();
         currentLevel = 0;
         gameBoard = new Board();
