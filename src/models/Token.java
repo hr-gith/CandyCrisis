@@ -6,6 +6,7 @@ package models;
 public class Token {
     private char sign;
     private Position pos;
+	private char name;
 
 
     @Override
@@ -16,8 +17,9 @@ public class Token {
                 '}';
     }
 
-    public Token(char sign){
+    public Token(char sign, char name){
         this.sign=sign;
+		this.name = name;
         this.pos = new Position(0,0);
     }
     public char getSign() {
@@ -34,6 +36,14 @@ public class Token {
 
     public void setPos(Position pos) {
         this.pos = pos;
+    }
+	
+	public char getName() {
+        return name;
+    }
+
+    public void setName(char name) {
+        this.name = name;
     }
 
     public void moveUp (){

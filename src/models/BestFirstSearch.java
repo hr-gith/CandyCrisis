@@ -8,6 +8,7 @@ public class BestFirstSearch {
     private ArrayList<Board> visitedList;
     private Board root;
     private String solution;
+	private String solutionName;
 
     public BestFirstSearch(){
         openList = new PriorityQueue<>();
@@ -37,19 +38,27 @@ public class BestFirstSearch {
                 //there is no solution
                 return;
             } else {
+				StringBuilder solutionNameStb = new StringBuilder();
                 StringBuilder solutionStb = new StringBuilder();
                 Board current = visitedList.get(visitedList.size() - 1);
                 while(current.getParent() != null) {
+					solutionNameStb.append(current.getNameOfParent());
                     solutionStb.append(current.getDirectionFromParent());
                     current = current.getParent();
                 }
                 this.solution = solutionStb.reverse().toString();
+				this.solutionName = solutionNameStb.reverse().toString();
             }
         }
     }
+	
 
     public String getSolution() {
         return solution;
+    }
+	
+	public String getSolutionName() {
+        return solutionName;
     }
 
     public void search(Board root){

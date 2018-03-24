@@ -120,6 +120,7 @@ public class GameController implements Initializable{
             LoggingView.getLoggingViewObject().AddAction("\n"+(currentLevel+1)+"- Original Config : \n"+automaticBoard);
             FileOps.writeFile2("\n "+(currentLevel+1)+"- Original Config : \n"+automaticBoard);
             String solution = bfs.getSolution();
+			String solutionName = bfs.getSolutionName();
             long stopTime = System.currentTimeMillis();
             long elapsedTime = stopTime - startTime;
             totalLengthSolution+=solution.length();
@@ -128,6 +129,7 @@ public class GameController implements Initializable{
             totalTime+=elapsedTime;
             LoggingView.getLoggingViewObject().AddAction("\n Solution Path : "+solution+" Length : "+solution.length());
             FileOps.writeFile1("\n Solution Path : "+solution+" Length : "+solution.length());
+			FileOps.writeFile1("\n Solution Name Path : "+solutionName+" Length : "+solutionName.length());
             FileOps.writeFile1("\n Time taken to solve : "+elapsedTime+" ms");
             LoggingView.getLoggingViewObject().AddAction("\n Time taken to solve : "+elapsedTime+" ms");
             FileOps.writeFile2("\t \t Solution states : ");

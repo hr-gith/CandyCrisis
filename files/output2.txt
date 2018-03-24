@@ -779,3 +779,10576 @@ w b b b r
 w b b b r 
 r r e r r 
 w b b b r 
+ Solving game 5
+ 5- Original Config : 
+
+r g g e r 
+r r w y b 
+y p w p b 	 	 Solution states : 
+ 	 Moving to R	 	
+r g g r e 
+r r w y b 
+y p w p b 
+ 	 Moving to D	 	
+r g g r b 
+r r w y e 
+y p w p b 
+ 	 Moving to L	 	
+r g g r b 
+r r w e y 
+y p w p b 
+ 	 Moving to D	 	
+r g g r b 
+r r w p y 
+y p w e b 
+ 	 Moving to L	 	
+r g g r b 
+r r w p y 
+y p e w b 
+ 	 Moving to L	 	
+r g g r b 
+r r w p y 
+y e p w b 
+ 	 Moving to U	 	
+r g g r b 
+r e w p y 
+y r p w b 
+ 	 Moving to U	 	
+r e g r b 
+r g w p y 
+y r p w b 
+ 	 Moving to R	 	
+r g e r b 
+r g w p y 
+y r p w b 
+ 	 Moving to R	 	
+r g r e b 
+r g w p y 
+y r p w b 
+ 	 Moving to D	 	
+r g r p b 
+r g w e y 
+y r p w b 
+ 	 Moving to L	 	
+r g r p b 
+r g e w y 
+y r p w b 
+ 	 Moving to D	 	
+r g r p b 
+r g p w y 
+y r e w b 
+ 	 Moving to L	 	
+r g r p b 
+r g p w y 
+y e r w b 
+ 	 Moving to L	 	
+r g r p b 
+r g p w y 
+e y r w b 
+ 	 Moving to U	 	
+r g r p b 
+e g p w y 
+r y r w b 
+ 	 Moving to R	 	
+r g r p b 
+g e p w y 
+r y r w b 
+ 	 Moving to R	 	
+r g r p b 
+g p e w y 
+r y r w b 
+ 	 Moving to U	 	
+r g e p b 
+g p r w y 
+r y r w b 
+ 	 Moving to R	 	
+r g p e b 
+g p r w y 
+r y r w b 
+ 	 Moving to D	 	
+r g p w b 
+g p r e y 
+r y r w b 
+ 	 Moving to D	 	
+r g p w b 
+g p r w y 
+r y r e b 
+ 	 Moving to L	 	
+r g p w b 
+g p r w y 
+r y e r b 
+ 	 Moving to U	 	
+r g p w b 
+g p e w y 
+r y r r b 
+ 	 Moving to L	 	
+r g p w b 
+g e p w y 
+r y r r b 
+ 	 Moving to L	 	
+r g p w b 
+e g p w y 
+r y r r b 
+ 	 Moving to D	 	
+r g p w b 
+r g p w y 
+e y r r b 
+ 	 Moving to R	 	
+r g p w b 
+r g p w y 
+y e r r b 
+ 	 Moving to R	 	
+r g p w b 
+r g p w y 
+y r e r b 
+ 	 Moving to U	 	
+r g p w b 
+r g e w y 
+y r p r b 
+ 	 Moving to L	 	
+r g p w b 
+r e g w y 
+y r p r b 
+ 	 Moving to L	 	
+r g p w b 
+e r g w y 
+y r p r b 
+ 	 Moving to D	 	
+r g p w b 
+y r g w y 
+e r p r b 
+ 	 Moving to R	 	
+r g p w b 
+y r g w y 
+r e p r b 
+ 	 Moving to U	 	
+r g p w b 
+y e g w y 
+r r p r b 
+ 	 Moving to R	 	
+r g p w b 
+y g e w y 
+r r p r b 
+ 	 Moving to D	 	
+r g p w b 
+y g p w y 
+r r e r b 
+ 	 Moving to L	 	
+r g p w b 
+y g p w y 
+r e r r b 
+ 	 Moving to U	 	
+r g p w b 
+y e p w y 
+r g r r b 
+ 	 Moving to R	 	
+r g p w b 
+y p e w y 
+r g r r b 
+ 	 Moving to D	 	
+r g p w b 
+y p r w y 
+r g e r b 
+ 	 Moving to R	 	
+r g p w b 
+y p r w y 
+r g r e b 
+ 	 Moving to U	 	
+r g p w b 
+y p r e y 
+r g r w b 
+ 	 Moving to U	 	
+r g p e b 
+y p r w y 
+r g r w b 
+ 	 Moving to L	 	
+r g e p b 
+y p r w y 
+r g r w b 
+ 	 Moving to D	 	
+r g r p b 
+y p e w y 
+r g r w b 
+ 	 Moving to R	 	
+r g r p b 
+y p w e y 
+r g r w b 
+ 	 Moving to R	 	
+r g r p b 
+y p w y e 
+r g r w b 
+ 	 Moving to U	 	
+r g r p e 
+y p w y b 
+r g r w b 
+ 	 Moving to L	 	
+r g r e p 
+y p w y b 
+r g r w b 
+ 	 Moving to D	 	
+r g r y p 
+y p w e b 
+r g r w b 
+ 	 Moving to L	 	
+r g r y p 
+y p e w b 
+r g r w b 
+ 	 Moving to U	 	
+r g e y p 
+y p r w b 
+r g r w b 
+ 	 Moving to R	 	
+r g y e p 
+y p r w b 
+r g r w b 
+ 	 Moving to D	 	
+r g y w p 
+y p r e b 
+r g r w b 
+ 	 Moving to L	 	
+r g y w p 
+y p e r b 
+r g r w b 
+ 	 Moving to L	 	
+r g y w p 
+y e p r b 
+r g r w b 
+ 	 Moving to U	 	
+r e y w p 
+y g p r b 
+r g r w b 
+ 	 Moving to R	 	
+r y e w p 
+y g p r b 
+r g r w b 
+ 	 Moving to D	 	
+r y p w p 
+y g e r b 
+r g r w b 
+ 	 Moving to R	 	
+r y p w p 
+y g r e b 
+r g r w b 
+ 	 Moving to U	 	
+r y p e p 
+y g r w b 
+r g r w b 
+ 	 Moving to R	 	
+r y p p e 
+y g r w b 
+r g r w b 
+ 	 Moving to D	 	
+r y p p b 
+y g r w e 
+r g r w b 
+ 	 Moving to L	 	
+r y p p b 
+y g r e w 
+r g r w b 
+ 	 Moving to U	 	
+r y p e b 
+y g r p w 
+r g r w b 
+ 	 Moving to L	 	
+r y e p b 
+y g r p w 
+r g r w b 
+ 	 Moving to D	 	
+r y r p b 
+y g e p w 
+r g r w b 
+ 	 Moving to R	 	
+r y r p b 
+y g p e w 
+r g r w b 
+ 	 Moving to R	 	
+r y r p b 
+y g p w e 
+r g r w b 
+ 	 Moving to U	 	
+r y r p e 
+y g p w b 
+r g r w b 
+ 	 Moving to L	 	
+r y r e p 
+y g p w b 
+r g r w b 
+ 	 Moving to D	 	
+r y r w p 
+y g p e b 
+r g r w b 
+ 	 Moving to L	 	
+r y r w p 
+y g e p b 
+r g r w b 
+ 	 Moving to U	 	
+r y e w p 
+y g r p b 
+r g r w b 
+ 	 Moving to L	 	
+r e y w p 
+y g r p b 
+r g r w b 
+ 	 Moving to D	 	
+r g y w p 
+y e r p b 
+r g r w b 
+ 	 Moving to R	 	
+r g y w p 
+y r e p b 
+r g r w b 
+ 	 Moving to R	 	
+r g y w p 
+y r p e b 
+r g r w b 
+ 	 Moving to U	 	
+r g y e p 
+y r p w b 
+r g r w b 
+ 	 Moving to L	 	
+r g e y p 
+y r p w b 
+r g r w b 
+ 	 Moving to D	 	
+r g p y p 
+y r e w b 
+r g r w b 
+ 	 Moving to L	 	
+r g p y p 
+y e r w b 
+r g r w b 
+ 	 Moving to U	 	
+r e p y p 
+y g r w b 
+r g r w b 
+ 	 Moving to R	 	
+r p e y p 
+y g r w b 
+r g r w b 
+ 	 Moving to R	 	
+r p y e p 
+y g r w b 
+r g r w b 
+ 	 Moving to D	 	
+r p y w p 
+y g r e b 
+r g r w b 
+ 	 Moving to L	 	
+r p y w p 
+y g e r b 
+r g r w b 
+ 	 Moving to U	 	
+r p e w p 
+y g y r b 
+r g r w b 
+ 	 Moving to L	 	
+r e p w p 
+y g y r b 
+r g r w b 
+ 	 Moving to D	 	
+r g p w p 
+y e y r b 
+r g r w b 
+ 	 Moving to R	 	
+r g p w p 
+y y e r b 
+r g r w b 
+ 	 Moving to R	 	
+r g p w p 
+y y r e b 
+r g r w b 
+ 	 Moving to U	 	
+r g p e p 
+y y r w b 
+r g r w b 
+ 	 Moving to R	 	
+r g p p e 
+y y r w b 
+r g r w b 
+ 	 Moving to D	 	
+r g p p b 
+y y r w e 
+r g r w b 
+ 	 Moving to L	 	
+r g p p b 
+y y r e w 
+r g r w b 
+ 	 Moving to U	 	
+r g p e b 
+y y r p w 
+r g r w b 
+ 	 Moving to L	 	
+r g e p b 
+y y r p w 
+r g r w b 
+ 	 Moving to D	 	
+r g r p b 
+y y e p w 
+r g r w b 
+ 	 Moving to D	 	
+r g r p b 
+y y r p w 
+r g e w b 
+ 	 Moving to R	 	
+r g r p b 
+y y r p w 
+r g w e b 
+ 	 Moving to U	 	
+r g r p b 
+y y r e w 
+r g w p b 
+ 	 Moving to L	 	
+r g r p b 
+y y e r w 
+r g w p b 
+ 	 Moving to L	 	
+r g r p b 
+y e y r w 
+r g w p b 
+ 	 Moving to D	 	
+r g r p b 
+y g y r w 
+r e w p b 
+ 	 Moving to R	 	
+r g r p b 
+y g y r w 
+r w e p b 
+ 	 Moving to U	 	
+r g r p b 
+y g e r w 
+r w y p b 
+ 	 Moving to R	 	
+r g r p b 
+y g r e w 
+r w y p b 
+ 	 Moving to D	 	
+r g r p b 
+y g r p w 
+r w y e b 
+ 	 Moving to L	 	
+r g r p b 
+y g r p w 
+r w e y b 
+ 	 Moving to U	 	
+r g r p b 
+y g e p w 
+r w r y b 
+ 	 Moving to R	 	
+r g r p b 
+y g p e w 
+r w r y b 
+ 	 Moving to R	 	
+r g r p b 
+y g p w e 
+r w r y b 
+ 	 Moving to D	 	
+r g r p b 
+y g p w b 
+r w r y e 
+ 	 Moving to L	 	
+r g r p b 
+y g p w b 
+r w r e y 
+ 	 Moving to U	 	
+r g r p b 
+y g p e b 
+r w r w y 
+ 	 Moving to L	 	
+r g r p b 
+y g e p b 
+r w r w y 
+ 	 Moving to D	 	
+r g r p b 
+y g r p b 
+r w e w y 
+ 	 Moving to R	 	
+r g r p b 
+y g r p b 
+r w w e y 
+ 	 Moving to U	 	
+r g r p b 
+y g r e b 
+r w w p y 
+ 	 Moving to L	 	
+r g r p b 
+y g e r b 
+r w w p y 
+ 	 Moving to D	 	
+r g r p b 
+y g w r b 
+r w e p y 
+ 	 Moving to L	 	
+r g r p b 
+y g w r b 
+r e w p y 
+ 	 Moving to U	 	
+r g r p b 
+y e w r b 
+r g w p y 
+ 	 Moving to U	 	
+r e r p b 
+y g w r b 
+r g w p y 
+ 	 Moving to R	 	
+r r e p b 
+y g w r b 
+r g w p y 
+ 	 Moving to D	 	
+r r w p b 
+y g e r b 
+r g w p y 
+ 	 Moving to R	 	
+r r w p b 
+y g r e b 
+r g w p y 
+ 	 Moving to D	 	
+r r w p b 
+y g r p b 
+r g w e y 
+ 	 Moving to R	 	
+r r w p b 
+y g r p b 
+r g w y e 
+ 	 Moving to U	 	
+r r w p b 
+y g r p e 
+r g w y b 
+ 	 Moving to L	 	
+r r w p b 
+y g r e p 
+r g w y b 
+ 	 Moving to L	 	
+r r w p b 
+y g e r p 
+r g w y b 
+ 	 Moving to D	 	
+r r w p b 
+y g w r p 
+r g e y b 
+ 	 Moving to R	 	
+r r w p b 
+y g w r p 
+r g y e b 
+ 	 Moving to U	 	
+r r w p b 
+y g w e p 
+r g y r b 
+ 	 Moving to R	 	
+r r w p b 
+y g w p e 
+r g y r b 
+ 	 Moving to D	 	
+r r w p b 
+y g w p b 
+r g y r e 
+ 	 Moving to L	 	
+r r w p b 
+y g w p b 
+r g y e r 
+ 	 Moving to L	 	
+r r w p b 
+y g w p b 
+r g e y r 
+ 	 Moving to U	 	
+r r w p b 
+y g e p b 
+r g w y r 
+ 	 Moving to L	 	
+r r w p b 
+y e g p b 
+r g w y r 
+ 	 Moving to L	 	
+r r w p b 
+e y g p b 
+r g w y r 
+ 	 Moving to U	 	
+e r w p b 
+r y g p b 
+r g w y r 
+ 	 Moving to R	 	
+r e w p b 
+r y g p b 
+r g w y r 
+ 	 Moving to D	 	
+r y w p b 
+r e g p b 
+r g w y r 
+ 	 Moving to R	 	
+r y w p b 
+r g e p b 
+r g w y r 
+ 	 Moving to U	 	
+r y e p b 
+r g w p b 
+r g w y r 
+ 	 Moving to L	 	
+r e y p b 
+r g w p b 
+r g w y r 
+ 	 Moving to D	 	
+r g y p b 
+r e w p b 
+r g w y r 
+ 	 Moving to D	 	
+r g y p b 
+r g w p b 
+r e w y r 
+ 	 Moving to L	 	
+r g y p b 
+r g w p b 
+e r w y r 
+ 	 Moving to U	 	
+r g y p b 
+e g w p b 
+r r w y r 
+ 	 Moving to R	 	
+r g y p b 
+g e w p b 
+r r w y r 
+ 	 Moving to D	 	
+r g y p b 
+g r w p b 
+r e w y r 
+ 	 Moving to L	 	
+r g y p b 
+g r w p b 
+e r w y r 
+ 	 Moving to U	 	
+r g y p b 
+e r w p b 
+g r w y r 
+ 	 Moving to R	 	
+r g y p b 
+r e w p b 
+g r w y r 
+ 	 Moving to U	 	
+r e y p b 
+r g w p b 
+g r w y r 
+ 	 Moving to L	 	
+e r y p b 
+r g w p b 
+g r w y r 
+ 	 Moving to D	 	
+r r y p b 
+e g w p b 
+g r w y r 
+ 	 Moving to R	 	
+r r y p b 
+g e w p b 
+g r w y r 
+ 	 Moving to U	 	
+r e y p b 
+g r w p b 
+g r w y r 
+ 	 Moving to L	 	
+e r y p b 
+g r w p b 
+g r w y r 
+ 	 Moving to D	 	
+g r y p b 
+e r w p b 
+g r w y r 
+ 	 Moving to D	 	
+g r y p b 
+g r w p b 
+e r w y r 
+ 	 Moving to R	 	
+g r y p b 
+g r w p b 
+r e w y r 
+ 	 Moving to U	 	
+g r y p b 
+g e w p b 
+r r w y r 
+ 	 Moving to U	 	
+g e y p b 
+g r w p b 
+r r w y r 
+ 	 Moving to R	 	
+g y e p b 
+g r w p b 
+r r w y r 
+ 	 Moving to D	 	
+g y w p b 
+g r e p b 
+r r w y r 
+ 	 Moving to R	 	
+g y w p b 
+g r p e b 
+r r w y r 
+ 	 Moving to D	 	
+g y w p b 
+g r p y b 
+r r w e r 
+ 	 Moving to R	 	
+g y w p b 
+g r p y b 
+r r w r e 
+ 	 Moving to U	 	
+g y w p b 
+g r p y e 
+r r w r b 
+ 	 Moving to L	 	
+g y w p b 
+g r p e y 
+r r w r b 
+ 	 Moving to L	 	
+g y w p b 
+g r e p y 
+r r w r b 
+ 	 Moving to U	 	
+g y e p b 
+g r w p y 
+r r w r b 
+ 	 Moving to L	 	
+g e y p b 
+g r w p y 
+r r w r b 
+ 	 Moving to D	 	
+g r y p b 
+g e w p y 
+r r w r b 
+ 	 Moving to D	 	
+g r y p b 
+g r w p y 
+r e w r b 
+ 	 Moving to L	 	
+g r y p b 
+g r w p y 
+e r w r b 
+ 	 Moving to U	 	
+g r y p b 
+e r w p y 
+g r w r b 
+ 	 Moving to U	 	
+e r y p b 
+g r w p y 
+g r w r b 
+ 	 Moving to R	 	
+r e y p b 
+g r w p y 
+g r w r b 
+ 	 Moving to R	 	
+r y e p b 
+g r w p y 
+g r w r b 
+ 	 Moving to D	 	
+r y w p b 
+g r e p y 
+g r w r b 
+ 	 Moving to L	 	
+r y w p b 
+g e r p y 
+g r w r b 
+ 	 Moving to U	 	
+r e w p b 
+g y r p y 
+g r w r b 
+ 	 Moving to L	 	
+e r w p b 
+g y r p y 
+g r w r b 
+ 	 Moving to D	 	
+g r w p b 
+e y r p y 
+g r w r b 
+ 	 Moving to R	 	
+g r w p b 
+y e r p y 
+g r w r b 
+ 	 Moving to R	 	
+g r w p b 
+y r e p y 
+g r w r b 
+ 	 Moving to D	 	
+g r w p b 
+y r w p y 
+g r e r b 
+ 	 Moving to R	 	
+g r w p b 
+y r w p y 
+g r r e b 
+ 	 Moving to U	 	
+g r w p b 
+y r w e y 
+g r r p b 
+ 	 Moving to L	 	
+g r w p b 
+y r e w y 
+g r r p b 
+ 	 Moving to U	 	
+g r e p b 
+y r w w y 
+g r r p b 
+ 	 Moving to L	 	
+g e r p b 
+y r w w y 
+g r r p b 
+ 	 Moving to D	 	
+g r r p b 
+y e w w y 
+g r r p b 
+ Solving game 6
+ 6- Original Config : 
+
+r w y b r 
+g r p p g 
+e r w y b 	 	 Solution states : 
+ 	 Moving to U	 	
+r w y b r 
+e r p p g 
+g r w y b 
+ 	 Moving to R	 	
+r w y b r 
+r e p p g 
+g r w y b 
+ 	 Moving to U	 	
+r e y b r 
+r w p p g 
+g r w y b 
+ 	 Moving to R	 	
+r y e b r 
+r w p p g 
+g r w y b 
+ 	 Moving to R	 	
+r y b e r 
+r w p p g 
+g r w y b 
+ 	 Moving to D	 	
+r y b p r 
+r w p e g 
+g r w y b 
+ 	 Moving to L	 	
+r y b p r 
+r w e p g 
+g r w y b 
+ 	 Moving to L	 	
+r y b p r 
+r e w p g 
+g r w y b 
+ 	 Moving to U	 	
+r e b p r 
+r y w p g 
+g r w y b 
+ 	 Moving to R	 	
+r b e p r 
+r y w p g 
+g r w y b 
+ 	 Moving to D	 	
+r b w p r 
+r y e p g 
+g r w y b 
+ 	 Moving to D	 	
+r b w p r 
+r y w p g 
+g r e y b 
+ 	 Moving to R	 	
+r b w p r 
+r y w p g 
+g r y e b 
+ 	 Moving to U	 	
+r b w p r 
+r y w e g 
+g r y p b 
+ 	 Moving to L	 	
+r b w p r 
+r y e w g 
+g r y p b 
+ 	 Moving to L	 	
+r b w p r 
+r e y w g 
+g r y p b 
+ 	 Moving to U	 	
+r e w p r 
+r b y w g 
+g r y p b 
+ 	 Moving to R	 	
+r w e p r 
+r b y w g 
+g r y p b 
+ 	 Moving to D	 	
+r w y p r 
+r b e w g 
+g r y p b 
+ 	 Moving to L	 	
+r w y p r 
+r e b w g 
+g r y p b 
+ 	 Moving to L	 	
+r w y p r 
+e r b w g 
+g r y p b 
+ 	 Moving to D	 	
+r w y p r 
+g r b w g 
+e r y p b 
+ 	 Moving to R	 	
+r w y p r 
+g r b w g 
+r e y p b 
+ 	 Moving to U	 	
+r w y p r 
+g e b w g 
+r r y p b 
+ 	 Moving to L	 	
+r w y p r 
+e g b w g 
+r r y p b 
+ 	 Moving to D	 	
+r w y p r 
+r g b w g 
+e r y p b 
+ 	 Moving to R	 	
+r w y p r 
+r g b w g 
+r e y p b 
+ 	 Moving to U	 	
+r w y p r 
+r e b w g 
+r g y p b 
+ 	 Moving to U	 	
+r e y p r 
+r w b w g 
+r g y p b 
+ 	 Moving to L	 	
+e r y p r 
+r w b w g 
+r g y p b 
+ 	 Moving to D	 	
+r r y p r 
+e w b w g 
+r g y p b 
+ 	 Moving to D	 	
+r r y p r 
+r w b w g 
+e g y p b 
+ 	 Moving to R	 	
+r r y p r 
+r w b w g 
+g e y p b 
+ 	 Moving to U	 	
+r r y p r 
+r e b w g 
+g w y p b 
+ 	 Moving to R	 	
+r r y p r 
+r b e w g 
+g w y p b 
+ 	 Moving to D	 	
+r r y p r 
+r b y w g 
+g w e p b 
+ 	 Moving to L	 	
+r r y p r 
+r b y w g 
+g e w p b 
+ 	 Moving to U	 	
+r r y p r 
+r e y w g 
+g b w p b 
+ 	 Moving to L	 	
+r r y p r 
+e r y w g 
+g b w p b 
+ 	 Moving to D	 	
+r r y p r 
+g r y w g 
+e b w p b 
+ 	 Moving to R	 	
+r r y p r 
+g r y w g 
+b e w p b 
+ 	 Moving to R	 	
+r r y p r 
+g r y w g 
+b w e p b 
+ 	 Moving to U	 	
+r r y p r 
+g r e w g 
+b w y p b 
+ 	 Moving to R	 	
+r r y p r 
+g r w e g 
+b w y p b 
+ 	 Moving to D	 	
+r r y p r 
+g r w p g 
+b w y e b 
+ 	 Moving to R	 	
+r r y p r 
+g r w p g 
+b w y b e 
+ 	 Moving to U	 	
+r r y p r 
+g r w p e 
+b w y b g 
+ 	 Moving to L	 	
+r r y p r 
+g r w e p 
+b w y b g 
+ 	 Moving to L	 	
+r r y p r 
+g r e w p 
+b w y b g 
+ 	 Moving to D	 	
+r r y p r 
+g r y w p 
+b w e b g 
+ 	 Moving to R	 	
+r r y p r 
+g r y w p 
+b w b e g 
+ 	 Moving to U	 	
+r r y p r 
+g r y e p 
+b w b w g 
+ 	 Moving to R	 	
+r r y p r 
+g r y p e 
+b w b w g 
+ 	 Moving to D	 	
+r r y p r 
+g r y p g 
+b w b w e 
+ 	 Moving to L	 	
+r r y p r 
+g r y p g 
+b w b e w 
+ 	 Moving to L	 	
+r r y p r 
+g r y p g 
+b w e b w 
+ 	 Moving to U	 	
+r r y p r 
+g r e p g 
+b w y b w 
+ 	 Moving to R	 	
+r r y p r 
+g r p e g 
+b w y b w 
+ 	 Moving to R	 	
+r r y p r 
+g r p g e 
+b w y b w 
+ 	 Moving to D	 	
+r r y p r 
+g r p g w 
+b w y b e 
+ 	 Moving to L	 	
+r r y p r 
+g r p g w 
+b w y e b 
+ 	 Moving to U	 	
+r r y p r 
+g r p e w 
+b w y g b 
+ 	 Moving to L	 	
+r r y p r 
+g r e p w 
+b w y g b 
+ 	 Moving to D	 	
+r r y p r 
+g r y p w 
+b w e g b 
+ 	 Moving to L	 	
+r r y p r 
+g r y p w 
+b e w g b 
+ 	 Moving to L	 	
+r r y p r 
+g r y p w 
+e b w g b 
+ 	 Moving to U	 	
+r r y p r 
+e r y p w 
+g b w g b 
+ 	 Moving to R	 	
+r r y p r 
+r e y p w 
+g b w g b 
+ 	 Moving to D	 	
+r r y p r 
+r b y p w 
+g e w g b 
+ 	 Moving to R	 	
+r r y p r 
+r b y p w 
+g w e g b 
+ 	 Moving to R	 	
+r r y p r 
+r b y p w 
+g w g e b 
+ 	 Moving to U	 	
+r r y p r 
+r b y e w 
+g w g p b 
+ 	 Moving to L	 	
+r r y p r 
+r b e y w 
+g w g p b 
+ 	 Moving to L	 	
+r r y p r 
+r e b y w 
+g w g p b 
+ 	 Moving to L	 	
+r r y p r 
+e r b y w 
+g w g p b 
+ 	 Moving to D	 	
+r r y p r 
+g r b y w 
+e w g p b 
+ 	 Moving to R	 	
+r r y p r 
+g r b y w 
+w e g p b 
+ 	 Moving to R	 	
+r r y p r 
+g r b y w 
+w g e p b 
+ 	 Moving to U	 	
+r r y p r 
+g r e y w 
+w g b p b 
+ 	 Moving to R	 	
+r r y p r 
+g r y e w 
+w g b p b 
+ 	 Moving to D	 	
+r r y p r 
+g r y p w 
+w g b e b 
+ 	 Moving to L	 	
+r r y p r 
+g r y p w 
+w g e b b 
+ 	 Moving to U	 	
+r r y p r 
+g r e p w 
+w g y b b 
+ 	 Moving to R	 	
+r r y p r 
+g r p e w 
+w g y b b 
+ 	 Moving to R	 	
+r r y p r 
+g r p w e 
+w g y b b 
+ 	 Moving to D	 	
+r r y p r 
+g r p w b 
+w g y b e 
+ 	 Moving to L	 	
+r r y p r 
+g r p w b 
+w g y e b 
+ 	 Moving to U	 	
+r r y p r 
+g r p e b 
+w g y w b 
+ 	 Moving to L	 	
+r r y p r 
+g r e p b 
+w g y w b 
+ 	 Moving to D	 	
+r r y p r 
+g r y p b 
+w g e w b 
+ 	 Moving to L	 	
+r r y p r 
+g r y p b 
+w e g w b 
+ 	 Moving to L	 	
+r r y p r 
+g r y p b 
+e w g w b 
+ 	 Moving to U	 	
+r r y p r 
+e r y p b 
+g w g w b 
+ 	 Moving to R	 	
+r r y p r 
+r e y p b 
+g w g w b 
+ 	 Moving to D	 	
+r r y p r 
+r w y p b 
+g e g w b 
+ 	 Moving to R	 	
+r r y p r 
+r w y p b 
+g g e w b 
+ 	 Moving to U	 	
+r r y p r 
+r w e p b 
+g g y w b 
+ 	 Moving to L	 	
+r r y p r 
+r e w p b 
+g g y w b 
+ 	 Moving to L	 	
+r r y p r 
+e r w p b 
+g g y w b 
+ 	 Moving to D	 	
+r r y p r 
+g r w p b 
+e g y w b 
+ 	 Moving to R	 	
+r r y p r 
+g r w p b 
+g e y w b 
+ 	 Moving to U	 	
+r r y p r 
+g e w p b 
+g r y w b 
+ 	 Moving to R	 	
+r r y p r 
+g w e p b 
+g r y w b 
+ 	 Moving to D	 	
+r r y p r 
+g w y p b 
+g r e w b 
+ 	 Moving to R	 	
+r r y p r 
+g w y p b 
+g r w e b 
+ 	 Moving to U	 	
+r r y p r 
+g w y e b 
+g r w p b 
+ 	 Moving to L	 	
+r r y p r 
+g w e y b 
+g r w p b 
+ 	 Moving to L	 	
+r r y p r 
+g e w y b 
+g r w p b 
+ 	 Moving to U	 	
+r e y p r 
+g r w y b 
+g r w p b 
+ 	 Moving to R	 	
+r y e p r 
+g r w y b 
+g r w p b 
+ 	 Moving to D	 	
+r y w p r 
+g r e y b 
+g r w p b 
+ 	 Moving to L	 	
+r y w p r 
+g e r y b 
+g r w p b 
+ 	 Moving to U	 	
+r e w p r 
+g y r y b 
+g r w p b 
+ 	 Moving to L	 	
+e r w p r 
+g y r y b 
+g r w p b 
+ 	 Moving to D	 	
+g r w p r 
+e y r y b 
+g r w p b 
+ 	 Moving to R	 	
+g r w p r 
+y e r y b 
+g r w p b 
+ 	 Moving to R	 	
+g r w p r 
+y r e y b 
+g r w p b 
+ 	 Moving to D	 	
+g r w p r 
+y r w y b 
+g r e p b 
+ 	 Moving to L	 	
+g r w p r 
+y r w y b 
+g e r p b 
+ 	 Moving to U	 	
+g r w p r 
+y e w y b 
+g r r p b 
+ 	 Moving to U	 	
+g e w p r 
+y r w y b 
+g r r p b 
+ 	 Moving to R	 	
+g w e p r 
+y r w y b 
+g r r p b 
+ 	 Moving to D	 	
+g w w p r 
+y r e y b 
+g r r p b 
+ 	 Moving to L	 	
+g w w p r 
+y e r y b 
+g r r p b 
+ 	 Moving to U	 	
+g e w p r 
+y w r y b 
+g r r p b 
+ 	 Moving to R	 	
+g w e p r 
+y w r y b 
+g r r p b 
+ 	 Moving to D	 	
+g w r p r 
+y w e y b 
+g r r p b 
+ 	 Moving to D	 	
+g w r p r 
+y w r y b 
+g r e p b 
+ 	 Moving to L	 	
+g w r p r 
+y w r y b 
+g e r p b 
+ 	 Moving to U	 	
+g w r p r 
+y e r y b 
+g w r p b 
+ 	 Moving to R	 	
+g w r p r 
+y r e y b 
+g w r p b 
+ 	 Moving to R	 	
+g w r p r 
+y r y e b 
+g w r p b 
+ 	 Moving to D	 	
+g w r p r 
+y r y p b 
+g w r e b 
+ 	 Moving to L	 	
+g w r p r 
+y r y p b 
+g w e r b 
+ 	 Moving to U	 	
+g w r p r 
+y r e p b 
+g w y r b 
+ 	 Moving to L	 	
+g w r p r 
+y e r p b 
+g w y r b 
+ 	 Moving to D	 	
+g w r p r 
+y w r p b 
+g e y r b 
+ 	 Moving to R	 	
+g w r p r 
+y w r p b 
+g y e r b 
+ 	 Moving to R	 	
+g w r p r 
+y w r p b 
+g y r e b 
+ 	 Moving to U	 	
+g w r p r 
+y w r e b 
+g y r p b 
+ 	 Moving to U	 	
+g w r e r 
+y w r p b 
+g y r p b 
+ 	 Moving to R	 	
+g w r r e 
+y w r p b 
+g y r p b 
+ 	 Moving to D	 	
+g w r r b 
+y w r p e 
+g y r p b 
+ 	 Moving to D	 	
+g w r r b 
+y w r p b 
+g y r p e 
+ 	 Moving to L	 	
+g w r r b 
+y w r p b 
+g y r e p 
+ 	 Moving to L	 	
+g w r r b 
+y w r p b 
+g y e r p 
+ 	 Moving to U	 	
+g w r r b 
+y w e p b 
+g y r r p 
+ 	 Moving to R	 	
+g w r r b 
+y w p e b 
+g y r r p 
+ 	 Moving to D	 	
+g w r r b 
+y w p r b 
+g y r e p 
+ 	 Moving to L	 	
+g w r r b 
+y w p r b 
+g y e r p 
+ 	 Moving to L	 	
+g w r r b 
+y w p r b 
+g e y r p 
+ 	 Moving to U	 	
+g w r r b 
+y e p r b 
+g w y r p 
+ 	 Moving to R	 	
+g w r r b 
+y p e r b 
+g w y r p 
+ 	 Moving to D	 	
+g w r r b 
+y p y r b 
+g w e r p 
+ 	 Moving to R	 	
+g w r r b 
+y p y r b 
+g w r e p 
+ 	 Moving to U	 	
+g w r r b 
+y p y e b 
+g w r r p 
+ 	 Moving to L	 	
+g w r r b 
+y p e y b 
+g w r r p 
+ 	 Moving to D	 	
+g w r r b 
+y p r y b 
+g w e r p 
+ 	 Moving to R	 	
+g w r r b 
+y p r y b 
+g w r e p 
+ 	 Moving to R	 	
+g w r r b 
+y p r y b 
+g w r p e 
+ 	 Moving to U	 	
+g w r r b 
+y p r y e 
+g w r p b 
+ 	 Moving to L	 	
+g w r r b 
+y p r e y 
+g w r p b 
+ 	 Moving to D	 	
+g w r r b 
+y p r p y 
+g w r e b 
+ 	 Moving to L	 	
+g w r r b 
+y p r p y 
+g w e r b 
+ 	 Moving to U	 	
+g w r r b 
+y p e p y 
+g w r r b 
+ Solving game 7
+ 7- Original Config : 
+
+r y r r g 
+w p b p g 
+y w r e b 	 	 Solution states : 
+ 	 Moving to R	 	
+r y r r g 
+w p b p g 
+y w r b e 
+ 	 Moving to U	 	
+r y r r g 
+w p b p e 
+y w r b g 
+ 	 Moving to L	 	
+r y r r g 
+w p b e p 
+y w r b g 
+ 	 Moving to U	 	
+r y r e g 
+w p b r p 
+y w r b g 
+ 	 Moving to L	 	
+r y e r g 
+w p b r p 
+y w r b g 
+ 	 Moving to D	 	
+r y b r g 
+w p e r p 
+y w r b g 
+ 	 Moving to L	 	
+r y b r g 
+w e p r p 
+y w r b g 
+ 	 Moving to U	 	
+r e b r g 
+w y p r p 
+y w r b g 
+ 	 Moving to R	 	
+r b e r g 
+w y p r p 
+y w r b g 
+ 	 Moving to D	 	
+r b p r g 
+w y e r p 
+y w r b g 
+ 	 Moving to R	 	
+r b p r g 
+w y r e p 
+y w r b g 
+ 	 Moving to R	 	
+r b p r g 
+w y r p e 
+y w r b g 
+ 	 Moving to D	 	
+r b p r g 
+w y r p g 
+y w r b e 
+ 	 Moving to L	 	
+r b p r g 
+w y r p g 
+y w r e b 
+ 	 Moving to L	 	
+r b p r g 
+w y r p g 
+y w e r b 
+ 	 Moving to U	 	
+r b p r g 
+w y e p g 
+y w r r b 
+ 	 Moving to R	 	
+r b p r g 
+w y p e g 
+y w r r b 
+ 	 Moving to D	 	
+r b p r g 
+w y p r g 
+y w r e b 
+ 	 Moving to L	 	
+r b p r g 
+w y p r g 
+y w e r b 
+ 	 Moving to U	 	
+r b p r g 
+w y e r g 
+y w p r b 
+ 	 Moving to U	 	
+r b e r g 
+w y p r g 
+y w p r b 
+ 	 Moving to L	 	
+r e b r g 
+w y p r g 
+y w p r b 
+ 	 Moving to L	 	
+e r b r g 
+w y p r g 
+y w p r b 
+ 	 Moving to D	 	
+w r b r g 
+e y p r g 
+y w p r b 
+ 	 Moving to R	 	
+w r b r g 
+y e p r g 
+y w p r b 
+ 	 Moving to D	 	
+w r b r g 
+y w p r g 
+y e p r b 
+ 	 Moving to L	 	
+w r b r g 
+y w p r g 
+e y p r b 
+ 	 Moving to U	 	
+w r b r g 
+e w p r g 
+y y p r b 
+ 	 Moving to R	 	
+w r b r g 
+w e p r g 
+y y p r b 
+ 	 Moving to D	 	
+w r b r g 
+w y p r g 
+y e p r b 
+ 	 Moving to L	 	
+w r b r g 
+w y p r g 
+e y p r b 
+ 	 Moving to U	 	
+w r b r g 
+e y p r g 
+w y p r b 
+ 	 Moving to U	 	
+e r b r g 
+w y p r g 
+w y p r b 
+ 	 Moving to R	 	
+r e b r g 
+w y p r g 
+w y p r b 
+ 	 Moving to R	 	
+r b e r g 
+w y p r g 
+w y p r b 
+ 	 Moving to D	 	
+r b p r g 
+w y e r g 
+w y p r b 
+ 	 Moving to D	 	
+r b p r g 
+w y p r g 
+w y e r b 
+ 	 Moving to R	 	
+r b p r g 
+w y p r g 
+w y r e b 
+ 	 Moving to R	 	
+r b p r g 
+w y p r g 
+w y r b e 
+ 	 Moving to U	 	
+r b p r g 
+w y p r e 
+w y r b g 
+ 	 Moving to L	 	
+r b p r g 
+w y p e r 
+w y r b g 
+ 	 Moving to D	 	
+r b p r g 
+w y p b r 
+w y r e g 
+ 	 Moving to L	 	
+r b p r g 
+w y p b r 
+w y e r g 
+ 	 Moving to U	 	
+r b p r g 
+w y e b r 
+w y p r g 
+ 	 Moving to U	 	
+r b e r g 
+w y p b r 
+w y p r g 
+ 	 Moving to L	 	
+r e b r g 
+w y p b r 
+w y p r g 
+ 	 Moving to D	 	
+r y b r g 
+w e p b r 
+w y p r g 
+ 	 Moving to R	 	
+r y b r g 
+w p e b r 
+w y p r g 
+ 	 Moving to R	 	
+r y b r g 
+w p b e r 
+w y p r g 
+ 	 Moving to R	 	
+r y b r g 
+w p b r e 
+w y p r g 
+ 	 Moving to D	 	
+r y b r g 
+w p b r g 
+w y p r e 
+ 	 Moving to L	 	
+r y b r g 
+w p b r g 
+w y p e r 
+ 	 Moving to U	 	
+r y b r g 
+w p b e g 
+w y p r r 
+ 	 Moving to R	 	
+r y b r g 
+w p b g e 
+w y p r r 
+ 	 Moving to D	 	
+r y b r g 
+w p b g r 
+w y p r e 
+ 	 Moving to L	 	
+r y b r g 
+w p b g r 
+w y p e r 
+ 	 Moving to U	 	
+r y b r g 
+w p b e r 
+w y p g r 
+ 	 Moving to R	 	
+r y b r g 
+w p b r e 
+w y p g r 
+ 	 Moving to U	 	
+r y b r e 
+w p b r g 
+w y p g r 
+ 	 Moving to L	 	
+r y b e r 
+w p b r g 
+w y p g r 
+ 	 Moving to D	 	
+r y b r r 
+w p b e g 
+w y p g r 
+ 	 Moving to R	 	
+r y b r r 
+w p b g e 
+w y p g r 
+ 	 Moving to U	 	
+r y b r e 
+w p b g r 
+w y p g r 
+ 	 Moving to L	 	
+r y b e r 
+w p b g r 
+w y p g r 
+ 	 Moving to L	 	
+r y e b r 
+w p b g r 
+w y p g r 
+ 	 Moving to D	 	
+r y b b r 
+w p e g r 
+w y p g r 
+ 	 Moving to L	 	
+r y b b r 
+w e p g r 
+w y p g r 
+ 	 Moving to U	 	
+r e b b r 
+w y p g r 
+w y p g r 
+ 	 Moving to R	 	
+r b e b r 
+w y p g r 
+w y p g r 
+ 	 Moving to R	 	
+r b b e r 
+w y p g r 
+w y p g r 
+ 	 Moving to D	 	
+r b b g r 
+w y p e r 
+w y p g r 
+ 	 Moving to L	 	
+r b b g r 
+w y e p r 
+w y p g r 
+ 	 Moving to U	 	
+r b e g r 
+w y b p r 
+w y p g r 
+ 	 Moving to L	 	
+r e b g r 
+w y b p r 
+w y p g r 
+ 	 Moving to D	 	
+r y b g r 
+w e b p r 
+w y p g r 
+ 	 Moving to D	 	
+r y b g r 
+w y b p r 
+w e p g r 
+ 	 Moving to R	 	
+r y b g r 
+w y b p r 
+w p e g r 
+ 	 Moving to U	 	
+r y b g r 
+w y e p r 
+w p b g r 
+ 	 Moving to R	 	
+r y b g r 
+w y p e r 
+w p b g r 
+ 	 Moving to D	 	
+r y b g r 
+w y p g r 
+w p b e r 
+ 	 Moving to R	 	
+r y b g r 
+w y p g r 
+w p b r e 
+ 	 Moving to U	 	
+r y b g r 
+w y p g e 
+w p b r r 
+ 	 Moving to U	 	
+r y b g e 
+w y p g r 
+w p b r r 
+ 	 Moving to L	 	
+r y b e g 
+w y p g r 
+w p b r r 
+ 	 Moving to D	 	
+r y b g g 
+w y p e r 
+w p b r r 
+ 	 Moving to R	 	
+r y b g g 
+w y p r e 
+w p b r r 
+ 	 Moving to U	 	
+r y b g e 
+w y p r g 
+w p b r r 
+ 	 Moving to L	 	
+r y b e g 
+w y p r g 
+w p b r r 
+ 	 Moving to D	 	
+r y b r g 
+w y p e g 
+w p b r r 
+ 	 Moving to D	 	
+r y b r g 
+w y p r g 
+w p b e r 
+ 	 Moving to R	 	
+r y b r g 
+w y p r g 
+w p b r e 
+ 	 Moving to U	 	
+r y b r g 
+w y p r e 
+w p b r g 
+ 	 Moving to L	 	
+r y b r g 
+w y p e r 
+w p b r g 
+ 	 Moving to L	 	
+r y b r g 
+w y e p r 
+w p b r g 
+ 	 Moving to D	 	
+r y b r g 
+w y b p r 
+w p e r g 
+ 	 Moving to R	 	
+r y b r g 
+w y b p r 
+w p r e g 
+ 	 Moving to U	 	
+r y b r g 
+w y b e r 
+w p r p g 
+ 	 Moving to R	 	
+r y b r g 
+w y b r e 
+w p r p g 
+ 	 Moving to D	 	
+r y b r g 
+w y b r g 
+w p r p e 
+ 	 Moving to L	 	
+r y b r g 
+w y b r g 
+w p r e p 
+ 	 Moving to U	 	
+r y b r g 
+w y b e g 
+w p r r p 
+ 	 Moving to L	 	
+r y b r g 
+w y e b g 
+w p r r p 
+ 	 Moving to D	 	
+r y b r g 
+w y r b g 
+w p e r p 
+ 	 Moving to R	 	
+r y b r g 
+w y r b g 
+w p r e p 
+ 	 Moving to U	 	
+r y b r g 
+w y r e g 
+w p r b p 
+ 	 Moving to L	 	
+r y b r g 
+w y e r g 
+w p r b p 
+ 	 Moving to U	 	
+r y e r g 
+w y b r g 
+w p r b p 
+ 	 Moving to R	 	
+r y r e g 
+w y b r g 
+w p r b p 
+ 	 Moving to D	 	
+r y r r g 
+w y b e g 
+w p r b p 
+ 	 Moving to L	 	
+r y r r g 
+w y e b g 
+w p r b p 
+ 	 Moving to U	 	
+r y e r g 
+w y r b g 
+w p r b p 
+ 	 Moving to R	 	
+r y r e g 
+w y r b g 
+w p r b p 
+ 	 Moving to D	 	
+r y r b g 
+w y r e g 
+w p r b p 
+ 	 Moving to D	 	
+r y r b g 
+w y r b g 
+w p r e p 
+ 	 Moving to L	 	
+r y r b g 
+w y r b g 
+w p e r p 
+ 	 Moving to L	 	
+r y r b g 
+w y r b g 
+w e p r p 
+ 	 Moving to U	 	
+r y r b g 
+w e r b g 
+w y p r p 
+ 	 Moving to R	 	
+r y r b g 
+w r e b g 
+w y p r p 
+ 	 Moving to D	 	
+r y r b g 
+w r p b g 
+w y e r p 
+ 	 Moving to R	 	
+r y r b g 
+w r p b g 
+w y r e p 
+ 	 Moving to U	 	
+r y r b g 
+w r p e g 
+w y r b p 
+ 	 Moving to L	 	
+r y r b g 
+w r e p g 
+w y r b p 
+ 	 Moving to L	 	
+r y r b g 
+w e r p g 
+w y r b p 
+ 	 Moving to D	 	
+r y r b g 
+w y r p g 
+w e r b p 
+ 	 Moving to R	 	
+r y r b g 
+w y r p g 
+w r e b p 
+ 	 Moving to U	 	
+r y r b g 
+w y e p g 
+w r r b p 
+ 	 Moving to U	 	
+r y e b g 
+w y r p g 
+w r r b p 
+ 	 Moving to L	 	
+r e y b g 
+w y r p g 
+w r r b p 
+ 	 Moving to L	 	
+e r y b g 
+w y r p g 
+w r r b p 
+ 	 Moving to D	 	
+w r y b g 
+e y r p g 
+w r r b p 
+ 	 Moving to R	 	
+w r y b g 
+y e r p g 
+w r r b p 
+ 	 Moving to R	 	
+w r y b g 
+y r e p g 
+w r r b p 
+ 	 Moving to U	 	
+w r e b g 
+y r y p g 
+w r r b p 
+ 	 Moving to L	 	
+w e r b g 
+y r y p g 
+w r r b p 
+ 	 Moving to D	 	
+w r r b g 
+y e y p g 
+w r r b p 
+ 	 Moving to R	 	
+w r r b g 
+y y e p g 
+w r r b p 
+ 	 Moving to R	 	
+w r r b g 
+y y p e g 
+w r r b p 
+ 	 Moving to D	 	
+w r r b g 
+y y p b g 
+w r r e p 
+ 	 Moving to R	 	
+w r r b g 
+y y p b g 
+w r r p e 
+ 	 Moving to U	 	
+w r r b g 
+y y p b e 
+w r r p g 
+ 	 Moving to L	 	
+w r r b g 
+y y p e b 
+w r r p g 
+ 	 Moving to L	 	
+w r r b g 
+y y e p b 
+w r r p g 
+ 	 Moving to L	 	
+w r r b g 
+y e y p b 
+w r r p g 
+ 	 Moving to D	 	
+w r r b g 
+y r y p b 
+w e r p g 
+ 	 Moving to R	 	
+w r r b g 
+y r y p b 
+w r e p g 
+ 	 Moving to U	 	
+w r r b g 
+y r e p b 
+w r y p g 
+ 	 Moving to L	 	
+w r r b g 
+y e r p b 
+w r y p g 
+ 	 Moving to L	 	
+w r r b g 
+e y r p b 
+w r y p g 
+ 	 Moving to U	 	
+e r r b g 
+w y r p b 
+w r y p g 
+ 	 Moving to R	 	
+r e r b g 
+w y r p b 
+w r y p g 
+ 	 Moving to R	 	
+r r e b g 
+w y r p b 
+w r y p g 
+ 	 Moving to D	 	
+r r r b g 
+w y e p b 
+w r y p g 
+ 	 Moving to L	 	
+r r r b g 
+w e y p b 
+w r y p g 
+ 	 Moving to U	 	
+r e r b g 
+w r y p b 
+w r y p g 
+ 	 Moving to R	 	
+r r e b g 
+w r y p b 
+w r y p g 
+ 	 Moving to D	 	
+r r y b g 
+w r e p b 
+w r y p g 
+ 	 Moving to D	 	
+r r y b g 
+w r y p b 
+w r e p g 
+ 	 Moving to L	 	
+r r y b g 
+w r y p b 
+w e r p g 
+ 	 Moving to U	 	
+r r y b g 
+w e y p b 
+w r r p g 
+ 	 Moving to L	 	
+r r y b g 
+e w y p b 
+w r r p g 
+ 	 Moving to U	 	
+e r y b g 
+r w y p b 
+w r r p g 
+ 	 Moving to R	 	
+r e y b g 
+r w y p b 
+w r r p g 
+ 	 Moving to D	 	
+r w y b g 
+r e y p b 
+w r r p g 
+ 	 Moving to L	 	
+r w y b g 
+e r y p b 
+w r r p g 
+ 	 Moving to D	 	
+r w y b g 
+w r y p b 
+e r r p g 
+ 	 Moving to R	 	
+r w y b g 
+w r y p b 
+r e r p g 
+ 	 Moving to R	 	
+r w y b g 
+w r y p b 
+r r e p g 
+ 	 Moving to U	 	
+r w y b g 
+w r e p b 
+r r y p g 
+ 	 Moving to U	 	
+r w e b g 
+w r y p b 
+r r y p g 
+ 	 Moving to L	 	
+r e w b g 
+w r y p b 
+r r y p g 
+ 	 Moving to D	 	
+r r w b g 
+w e y p b 
+r r y p g 
+ 	 Moving to R	 	
+r r w b g 
+w y e p b 
+r r y p g 
+ 	 Moving to U	 	
+r r e b g 
+w y w p b 
+r r y p g 
+ 	 Moving to R	 	
+r r b e g 
+w y w p b 
+r r y p g 
+ 	 Moving to D	 	
+r r b p g 
+w y w e b 
+r r y p g 
+ 	 Moving to L	 	
+r r b p g 
+w y e w b 
+r r y p g 
+ 	 Moving to L	 	
+r r b p g 
+w e y w b 
+r r y p g 
+ 	 Moving to L	 	
+r r b p g 
+e w y w b 
+r r y p g 
+ 	 Moving to U	 	
+e r b p g 
+r w y w b 
+r r y p g 
+ 	 Moving to R	 	
+r e b p g 
+r w y w b 
+r r y p g 
+ 	 Moving to R	 	
+r b e p g 
+r w y w b 
+r r y p g 
+ 	 Moving to D	 	
+r b y p g 
+r w e w b 
+r r y p g 
+ 	 Moving to L	 	
+r b y p g 
+r e w w b 
+r r y p g 
+ 	 Moving to U	 	
+r e y p g 
+r b w w b 
+r r y p g 
+ 	 Moving to L	 	
+e r y p g 
+r b w w b 
+r r y p g 
+ 	 Moving to D	 	
+r r y p g 
+e b w w b 
+r r y p g 
+ Solving game 8
+ 8- Original Config : 
+
+r w y p e 
+r y r w p 
+r b g g b 	 	 Solution states : 
+ 	 Moving to L	 	
+r w y e p 
+r y r w p 
+r b g g b 
+ 	 Moving to L	 	
+r w e y p 
+r y r w p 
+r b g g b 
+ 	 Moving to D	 	
+r w r y p 
+r y e w p 
+r b g g b 
+ 	 Moving to R	 	
+r w r y p 
+r y w e p 
+r b g g b 
+ 	 Moving to D	 	
+r w r y p 
+r y w g p 
+r b g e b 
+ 	 Moving to L	 	
+r w r y p 
+r y w g p 
+r b e g b 
+ 	 Moving to L	 	
+r w r y p 
+r y w g p 
+r e b g b 
+ 	 Moving to U	 	
+r w r y p 
+r e w g p 
+r y b g b 
+ 	 Moving to R	 	
+r w r y p 
+r w e g p 
+r y b g b 
+ 	 Moving to D	 	
+r w r y p 
+r w b g p 
+r y e g b 
+ 	 Moving to L	 	
+r w r y p 
+r w b g p 
+r e y g b 
+ 	 Moving to U	 	
+r w r y p 
+r e b g p 
+r w y g b 
+ 	 Moving to R	 	
+r w r y p 
+r b e g p 
+r w y g b 
+ 	 Moving to D	 	
+r w r y p 
+r b y g p 
+r w e g b 
+ 	 Moving to R	 	
+r w r y p 
+r b y g p 
+r w g e b 
+ 	 Moving to U	 	
+r w r y p 
+r b y e p 
+r w g g b 
+ 	 Moving to L	 	
+r w r y p 
+r b e y p 
+r w g g b 
+ 	 Moving to D	 	
+r w r y p 
+r b g y p 
+r w e g b 
+ 	 Moving to R	 	
+r w r y p 
+r b g y p 
+r w g e b 
+ 	 Moving to U	 	
+r w r y p 
+r b g e p 
+r w g y b 
+ 	 Moving to U	 	
+r w r e p 
+r b g y p 
+r w g y b 
+ 	 Moving to L	 	
+r w e r p 
+r b g y p 
+r w g y b 
+ 	 Moving to D	 	
+r w g r p 
+r b e y p 
+r w g y b 
+ 	 Moving to L	 	
+r w g r p 
+r e b y p 
+r w g y b 
+ 	 Moving to U	 	
+r e g r p 
+r w b y p 
+r w g y b 
+ 	 Moving to L	 	
+e r g r p 
+r w b y p 
+r w g y b 
+ 	 Moving to D	 	
+r r g r p 
+e w b y p 
+r w g y b 
+ 	 Moving to D	 	
+r r g r p 
+r w b y p 
+e w g y b 
+ 	 Moving to R	 	
+r r g r p 
+r w b y p 
+w e g y b 
+ 	 Moving to U	 	
+r r g r p 
+r e b y p 
+w w g y b 
+ 	 Moving to L	 	
+r r g r p 
+e r b y p 
+w w g y b 
+ 	 Moving to D	 	
+r r g r p 
+w r b y p 
+e w g y b 
+ 	 Moving to R	 	
+r r g r p 
+w r b y p 
+w e g y b 
+ 	 Moving to U	 	
+r r g r p 
+w e b y p 
+w r g y b 
+ 	 Moving to R	 	
+r r g r p 
+w b e y p 
+w r g y b 
+ 	 Moving to U	 	
+r r e r p 
+w b g y p 
+w r g y b 
+ 	 Moving to R	 	
+r r r e p 
+w b g y p 
+w r g y b 
+ 	 Moving to D	 	
+r r r y p 
+w b g e p 
+w r g y b 
+ 	 Moving to L	 	
+r r r y p 
+w b e g p 
+w r g y b 
+ 	 Moving to L	 	
+r r r y p 
+w e b g p 
+w r g y b 
+ 	 Moving to U	 	
+r e r y p 
+w r b g p 
+w r g y b 
+ 	 Moving to R	 	
+r r e y p 
+w r b g p 
+w r g y b 
+ 	 Moving to D	 	
+r r b y p 
+w r e g p 
+w r g y b 
+ 	 Moving to R	 	
+r r b y p 
+w r g e p 
+w r g y b 
+ 	 Moving to U	 	
+r r b e p 
+w r g y p 
+w r g y b 
+ 	 Moving to L	 	
+r r e b p 
+w r g y p 
+w r g y b 
+ 	 Moving to L	 	
+r e r b p 
+w r g y p 
+w r g y b 
+ 	 Moving to L	 	
+e r r b p 
+w r g y p 
+w r g y b 
+ 	 Moving to D	 	
+w r r b p 
+e r g y p 
+w r g y b 
+ 	 Moving to D	 	
+w r r b p 
+w r g y p 
+e r g y b 
+ 	 Moving to R	 	
+w r r b p 
+w r g y p 
+r e g y b 
+ 	 Moving to U	 	
+w r r b p 
+w e g y p 
+r r g y b 
+ 	 Moving to U	 	
+w e r b p 
+w r g y p 
+r r g y b 
+ 	 Moving to R	 	
+w r e b p 
+w r g y p 
+r r g y b 
+ 	 Moving to R	 	
+w r b e p 
+w r g y p 
+r r g y b 
+ 	 Moving to D	 	
+w r b y p 
+w r g e p 
+r r g y b 
+ 	 Moving to L	 	
+w r b y p 
+w r e g p 
+r r g y b 
+ 	 Moving to U	 	
+w r e y p 
+w r b g p 
+r r g y b 
+ 	 Moving to L	 	
+w e r y p 
+w r b g p 
+r r g y b 
+ 	 Moving to D	 	
+w r r y p 
+w e b g p 
+r r g y b 
+ 	 Moving to D	 	
+w r r y p 
+w r b g p 
+r e g y b 
+ 	 Moving to R	 	
+w r r y p 
+w r b g p 
+r g e y b 
+ 	 Moving to U	 	
+w r r y p 
+w r e g p 
+r g b y b 
+ 	 Moving to R	 	
+w r r y p 
+w r g e p 
+r g b y b 
+ 	 Moving to D	 	
+w r r y p 
+w r g y p 
+r g b e b 
+ 	 Moving to L	 	
+w r r y p 
+w r g y p 
+r g e b b 
+ 	 Moving to L	 	
+w r r y p 
+w r g y p 
+r e g b b 
+ 	 Moving to U	 	
+w r r y p 
+w e g y p 
+r r g b b 
+ 	 Moving to U	 	
+w e r y p 
+w r g y p 
+r r g b b 
+ 	 Moving to R	 	
+w r e y p 
+w r g y p 
+r r g b b 
+ 	 Moving to D	 	
+w r g y p 
+w r e y p 
+r r g b b 
+ 	 Moving to D	 	
+w r g y p 
+w r g y p 
+r r e b b 
+ 	 Moving to R	 	
+w r g y p 
+w r g y p 
+r r b e b 
+ 	 Moving to R	 	
+w r g y p 
+w r g y p 
+r r b b e 
+ 	 Moving to U	 	
+w r g y p 
+w r g y e 
+r r b b p 
+ 	 Moving to L	 	
+w r g y p 
+w r g e y 
+r r b b p 
+ 	 Moving to D	 	
+w r g y p 
+w r g b y 
+r r b e p 
+ 	 Moving to L	 	
+w r g y p 
+w r g b y 
+r r e b p 
+ 	 Moving to L	 	
+w r g y p 
+w r g b y 
+r e r b p 
+ 	 Moving to L	 	
+w r g y p 
+w r g b y 
+e r r b p 
+ 	 Moving to U	 	
+w r g y p 
+e r g b y 
+w r r b p 
+ 	 Moving to U	 	
+e r g y p 
+w r g b y 
+w r r b p 
+ 	 Moving to R	 	
+r e g y p 
+w r g b y 
+w r r b p 
+ 	 Moving to D	 	
+r r g y p 
+w e g b y 
+w r r b p 
+ 	 Moving to D	 	
+r r g y p 
+w r g b y 
+w e r b p 
+ 	 Moving to R	 	
+r r g y p 
+w r g b y 
+w r e b p 
+ 	 Moving to U	 	
+r r g y p 
+w r e b y 
+w r g b p 
+ 	 Moving to R	 	
+r r g y p 
+w r b e y 
+w r g b p 
+ 	 Moving to R	 	
+r r g y p 
+w r b y e 
+w r g b p 
+ 	 Moving to D	 	
+r r g y p 
+w r b y p 
+w r g b e 
+ 	 Moving to L	 	
+r r g y p 
+w r b y p 
+w r g e b 
+ 	 Moving to U	 	
+r r g y p 
+w r b e p 
+w r g y b 
+ 	 Moving to L	 	
+r r g y p 
+w r e b p 
+w r g y b 
+ 	 Moving to U	 	
+r r e y p 
+w r g b p 
+w r g y b 
+ 	 Moving to L	 	
+r e r y p 
+w r g b p 
+w r g y b 
+ 	 Moving to D	 	
+r r r y p 
+w e g b p 
+w r g y b 
+ 	 Moving to L	 	
+r r r y p 
+e w g b p 
+w r g y b 
+ 	 Moving to U	 	
+e r r y p 
+r w g b p 
+w r g y b 
+ 	 Moving to R	 	
+r e r y p 
+r w g b p 
+w r g y b 
+ 	 Moving to R	 	
+r r e y p 
+r w g b p 
+w r g y b 
+ 	 Moving to D	 	
+r r g y p 
+r w e b p 
+w r g y b 
+ 	 Moving to L	 	
+r r g y p 
+r e w b p 
+w r g y b 
+ 	 Moving to L	 	
+r r g y p 
+e r w b p 
+w r g y b 
+ 	 Moving to D	 	
+r r g y p 
+w r w b p 
+e r g y b 
+ 	 Moving to R	 	
+r r g y p 
+w r w b p 
+r e g y b 
+ 	 Moving to U	 	
+r r g y p 
+w e w b p 
+r r g y b 
+ 	 Moving to L	 	
+r r g y p 
+e w w b p 
+r r g y b 
+ 	 Moving to D	 	
+r r g y p 
+r w w b p 
+e r g y b 
+ 	 Moving to R	 	
+r r g y p 
+r w w b p 
+r e g y b 
+ 	 Moving to U	 	
+r r g y p 
+r e w b p 
+r w g y b 
+ 	 Moving to R	 	
+r r g y p 
+r w e b p 
+r w g y b 
+ 	 Moving to U	 	
+r r e y p 
+r w g b p 
+r w g y b 
+ 	 Moving to L	 	
+r e r y p 
+r w g b p 
+r w g y b 
+ 	 Moving to D	 	
+r w r y p 
+r e g b p 
+r w g y b 
+ 	 Moving to D	 	
+r w r y p 
+r w g b p 
+r e g y b 
+ 	 Moving to L	 	
+r w r y p 
+r w g b p 
+e r g y b 
+ 	 Moving to U	 	
+r w r y p 
+e w g b p 
+r r g y b 
+ 	 Moving to U	 	
+e w r y p 
+r w g b p 
+r r g y b 
+ 	 Moving to R	 	
+w e r y p 
+r w g b p 
+r r g y b 
+ 	 Moving to R	 	
+w r e y p 
+r w g b p 
+r r g y b 
+ 	 Moving to D	 	
+w r g y p 
+r w e b p 
+r r g y b 
+ 	 Moving to R	 	
+w r g y p 
+r w b e p 
+r r g y b 
+ 	 Moving to D	 	
+w r g y p 
+r w b y p 
+r r g e b 
+ 	 Moving to R	 	
+w r g y p 
+r w b y p 
+r r g b e 
+ 	 Moving to U	 	
+w r g y p 
+r w b y e 
+r r g b p 
+ 	 Moving to L	 	
+w r g y p 
+r w b e y 
+r r g b p 
+ 	 Moving to L	 	
+w r g y p 
+r w e b y 
+r r g b p 
+ 	 Moving to U	 	
+w r e y p 
+r w g b y 
+r r g b p 
+ 	 Moving to L	 	
+w e r y p 
+r w g b y 
+r r g b p 
+ 	 Moving to L	 	
+e w r y p 
+r w g b y 
+r r g b p 
+ 	 Moving to D	 	
+r w r y p 
+e w g b y 
+r r g b p 
+ 	 Moving to D	 	
+r w r y p 
+r w g b y 
+e r g b p 
+ 	 Moving to R	 	
+r w r y p 
+r w g b y 
+r e g b p 
+ 	 Moving to U	 	
+r w r y p 
+r e g b y 
+r w g b p 
+ 	 Moving to U	 	
+r e r y p 
+r w g b y 
+r w g b p 
+ 	 Moving to R	 	
+r r e y p 
+r w g b y 
+r w g b p 
+ 	 Moving to D	 	
+r r g y p 
+r w e b y 
+r w g b p 
+ 	 Moving to D	 	
+r r g y p 
+r w g b y 
+r w e b p 
+ 	 Moving to L	 	
+r r g y p 
+r w g b y 
+r e w b p 
+ 	 Moving to L	 	
+r r g y p 
+r w g b y 
+e r w b p 
+ 	 Moving to U	 	
+r r g y p 
+e w g b y 
+r r w b p 
+ 	 Moving to R	 	
+r r g y p 
+w e g b y 
+r r w b p 
+ 	 Moving to D	 	
+r r g y p 
+w r g b y 
+r e w b p 
+ 	 Moving to R	 	
+r r g y p 
+w r g b y 
+r w e b p 
+ 	 Moving to R	 	
+r r g y p 
+w r g b y 
+r w b e p 
+ 	 Moving to U	 	
+r r g y p 
+w r g e y 
+r w b b p 
+ 	 Moving to R	 	
+r r g y p 
+w r g y e 
+r w b b p 
+ 	 Moving to D	 	
+r r g y p 
+w r g y p 
+r w b b e 
+ 	 Moving to L	 	
+r r g y p 
+w r g y p 
+r w b e b 
+ 	 Moving to U	 	
+r r g y p 
+w r g e p 
+r w b y b 
+ 	 Moving to L	 	
+r r g y p 
+w r e g p 
+r w b y b 
+ 	 Moving to D	 	
+r r g y p 
+w r b g p 
+r w e y b 
+ 	 Moving to L	 	
+r r g y p 
+w r b g p 
+r e w y b 
+ 	 Moving to U	 	
+r r g y p 
+w e b g p 
+r r w y b 
+ 	 Moving to R	 	
+r r g y p 
+w b e g p 
+r r w y b 
+ 	 Moving to R	 	
+r r g y p 
+w b g e p 
+r r w y b 
+ 	 Moving to D	 	
+r r g y p 
+w b g y p 
+r r w e b 
+ 	 Moving to L	 	
+r r g y p 
+w b g y p 
+r r e w b 
+ 	 Moving to U	 	
+r r g y p 
+w b e y p 
+r r g w b 
+ 	 Moving to R	 	
+r r g y p 
+w b y e p 
+r r g w b 
+ 	 Moving to D	 	
+r r g y p 
+w b y w p 
+r r g e b 
+ 	 Moving to R	 	
+r r g y p 
+w b y w p 
+r r g b e 
+ 	 Moving to U	 	
+r r g y p 
+w b y w e 
+r r g b p 
+ 	 Moving to L	 	
+r r g y p 
+w b y e w 
+r r g b p 
+ 	 Moving to L	 	
+r r g y p 
+w b e y w 
+r r g b p 
+ 	 Moving to D	 	
+r r g y p 
+w b g y w 
+r r e b p 
+ 	 Moving to R	 	
+r r g y p 
+w b g y w 
+r r b e p 
+ 	 Moving to U	 	
+r r g y p 
+w b g e w 
+r r b y p 
+ 	 Moving to L	 	
+r r g y p 
+w b e g w 
+r r b y p 
+ 	 Moving to L	 	
+r r g y p 
+w e b g w 
+r r b y p 
+ 	 Moving to L	 	
+r r g y p 
+e w b g w 
+r r b y p 
+ 	 Moving to U	 	
+e r g y p 
+r w b g w 
+r r b y p 
+ 	 Moving to R	 	
+r e g y p 
+r w b g w 
+r r b y p 
+ 	 Moving to R	 	
+r g e y p 
+r w b g w 
+r r b y p 
+ 	 Moving to D	 	
+r g b y p 
+r w e g w 
+r r b y p 
+ 	 Moving to L	 	
+r g b y p 
+r e w g w 
+r r b y p 
+ 	 Moving to U	 	
+r e b y p 
+r g w g w 
+r r b y p 
+ 	 Moving to L	 	
+e r b y p 
+r g w g w 
+r r b y p 
+ 	 Moving to D	 	
+r r b y p 
+e g w g w 
+r r b y p 
+ Solving game 9
+ 9- Original Config : 
+
+r w e b p 
+p g w g y 
+r y r r b 	 	 Solution states : 
+ 	 Moving to L	 	
+r e w b p 
+p g w g y 
+r y r r b 
+ 	 Moving to D	 	
+r g w b p 
+p e w g y 
+r y r r b 
+ 	 Moving to L	 	
+r g w b p 
+e p w g y 
+r y r r b 
+ 	 Moving to D	 	
+r g w b p 
+r p w g y 
+e y r r b 
+ 	 Moving to R	 	
+r g w b p 
+r p w g y 
+y e r r b 
+ 	 Moving to R	 	
+r g w b p 
+r p w g y 
+y r e r b 
+ 	 Moving to U	 	
+r g w b p 
+r p e g y 
+y r w r b 
+ 	 Moving to R	 	
+r g w b p 
+r p g e y 
+y r w r b 
+ 	 Moving to U	 	
+r g w e p 
+r p g b y 
+y r w r b 
+ 	 Moving to R	 	
+r g w p e 
+r p g b y 
+y r w r b 
+ 	 Moving to D	 	
+r g w p y 
+r p g b e 
+y r w r b 
+ 	 Moving to L	 	
+r g w p y 
+r p g e b 
+y r w r b 
+ 	 Moving to L	 	
+r g w p y 
+r p e g b 
+y r w r b 
+ 	 Moving to L	 	
+r g w p y 
+r e p g b 
+y r w r b 
+ 	 Moving to L	 	
+r g w p y 
+e r p g b 
+y r w r b 
+ 	 Moving to D	 	
+r g w p y 
+y r p g b 
+e r w r b 
+ 	 Moving to R	 	
+r g w p y 
+y r p g b 
+r e w r b 
+ 	 Moving to U	 	
+r g w p y 
+y e p g b 
+r r w r b 
+ 	 Moving to L	 	
+r g w p y 
+e y p g b 
+r r w r b 
+ 	 Moving to U	 	
+e g w p y 
+r y p g b 
+r r w r b 
+ 	 Moving to R	 	
+g e w p y 
+r y p g b 
+r r w r b 
+ 	 Moving to D	 	
+g y w p y 
+r e p g b 
+r r w r b 
+ 	 Moving to R	 	
+g y w p y 
+r p e g b 
+r r w r b 
+ 	 Moving to R	 	
+g y w p y 
+r p g e b 
+r r w r b 
+ 	 Moving to U	 	
+g y w e y 
+r p g p b 
+r r w r b 
+ 	 Moving to R	 	
+g y w y e 
+r p g p b 
+r r w r b 
+ 	 Moving to D	 	
+g y w y b 
+r p g p e 
+r r w r b 
+ 	 Moving to L	 	
+g y w y b 
+r p g e p 
+r r w r b 
+ 	 Moving to L	 	
+g y w y b 
+r p e g p 
+r r w r b 
+ 	 Moving to U	 	
+g y e y b 
+r p w g p 
+r r w r b 
+ 	 Moving to L	 	
+g e y y b 
+r p w g p 
+r r w r b 
+ 	 Moving to D	 	
+g p y y b 
+r e w g p 
+r r w r b 
+ 	 Moving to L	 	
+g p y y b 
+e r w g p 
+r r w r b 
+ 	 Moving to U	 	
+e p y y b 
+g r w g p 
+r r w r b 
+ 	 Moving to R	 	
+p e y y b 
+g r w g p 
+r r w r b 
+ 	 Moving to R	 	
+p y e y b 
+g r w g p 
+r r w r b 
+ 	 Moving to D	 	
+p y w y b 
+g r e g p 
+r r w r b 
+ 	 Moving to R	 	
+p y w y b 
+g r g e p 
+r r w r b 
+ 	 Moving to R	 	
+p y w y b 
+g r g p e 
+r r w r b 
+ 	 Moving to U	 	
+p y w y e 
+g r g p b 
+r r w r b 
+ 	 Moving to L	 	
+p y w e y 
+g r g p b 
+r r w r b 
+ 	 Moving to D	 	
+p y w p y 
+g r g e b 
+r r w r b 
+ 	 Moving to L	 	
+p y w p y 
+g r e g b 
+r r w r b 
+ 	 Moving to U	 	
+p y e p y 
+g r w g b 
+r r w r b 
+ 	 Moving to R	 	
+p y p e y 
+g r w g b 
+r r w r b 
+ 	 Moving to R	 	
+p y p y e 
+g r w g b 
+r r w r b 
+ 	 Moving to D	 	
+p y p y b 
+g r w g e 
+r r w r b 
+ 	 Moving to L	 	
+p y p y b 
+g r w e g 
+r r w r b 
+ 	 Moving to U	 	
+p y p e b 
+g r w y g 
+r r w r b 
+ 	 Moving to L	 	
+p y e p b 
+g r w y g 
+r r w r b 
+ 	 Moving to L	 	
+p e y p b 
+g r w y g 
+r r w r b 
+ 	 Moving to L	 	
+e p y p b 
+g r w y g 
+r r w r b 
+ 	 Moving to D	 	
+g p y p b 
+e r w y g 
+r r w r b 
+ 	 Moving to R	 	
+g p y p b 
+r e w y g 
+r r w r b 
+ 	 Moving to U	 	
+g e y p b 
+r p w y g 
+r r w r b 
+ 	 Moving to R	 	
+g y e p b 
+r p w y g 
+r r w r b 
+ 	 Moving to D	 	
+g y w p b 
+r p e y g 
+r r w r b 
+ 	 Moving to D	 	
+g y w p b 
+r p w y g 
+r r e r b 
+ 	 Moving to R	 	
+g y w p b 
+r p w y g 
+r r r e b 
+ 	 Moving to U	 	
+g y w p b 
+r p w e g 
+r r r y b 
+ 	 Moving to R	 	
+g y w p b 
+r p w g e 
+r r r y b 
+ 	 Moving to D	 	
+g y w p b 
+r p w g b 
+r r r y e 
+ 	 Moving to L	 	
+g y w p b 
+r p w g b 
+r r r e y 
+ 	 Moving to L	 	
+g y w p b 
+r p w g b 
+r r e r y 
+ 	 Moving to U	 	
+g y w p b 
+r p e g b 
+r r w r y 
+ 	 Moving to L	 	
+g y w p b 
+r e p g b 
+r r w r y 
+ 	 Moving to U	 	
+g e w p b 
+r y p g b 
+r r w r y 
+ 	 Moving to L	 	
+e g w p b 
+r y p g b 
+r r w r y 
+ 	 Moving to D	 	
+r g w p b 
+e y p g b 
+r r w r y 
+ 	 Moving to R	 	
+r g w p b 
+y e p g b 
+r r w r y 
+ 	 Moving to D	 	
+r g w p b 
+y r p g b 
+r e w r y 
+ 	 Moving to L	 	
+r g w p b 
+y r p g b 
+e r w r y 
+ 	 Moving to U	 	
+r g w p b 
+e r p g b 
+y r w r y 
+ 	 Moving to R	 	
+r g w p b 
+r e p g b 
+y r w r y 
+ 	 Moving to R	 	
+r g w p b 
+r p e g b 
+y r w r y 
+ 	 Moving to D	 	
+r g w p b 
+r p w g b 
+y r e r y 
+ 	 Moving to R	 	
+r g w p b 
+r p w g b 
+y r r e y 
+ 	 Moving to R	 	
+r g w p b 
+r p w g b 
+y r r y e 
+ 	 Moving to U	 	
+r g w p b 
+r p w g e 
+y r r y b 
+ 	 Moving to L	 	
+r g w p b 
+r p w e g 
+y r r y b 
+ 	 Moving to D	 	
+r g w p b 
+r p w y g 
+y r r e b 
+ 	 Moving to L	 	
+r g w p b 
+r p w y g 
+y r e r b 
+ 	 Moving to U	 	
+r g w p b 
+r p e y g 
+y r w r b 
+ 	 Moving to L	 	
+r g w p b 
+r e p y g 
+y r w r b 
+ 	 Moving to U	 	
+r e w p b 
+r g p y g 
+y r w r b 
+ 	 Moving to L	 	
+e r w p b 
+r g p y g 
+y r w r b 
+ 	 Moving to D	 	
+r r w p b 
+e g p y g 
+y r w r b 
+ 	 Moving to R	 	
+r r w p b 
+g e p y g 
+y r w r b 
+ 	 Moving to D	 	
+r r w p b 
+g r p y g 
+y e w r b 
+ 	 Moving to L	 	
+r r w p b 
+g r p y g 
+e y w r b 
+ 	 Moving to U	 	
+r r w p b 
+e r p y g 
+g y w r b 
+ 	 Moving to R	 	
+r r w p b 
+r e p y g 
+g y w r b 
+ 	 Moving to R	 	
+r r w p b 
+r p e y g 
+g y w r b 
+ 	 Moving to D	 	
+r r w p b 
+r p w y g 
+g y e r b 
+ 	 Moving to R	 	
+r r w p b 
+r p w y g 
+g y r e b 
+ 	 Moving to U	 	
+r r w p b 
+r p w e g 
+g y r y b 
+ 	 Moving to R	 	
+r r w p b 
+r p w g e 
+g y r y b 
+ 	 Moving to D	 	
+r r w p b 
+r p w g b 
+g y r y e 
+ 	 Moving to L	 	
+r r w p b 
+r p w g b 
+g y r e y 
+ 	 Moving to L	 	
+r r w p b 
+r p w g b 
+g y e r y 
+ 	 Moving to U	 	
+r r w p b 
+r p e g b 
+g y w r y 
+ 	 Moving to L	 	
+r r w p b 
+r e p g b 
+g y w r y 
+ 	 Moving to D	 	
+r r w p b 
+r y p g b 
+g e w r y 
+ 	 Moving to L	 	
+r r w p b 
+r y p g b 
+e g w r y 
+ 	 Moving to U	 	
+r r w p b 
+e y p g b 
+r g w r y 
+ 	 Moving to R	 	
+r r w p b 
+y e p g b 
+r g w r y 
+ 	 Moving to U	 	
+r e w p b 
+y r p g b 
+r g w r y 
+ 	 Moving to L	 	
+e r w p b 
+y r p g b 
+r g w r y 
+ 	 Moving to D	 	
+y r w p b 
+e r p g b 
+r g w r y 
+ 	 Moving to R	 	
+y r w p b 
+r e p g b 
+r g w r y 
+ 	 Moving to R	 	
+y r w p b 
+r p e g b 
+r g w r y 
+ 	 Moving to D	 	
+y r w p b 
+r p w g b 
+r g e r y 
+ 	 Moving to R	 	
+y r w p b 
+r p w g b 
+r g r e y 
+ 	 Moving to U	 	
+y r w p b 
+r p w e b 
+r g r g y 
+ 	 Moving to L	 	
+y r w p b 
+r p e w b 
+r g r g y 
+ 	 Moving to L	 	
+y r w p b 
+r e p w b 
+r g r g y 
+ 	 Moving to D	 	
+y r w p b 
+r g p w b 
+r e r g y 
+ 	 Moving to R	 	
+y r w p b 
+r g p w b 
+r r e g y 
+ 	 Moving to R	 	
+y r w p b 
+r g p w b 
+r r g e y 
+ 	 Moving to U	 	
+y r w p b 
+r g p e b 
+r r g w y 
+ 	 Moving to L	 	
+y r w p b 
+r g e p b 
+r r g w y 
+ 	 Moving to L	 	
+y r w p b 
+r e g p b 
+r r g w y 
+ 	 Moving to L	 	
+y r w p b 
+e r g p b 
+r r g w y 
+ 	 Moving to U	 	
+e r w p b 
+y r g p b 
+r r g w y 
+ 	 Moving to R	 	
+r e w p b 
+y r g p b 
+r r g w y 
+ 	 Moving to R	 	
+r w e p b 
+y r g p b 
+r r g w y 
+ 	 Moving to D	 	
+r w g p b 
+y r e p b 
+r r g w y 
+ 	 Moving to D	 	
+r w g p b 
+y r g p b 
+r r e w y 
+ 	 Moving to R	 	
+r w g p b 
+y r g p b 
+r r w e y 
+ 	 Moving to R	 	
+r w g p b 
+y r g p b 
+r r w y e 
+ 	 Moving to U	 	
+r w g p b 
+y r g p e 
+r r w y b 
+ 	 Moving to L	 	
+r w g p b 
+y r g e p 
+r r w y b 
+ 	 Moving to D	 	
+r w g p b 
+y r g y p 
+r r w e b 
+ 	 Moving to L	 	
+r w g p b 
+y r g y p 
+r r e w b 
+ 	 Moving to U	 	
+r w g p b 
+y r e y p 
+r r g w b 
+ 	 Moving to R	 	
+r w g p b 
+y r y e p 
+r r g w b 
+ 	 Moving to R	 	
+r w g p b 
+y r y p e 
+r r g w b 
+ 	 Moving to D	 	
+r w g p b 
+y r y p b 
+r r g w e 
+ 	 Moving to L	 	
+r w g p b 
+y r y p b 
+r r g e w 
+ 	 Moving to U	 	
+r w g p b 
+y r y e b 
+r r g p w 
+ 	 Moving to L	 	
+r w g p b 
+y r e y b 
+r r g p w 
+ 	 Moving to U	 	
+r w e p b 
+y r g y b 
+r r g p w 
+ 	 Moving to L	 	
+r e w p b 
+y r g y b 
+r r g p w 
+ 	 Moving to D	 	
+r r w p b 
+y e g y b 
+r r g p w 
+ 	 Moving to R	 	
+r r w p b 
+y g e y b 
+r r g p w 
+ 	 Moving to R	 	
+r r w p b 
+y g y e b 
+r r g p w 
+ 	 Moving to U	 	
+r r w e b 
+y g y p b 
+r r g p w 
+ 	 Moving to L	 	
+r r e w b 
+y g y p b 
+r r g p w 
+ 	 Moving to D	 	
+r r y w b 
+y g e p b 
+r r g p w 
+ 	 Moving to L	 	
+r r y w b 
+y e g p b 
+r r g p w 
+ 	 Moving to U	 	
+r e y w b 
+y r g p b 
+r r g p w 
+ 	 Moving to R	 	
+r y e w b 
+y r g p b 
+r r g p w 
+ 	 Moving to D	 	
+r y g w b 
+y r e p b 
+r r g p w 
+ 	 Moving to D	 	
+r y g w b 
+y r g p b 
+r r e p w 
+ 	 Moving to L	 	
+r y g w b 
+y r g p b 
+r e r p w 
+ 	 Moving to U	 	
+r y g w b 
+y e g p b 
+r r r p w 
+ 	 Moving to L	 	
+r y g w b 
+e y g p b 
+r r r p w 
+ 	 Moving to D	 	
+r y g w b 
+r y g p b 
+e r r p w 
+ 	 Moving to R	 	
+r y g w b 
+r y g p b 
+r e r p w 
+ 	 Moving to U	 	
+r y g w b 
+r e g p b 
+r y r p w 
+ 	 Moving to U	 	
+r e g w b 
+r y g p b 
+r y r p w 
+ 	 Moving to L	 	
+e r g w b 
+r y g p b 
+r y r p w 
+ 	 Moving to D	 	
+r r g w b 
+e y g p b 
+r y r p w 
+ 	 Moving to D	 	
+r r g w b 
+r y g p b 
+e y r p w 
+ 	 Moving to R	 	
+r r g w b 
+r y g p b 
+y e r p w 
+ 	 Moving to R	 	
+r r g w b 
+r y g p b 
+y r e p w 
+ 	 Moving to U	 	
+r r g w b 
+r y e p b 
+y r g p w 
+ 	 Moving to L	 	
+r r g w b 
+r e y p b 
+y r g p w 
+ 	 Moving to L	 	
+r r g w b 
+e r y p b 
+y r g p w 
+ 	 Moving to D	 	
+r r g w b 
+y r y p b 
+e r g p w 
+ 	 Moving to R	 	
+r r g w b 
+y r y p b 
+r e g p w 
+ 	 Moving to U	 	
+r r g w b 
+y e y p b 
+r r g p w 
+ 	 Moving to R	 	
+r r g w b 
+y y e p b 
+r r g p w 
+ 	 Moving to U	 	
+r r e w b 
+y y g p b 
+r r g p w 
+ 	 Moving to R	 	
+r r w e b 
+y y g p b 
+r r g p w 
+ 	 Moving to D	 	
+r r w p b 
+y y g e b 
+r r g p w 
+ 	 Moving to L	 	
+r r w p b 
+y y e g b 
+r r g p w 
+ 	 Moving to L	 	
+r r w p b 
+y e y g b 
+r r g p w 
+ 	 Moving to U	 	
+r e w p b 
+y r y g b 
+r r g p w 
+ 	 Moving to R	 	
+r w e p b 
+y r y g b 
+r r g p w 
+ 	 Moving to D	 	
+r w y p b 
+y r e g b 
+r r g p w 
+ 	 Moving to R	 	
+r w y p b 
+y r g e b 
+r r g p w 
+ 	 Moving to U	 	
+r w y e b 
+y r g p b 
+r r g p w 
+ 	 Moving to L	 	
+r w e y b 
+y r g p b 
+r r g p w 
+ 	 Moving to L	 	
+r e w y b 
+y r g p b 
+r r g p w 
+ 	 Moving to D	 	
+r r w y b 
+y e g p b 
+r r g p w 
+ 	 Moving to R	 	
+r r w y b 
+y g e p b 
+r r g p w 
+ 	 Moving to U	 	
+r r e y b 
+y g w p b 
+r r g p w 
+ 	 Moving to R	 	
+r r y e b 
+y g w p b 
+r r g p w 
+ 	 Moving to D	 	
+r r y p b 
+y g w e b 
+r r g p w 
+ 	 Moving to L	 	
+r r y p b 
+y g e w b 
+r r g p w 
+ 	 Moving to L	 	
+r r y p b 
+y e g w b 
+r r g p w 
+ 	 Moving to U	 	
+r e y p b 
+y r g w b 
+r r g p w 
+ 	 Moving to R	 	
+r y e p b 
+y r g w b 
+r r g p w 
+ 	 Moving to D	 	
+r y g p b 
+y r e w b 
+r r g p w 
+ 	 Moving to R	 	
+r y g p b 
+y r w e b 
+r r g p w 
+ 	 Moving to D	 	
+r y g p b 
+y r w p b 
+r r g e w 
+ 	 Moving to R	 	
+r y g p b 
+y r w p b 
+r r g w e 
+ 	 Moving to U	 	
+r y g p b 
+y r w p e 
+r r g w b 
+ 	 Moving to L	 	
+r y g p b 
+y r w e p 
+r r g w b 
+ 	 Moving to L	 	
+r y g p b 
+y r e w p 
+r r g w b 
+ 	 Moving to U	 	
+r y e p b 
+y r g w p 
+r r g w b 
+ 	 Moving to L	 	
+r e y p b 
+y r g w p 
+r r g w b 
+ 	 Moving to D	 	
+r r y p b 
+y e g w p 
+r r g w b 
+ 	 Moving to D	 	
+r r y p b 
+y r g w p 
+r e g w b 
+ 	 Moving to L	 	
+r r y p b 
+y r g w p 
+e r g w b 
+ 	 Moving to U	 	
+r r y p b 
+e r g w p 
+y r g w b 
+ 	 Moving to R	 	
+r r y p b 
+r e g w p 
+y r g w b 
+ 	 Moving to R	 	
+r r y p b 
+r g e w p 
+y r g w b 
+ 	 Moving to U	 	
+r r e p b 
+r g y w p 
+y r g w b 
+ 	 Moving to R	 	
+r r p e b 
+r g y w p 
+y r g w b 
+ 	 Moving to D	 	
+r r p w b 
+r g y e p 
+y r g w b 
+ 	 Moving to L	 	
+r r p w b 
+r g e y p 
+y r g w b 
+ 	 Moving to L	 	
+r r p w b 
+r e g y p 
+y r g w b 
+ 	 Moving to L	 	
+r r p w b 
+e r g y p 
+y r g w b 
+ 	 Moving to D	 	
+r r p w b 
+y r g y p 
+e r g w b 
+ 	 Moving to R	 	
+r r p w b 
+y r g y p 
+r e g w b 
+ 	 Moving to U	 	
+r r p w b 
+y e g y p 
+r r g w b 
+ 	 Moving to L	 	
+r r p w b 
+e y g y p 
+r r g w b 
+ 	 Moving to U	 	
+e r p w b 
+r y g y p 
+r r g w b 
+ 	 Moving to R	 	
+r e p w b 
+r y g y p 
+r r g w b 
+ 	 Moving to R	 	
+r p e w b 
+r y g y p 
+r r g w b 
+ 	 Moving to D	 	
+r p g w b 
+r y e y p 
+r r g w b 
+ 	 Moving to L	 	
+r p g w b 
+r e y y p 
+r r g w b 
+ 	 Moving to U	 	
+r e g w b 
+r p y y p 
+r r g w b 
+ 	 Moving to L	 	
+e r g w b 
+r p y y p 
+r r g w b 
+ 	 Moving to D	 	
+r r g w b 
+e p y y p 
+r r g w b 
+ Solving game 10
+ 10- Original Config : 
+
+r y e r p 
+r g b g w 
+y r w p b 	 	 Solution states : 
+ 	 Moving to L	 	
+r e y r p 
+r g b g w 
+y r w p b 
+ 	 Moving to D	 	
+r g y r p 
+r e b g w 
+y r w p b 
+ 	 Moving to L	 	
+r g y r p 
+e r b g w 
+y r w p b 
+ 	 Moving to D	 	
+r g y r p 
+y r b g w 
+e r w p b 
+ 	 Moving to R	 	
+r g y r p 
+y r b g w 
+r e w p b 
+ 	 Moving to R	 	
+r g y r p 
+y r b g w 
+r w e p b 
+ 	 Moving to R	 	
+r g y r p 
+y r b g w 
+r w p e b 
+ 	 Moving to U	 	
+r g y r p 
+y r b e w 
+r w p g b 
+ 	 Moving to L	 	
+r g y r p 
+y r e b w 
+r w p g b 
+ 	 Moving to D	 	
+r g y r p 
+y r p b w 
+r w e g b 
+ 	 Moving to R	 	
+r g y r p 
+y r p b w 
+r w g e b 
+ 	 Moving to U	 	
+r g y r p 
+y r p e w 
+r w g b b 
+ 	 Moving to L	 	
+r g y r p 
+y r e p w 
+r w g b b 
+ 	 Moving to D	 	
+r g y r p 
+y r g p w 
+r w e b b 
+ 	 Moving to R	 	
+r g y r p 
+y r g p w 
+r w b e b 
+ 	 Moving to R	 	
+r g y r p 
+y r g p w 
+r w b b e 
+ 	 Moving to U	 	
+r g y r p 
+y r g p e 
+r w b b w 
+ 	 Moving to L	 	
+r g y r p 
+y r g e p 
+r w b b w 
+ 	 Moving to D	 	
+r g y r p 
+y r g b p 
+r w b e w 
+ 	 Moving to L	 	
+r g y r p 
+y r g b p 
+r w e b w 
+ 	 Moving to L	 	
+r g y r p 
+y r g b p 
+r e w b w 
+ 	 Moving to U	 	
+r g y r p 
+y e g b p 
+r r w b w 
+ 	 Moving to R	 	
+r g y r p 
+y g e b p 
+r r w b w 
+ 	 Moving to D	 	
+r g y r p 
+y g w b p 
+r r e b w 
+ 	 Moving to L	 	
+r g y r p 
+y g w b p 
+r e r b w 
+ 	 Moving to U	 	
+r g y r p 
+y e w b p 
+r g r b w 
+ 	 Moving to R	 	
+r g y r p 
+y w e b p 
+r g r b w 
+ 	 Moving to D	 	
+r g y r p 
+y w r b p 
+r g e b w 
+ 	 Moving to R	 	
+r g y r p 
+y w r b p 
+r g b e w 
+ 	 Moving to U	 	
+r g y r p 
+y w r e p 
+r g b b w 
+ 	 Moving to L	 	
+r g y r p 
+y w e r p 
+r g b b w 
+ 	 Moving to D	 	
+r g y r p 
+y w b r p 
+r g e b w 
+ 	 Moving to R	 	
+r g y r p 
+y w b r p 
+r g b e w 
+ 	 Moving to U	 	
+r g y r p 
+y w b e p 
+r g b r w 
+ 	 Moving to L	 	
+r g y r p 
+y w e b p 
+r g b r w 
+ 	 Moving to L	 	
+r g y r p 
+y e w b p 
+r g b r w 
+ 	 Moving to U	 	
+r e y r p 
+y g w b p 
+r g b r w 
+ 	 Moving to R	 	
+r y e r p 
+y g w b p 
+r g b r w 
+ 	 Moving to D	 	
+r y w r p 
+y g e b p 
+r g b r w 
+ 	 Moving to R	 	
+r y w r p 
+y g b e p 
+r g b r w 
+ 	 Moving to U	 	
+r y w e p 
+y g b r p 
+r g b r w 
+ 	 Moving to L	 	
+r y e w p 
+y g b r p 
+r g b r w 
+ 	 Moving to D	 	
+r y b w p 
+y g e r p 
+r g b r w 
+ 	 Moving to R	 	
+r y b w p 
+y g r e p 
+r g b r w 
+ 	 Moving to U	 	
+r y b e p 
+y g r w p 
+r g b r w 
+ 	 Moving to R	 	
+r y b p e 
+y g r w p 
+r g b r w 
+ 	 Moving to D	 	
+r y b p p 
+y g r w e 
+r g b r w 
+ 	 Moving to L	 	
+r y b p p 
+y g r e w 
+r g b r w 
+ 	 Moving to L	 	
+r y b p p 
+y g e r w 
+r g b r w 
+ 	 Moving to U	 	
+r y e p p 
+y g b r w 
+r g b r w 
+ 	 Moving to R	 	
+r y p e p 
+y g b r w 
+r g b r w 
+ 	 Moving to R	 	
+r y p p e 
+y g b r w 
+r g b r w 
+ 	 Moving to D	 	
+r y p p w 
+y g b r e 
+r g b r w 
+ 	 Moving to L	 	
+r y p p w 
+y g b e r 
+r g b r w 
+ 	 Moving to U	 	
+r y p e w 
+y g b p r 
+r g b r w 
+ 	 Moving to L	 	
+r y e p w 
+y g b p r 
+r g b r w 
+ 	 Moving to D	 	
+r y b p w 
+y g e p r 
+r g b r w 
+ 	 Moving to R	 	
+r y b p w 
+y g p e r 
+r g b r w 
+ 	 Moving to R	 	
+r y b p w 
+y g p r e 
+r g b r w 
+ 	 Moving to U	 	
+r y b p e 
+y g p r w 
+r g b r w 
+ 	 Moving to L	 	
+r y b e p 
+y g p r w 
+r g b r w 
+ 	 Moving to D	 	
+r y b r p 
+y g p e w 
+r g b r w 
+ 	 Moving to L	 	
+r y b r p 
+y g e p w 
+r g b r w 
+ 	 Moving to D	 	
+r y b r p 
+y g b p w 
+r g e r w 
+ 	 Moving to L	 	
+r y b r p 
+y g b p w 
+r e g r w 
+ 	 Moving to U	 	
+r y b r p 
+y e b p w 
+r g g r w 
+ 	 Moving to L	 	
+r y b r p 
+e y b p w 
+r g g r w 
+ 	 Moving to D	 	
+r y b r p 
+r y b p w 
+e g g r w 
+ 	 Moving to R	 	
+r y b r p 
+r y b p w 
+g e g r w 
+ 	 Moving to R	 	
+r y b r p 
+r y b p w 
+g g e r w 
+ 	 Moving to U	 	
+r y b r p 
+r y e p w 
+g g b r w 
+ 	 Moving to L	 	
+r y b r p 
+r e y p w 
+g g b r w 
+ 	 Moving to D	 	
+r y b r p 
+r g y p w 
+g e b r w 
+ 	 Moving to L	 	
+r y b r p 
+r g y p w 
+e g b r w 
+ 	 Moving to U	 	
+r y b r p 
+e g y p w 
+r g b r w 
+ 	 Moving to R	 	
+r y b r p 
+g e y p w 
+r g b r w 
+ 	 Moving to R	 	
+r y b r p 
+g y e p w 
+r g b r w 
+ 	 Moving to R	 	
+r y b r p 
+g y p e w 
+r g b r w 
+ 	 Moving to U	 	
+r y b e p 
+g y p r w 
+r g b r w 
+ 	 Moving to R	 	
+r y b p e 
+g y p r w 
+r g b r w 
+ 	 Moving to D	 	
+r y b p w 
+g y p r e 
+r g b r w 
+ 	 Moving to D	 	
+r y b p w 
+g y p r w 
+r g b r e 
+ 	 Moving to L	 	
+r y b p w 
+g y p r w 
+r g b e r 
+ 	 Moving to U	 	
+r y b p w 
+g y p e w 
+r g b r r 
+ 	 Moving to L	 	
+r y b p w 
+g y e p w 
+r g b r r 
+ 	 Moving to D	 	
+r y b p w 
+g y b p w 
+r g e r r 
+ 	 Moving to L	 	
+r y b p w 
+g y b p w 
+r e g r r 
+ 	 Moving to U	 	
+r y b p w 
+g e b p w 
+r y g r r 
+ 	 Moving to R	 	
+r y b p w 
+g b e p w 
+r y g r r 
+ 	 Moving to D	 	
+r y b p w 
+g b g p w 
+r y e r r 
+ 	 Moving to R	 	
+r y b p w 
+g b g p w 
+r y r e r 
+ 	 Moving to U	 	
+r y b p w 
+g b g e w 
+r y r p r 
+ 	 Moving to L	 	
+r y b p w 
+g b e g w 
+r y r p r 
+ 	 Moving to L	 	
+r y b p w 
+g e b g w 
+r y r p r 
+ 	 Moving to D	 	
+r y b p w 
+g y b g w 
+r e r p r 
+ 	 Moving to R	 	
+r y b p w 
+g y b g w 
+r r e p r 
+ 	 Moving to U	 	
+r y b p w 
+g y e g w 
+r r b p r 
+ 	 Moving to L	 	
+r y b p w 
+g e y g w 
+r r b p r 
+ 	 Moving to L	 	
+r y b p w 
+e g y g w 
+r r b p r 
+ 	 Moving to D	 	
+r y b p w 
+r g y g w 
+e r b p r 
+ 	 Moving to R	 	
+r y b p w 
+r g y g w 
+r e b p r 
+ 	 Moving to U	 	
+r y b p w 
+r e y g w 
+r g b p r 
+ 	 Moving to R	 	
+r y b p w 
+r y e g w 
+r g b p r 
+ 	 Moving to D	 	
+r y b p w 
+r y b g w 
+r g e p r 
+ 	 Moving to L	 	
+r y b p w 
+r y b g w 
+r e g p r 
+ 	 Moving to U	 	
+r y b p w 
+r e b g w 
+r y g p r 
+ 	 Moving to U	 	
+r e b p w 
+r y b g w 
+r y g p r 
+ 	 Moving to R	 	
+r b e p w 
+r y b g w 
+r y g p r 
+ 	 Moving to D	 	
+r b b p w 
+r y e g w 
+r y g p r 
+ 	 Moving to R	 	
+r b b p w 
+r y g e w 
+r y g p r 
+ 	 Moving to U	 	
+r b b e w 
+r y g p w 
+r y g p r 
+ 	 Moving to L	 	
+r b e b w 
+r y g p w 
+r y g p r 
+ 	 Moving to L	 	
+r e b b w 
+r y g p w 
+r y g p r 
+ 	 Moving to D	 	
+r y b b w 
+r e g p w 
+r y g p r 
+ 	 Moving to R	 	
+r y b b w 
+r g e p w 
+r y g p r 
+ 	 Moving to U	 	
+r y e b w 
+r g b p w 
+r y g p r 
+ 	 Moving to R	 	
+r y b e w 
+r g b p w 
+r y g p r 
+ 	 Moving to D	 	
+r y b p w 
+r g b e w 
+r y g p r 
+ 	 Moving to D	 	
+r y b p w 
+r g b p w 
+r y g e r 
+ 	 Moving to L	 	
+r y b p w 
+r g b p w 
+r y e g r 
+ 	 Moving to U	 	
+r y b p w 
+r g e p w 
+r y b g r 
+ 	 Moving to L	 	
+r y b p w 
+r e g p w 
+r y b g r 
+ 	 Moving to U	 	
+r e b p w 
+r y g p w 
+r y b g r 
+ 	 Moving to L	 	
+e r b p w 
+r y g p w 
+r y b g r 
+ 	 Moving to D	 	
+r r b p w 
+e y g p w 
+r y b g r 
+ 	 Moving to D	 	
+r r b p w 
+r y g p w 
+e y b g r 
+ 	 Moving to R	 	
+r r b p w 
+r y g p w 
+y e b g r 
+ 	 Moving to U	 	
+r r b p w 
+r e g p w 
+y y b g r 
+ 	 Moving to L	 	
+r r b p w 
+e r g p w 
+y y b g r 
+ 	 Moving to D	 	
+r r b p w 
+y r g p w 
+e y b g r 
+ 	 Moving to R	 	
+r r b p w 
+y r g p w 
+y e b g r 
+ 	 Moving to U	 	
+r r b p w 
+y e g p w 
+y r b g r 
+ 	 Moving to U	 	
+r e b p w 
+y r g p w 
+y r b g r 
+ 	 Moving to L	 	
+e r b p w 
+y r g p w 
+y r b g r 
+ 	 Moving to D	 	
+y r b p w 
+e r g p w 
+y r b g r 
+ 	 Moving to D	 	
+y r b p w 
+y r g p w 
+e r b g r 
+ 	 Moving to R	 	
+y r b p w 
+y r g p w 
+r e b g r 
+ 	 Moving to U	 	
+y r b p w 
+y e g p w 
+r r b g r 
+ 	 Moving to R	 	
+y r b p w 
+y g e p w 
+r r b g r 
+ 	 Moving to R	 	
+y r b p w 
+y g p e w 
+r r b g r 
+ 	 Moving to D	 	
+y r b p w 
+y g p g w 
+r r b e r 
+ 	 Moving to R	 	
+y r b p w 
+y g p g w 
+r r b r e 
+ 	 Moving to U	 	
+y r b p w 
+y g p g e 
+r r b r w 
+ 	 Moving to L	 	
+y r b p w 
+y g p e g 
+r r b r w 
+ 	 Moving to L	 	
+y r b p w 
+y g e p g 
+r r b r w 
+ 	 Moving to D	 	
+y r b p w 
+y g b p g 
+r r e r w 
+ 	 Moving to R	 	
+y r b p w 
+y g b p g 
+r r r e w 
+ 	 Moving to U	 	
+y r b p w 
+y g b e g 
+r r r p w 
+ 	 Moving to L	 	
+y r b p w 
+y g e b g 
+r r r p w 
+ 	 Moving to D	 	
+y r b p w 
+y g r b g 
+r r e p w 
+ 	 Moving to L	 	
+y r b p w 
+y g r b g 
+r e r p w 
+ 	 Moving to L	 	
+y r b p w 
+y g r b g 
+e r r p w 
+ 	 Moving to U	 	
+y r b p w 
+e g r b g 
+y r r p w 
+ 	 Moving to R	 	
+y r b p w 
+g e r b g 
+y r r p w 
+ 	 Moving to R	 	
+y r b p w 
+g r e b g 
+y r r p w 
+ 	 Moving to U	 	
+y r e p w 
+g r b b g 
+y r r p w 
+ 	 Moving to L	 	
+y e r p w 
+g r b b g 
+y r r p w 
+ 	 Moving to D	 	
+y r r p w 
+g e b b g 
+y r r p w 
+ Solving game 11
+ 11- Original Config : 
+
+r p r y g 
+r g w w r 
+p b y e b 	 	 Solution states : 
+ 	 Moving to L	 	
+r p r y g 
+r g w w r 
+p b e y b 
+ 	 Moving to U	 	
+r p r y g 
+r g e w r 
+p b w y b 
+ 	 Moving to L	 	
+r p r y g 
+r e g w r 
+p b w y b 
+ 	 Moving to U	 	
+r e r y g 
+r p g w r 
+p b w y b 
+ 	 Moving to L	 	
+e r r y g 
+r p g w r 
+p b w y b 
+ 	 Moving to D	 	
+r r r y g 
+e p g w r 
+p b w y b 
+ 	 Moving to R	 	
+r r r y g 
+p e g w r 
+p b w y b 
+ 	 Moving to D	 	
+r r r y g 
+p b g w r 
+p e w y b 
+ 	 Moving to R	 	
+r r r y g 
+p b g w r 
+p w e y b 
+ 	 Moving to U	 	
+r r r y g 
+p b e w r 
+p w g y b 
+ 	 Moving to L	 	
+r r r y g 
+p e b w r 
+p w g y b 
+ 	 Moving to U	 	
+r e r y g 
+p r b w r 
+p w g y b 
+ 	 Moving to L	 	
+e r r y g 
+p r b w r 
+p w g y b 
+ 	 Moving to D	 	
+p r r y g 
+e r b w r 
+p w g y b 
+ 	 Moving to D	 	
+p r r y g 
+p r b w r 
+e w g y b 
+ 	 Moving to R	 	
+p r r y g 
+p r b w r 
+w e g y b 
+ 	 Moving to U	 	
+p r r y g 
+p e b w r 
+w r g y b 
+ 	 Moving to R	 	
+p r r y g 
+p b e w r 
+w r g y b 
+ 	 Moving to D	 	
+p r r y g 
+p b g w r 
+w r e y b 
+ 	 Moving to L	 	
+p r r y g 
+p b g w r 
+w e r y b 
+ 	 Moving to L	 	
+p r r y g 
+p b g w r 
+e w r y b 
+ 	 Moving to U	 	
+p r r y g 
+e b g w r 
+p w r y b 
+ 	 Moving to U	 	
+e r r y g 
+p b g w r 
+p w r y b 
+ 	 Moving to R	 	
+r e r y g 
+p b g w r 
+p w r y b 
+ 	 Moving to D	 	
+r b r y g 
+p e g w r 
+p w r y b 
+ 	 Moving to R	 	
+r b r y g 
+p g e w r 
+p w r y b 
+ 	 Moving to R	 	
+r b r y g 
+p g w e r 
+p w r y b 
+ 	 Moving to D	 	
+r b r y g 
+p g w y r 
+p w r e b 
+ 	 Moving to R	 	
+r b r y g 
+p g w y r 
+p w r b e 
+ 	 Moving to U	 	
+r b r y g 
+p g w y e 
+p w r b r 
+ 	 Moving to L	 	
+r b r y g 
+p g w e y 
+p w r b r 
+ 	 Moving to L	 	
+r b r y g 
+p g e w y 
+p w r b r 
+ 	 Moving to U	 	
+r b e y g 
+p g r w y 
+p w r b r 
+ 	 Moving to L	 	
+r e b y g 
+p g r w y 
+p w r b r 
+ 	 Moving to L	 	
+e r b y g 
+p g r w y 
+p w r b r 
+ 	 Moving to D	 	
+p r b y g 
+e g r w y 
+p w r b r 
+ 	 Moving to R	 	
+p r b y g 
+g e r w y 
+p w r b r 
+ 	 Moving to R	 	
+p r b y g 
+g r e w y 
+p w r b r 
+ 	 Moving to U	 	
+p r e y g 
+g r b w y 
+p w r b r 
+ 	 Moving to R	 	
+p r y e g 
+g r b w y 
+p w r b r 
+ 	 Moving to D	 	
+p r y w g 
+g r b e y 
+p w r b r 
+ 	 Moving to L	 	
+p r y w g 
+g r e b y 
+p w r b r 
+ 	 Moving to U	 	
+p r e w g 
+g r y b y 
+p w r b r 
+ 	 Moving to R	 	
+p r w e g 
+g r y b y 
+p w r b r 
+ 	 Moving to R	 	
+p r w g e 
+g r y b y 
+p w r b r 
+ 	 Moving to D	 	
+p r w g y 
+g r y b e 
+p w r b r 
+ 	 Moving to L	 	
+p r w g y 
+g r y e b 
+p w r b r 
+ 	 Moving to L	 	
+p r w g y 
+g r e y b 
+p w r b r 
+ 	 Moving to U	 	
+p r e g y 
+g r w y b 
+p w r b r 
+ 	 Moving to L	 	
+p e r g y 
+g r w y b 
+p w r b r 
+ 	 Moving to D	 	
+p r r g y 
+g e w y b 
+p w r b r 
+ 	 Moving to R	 	
+p r r g y 
+g w e y b 
+p w r b r 
+ 	 Moving to U	 	
+p r e g y 
+g w r y b 
+p w r b r 
+ 	 Moving to R	 	
+p r g e y 
+g w r y b 
+p w r b r 
+ 	 Moving to R	 	
+p r g y e 
+g w r y b 
+p w r b r 
+ 	 Moving to D	 	
+p r g y b 
+g w r y e 
+p w r b r 
+ 	 Moving to L	 	
+p r g y b 
+g w r e y 
+p w r b r 
+ 	 Moving to D	 	
+p r g y b 
+g w r b y 
+p w r e r 
+ 	 Moving to R	 	
+p r g y b 
+g w r b y 
+p w r r e 
+ 	 Moving to U	 	
+p r g y b 
+g w r b e 
+p w r r y 
+ 	 Moving to L	 	
+p r g y b 
+g w r e b 
+p w r r y 
+ 	 Moving to L	 	
+p r g y b 
+g w e r b 
+p w r r y 
+ 	 Moving to U	 	
+p r e y b 
+g w g r b 
+p w r r y 
+ 	 Moving to L	 	
+p e r y b 
+g w g r b 
+p w r r y 
+ 	 Moving to D	 	
+p w r y b 
+g e g r b 
+p w r r y 
+ 	 Moving to R	 	
+p w r y b 
+g g e r b 
+p w r r y 
+ 	 Moving to R	 	
+p w r y b 
+g g r e b 
+p w r r y 
+ 	 Moving to U	 	
+p w r e b 
+g g r y b 
+p w r r y 
+ 	 Moving to L	 	
+p w e r b 
+g g r y b 
+p w r r y 
+ 	 Moving to D	 	
+p w r r b 
+g g e y b 
+p w r r y 
+ 	 Moving to D	 	
+p w r r b 
+g g r y b 
+p w e r y 
+ 	 Moving to R	 	
+p w r r b 
+g g r y b 
+p w r e y 
+ 	 Moving to R	 	
+p w r r b 
+g g r y b 
+p w r y e 
+ 	 Moving to U	 	
+p w r r b 
+g g r y e 
+p w r y b 
+ 	 Moving to U	 	
+p w r r e 
+g g r y b 
+p w r y b 
+ 	 Moving to L	 	
+p w r e r 
+g g r y b 
+p w r y b 
+ 	 Moving to D	 	
+p w r y r 
+g g r e b 
+p w r y b 
+ 	 Moving to D	 	
+p w r y r 
+g g r y b 
+p w r e b 
+ 	 Moving to L	 	
+p w r y r 
+g g r y b 
+p w e r b 
+ 	 Moving to U	 	
+p w r y r 
+g g e y b 
+p w r r b 
+ 	 Moving to U	 	
+p w e y r 
+g g r y b 
+p w r r b 
+ 	 Moving to R	 	
+p w y e r 
+g g r y b 
+p w r r b 
+ 	 Moving to R	 	
+p w y r e 
+g g r y b 
+p w r r b 
+ 	 Moving to D	 	
+p w y r b 
+g g r y e 
+p w r r b 
+ 	 Moving to L	 	
+p w y r b 
+g g r e y 
+p w r r b 
+ 	 Moving to L	 	
+p w y r b 
+g g e r y 
+p w r r b 
+ 	 Moving to U	 	
+p w e r b 
+g g y r y 
+p w r r b 
+ 	 Moving to R	 	
+p w r e b 
+g g y r y 
+p w r r b 
+ 	 Moving to D	 	
+p w r r b 
+g g y e y 
+p w r r b 
+ Solving game 12
+ 12- Original Config : 
+
+r y b w g 
+r y r r e 
+g p p w b 	 	 Solution states : 
+ 	 Moving to D	 	
+r y b w g 
+r y r r b 
+g p p w e 
+ 	 Moving to L	 	
+r y b w g 
+r y r r b 
+g p p e w 
+ 	 Moving to U	 	
+r y b w g 
+r y r e b 
+g p p r w 
+ 	 Moving to U	 	
+r y b e g 
+r y r w b 
+g p p r w 
+ 	 Moving to L	 	
+r y e b g 
+r y r w b 
+g p p r w 
+ 	 Moving to D	 	
+r y r b g 
+r y e w b 
+g p p r w 
+ 	 Moving to D	 	
+r y r b g 
+r y p w b 
+g p e r w 
+ 	 Moving to L	 	
+r y r b g 
+r y p w b 
+g e p r w 
+ 	 Moving to U	 	
+r y r b g 
+r e p w b 
+g y p r w 
+ 	 Moving to U	 	
+r e r b g 
+r y p w b 
+g y p r w 
+ 	 Moving to R	 	
+r r e b g 
+r y p w b 
+g y p r w 
+ 	 Moving to R	 	
+r r b e g 
+r y p w b 
+g y p r w 
+ 	 Moving to R	 	
+r r b g e 
+r y p w b 
+g y p r w 
+ 	 Moving to D	 	
+r r b g b 
+r y p w e 
+g y p r w 
+ 	 Moving to L	 	
+r r b g b 
+r y p e w 
+g y p r w 
+ 	 Moving to U	 	
+r r b e b 
+r y p g w 
+g y p r w 
+ 	 Moving to L	 	
+r r e b b 
+r y p g w 
+g y p r w 
+ 	 Moving to D	 	
+r r p b b 
+r y e g w 
+g y p r w 
+ 	 Moving to R	 	
+r r p b b 
+r y g e w 
+g y p r w 
+ 	 Moving to U	 	
+r r p e b 
+r y g b w 
+g y p r w 
+ 	 Moving to R	 	
+r r p b e 
+r y g b w 
+g y p r w 
+ 	 Moving to D	 	
+r r p b w 
+r y g b e 
+g y p r w 
+ 	 Moving to L	 	
+r r p b w 
+r y g e b 
+g y p r w 
+ 	 Moving to L	 	
+r r p b w 
+r y e g b 
+g y p r w 
+ 	 Moving to D	 	
+r r p b w 
+r y p g b 
+g y e r w 
+ 	 Moving to R	 	
+r r p b w 
+r y p g b 
+g y r e w 
+ 	 Moving to U	 	
+r r p b w 
+r y p e b 
+g y r g w 
+ 	 Moving to R	 	
+r r p b w 
+r y p b e 
+g y r g w 
+ 	 Moving to D	 	
+r r p b w 
+r y p b w 
+g y r g e 
+ 	 Moving to L	 	
+r r p b w 
+r y p b w 
+g y r e g 
+ 	 Moving to L	 	
+r r p b w 
+r y p b w 
+g y e r g 
+ 	 Moving to U	 	
+r r p b w 
+r y e b w 
+g y p r g 
+ 	 Moving to L	 	
+r r p b w 
+r e y b w 
+g y p r g 
+ 	 Moving to L	 	
+r r p b w 
+e r y b w 
+g y p r g 
+ 	 Moving to D	 	
+r r p b w 
+g r y b w 
+e y p r g 
+ 	 Moving to R	 	
+r r p b w 
+g r y b w 
+y e p r g 
+ 	 Moving to U	 	
+r r p b w 
+g e y b w 
+y r p r g 
+ 	 Moving to L	 	
+r r p b w 
+e g y b w 
+y r p r g 
+ 	 Moving to U	 	
+e r p b w 
+r g y b w 
+y r p r g 
+ 	 Moving to R	 	
+r e p b w 
+r g y b w 
+y r p r g 
+ 	 Moving to D	 	
+r g p b w 
+r e y b w 
+y r p r g 
+ 	 Moving to R	 	
+r g p b w 
+r y e b w 
+y r p r g 
+ 	 Moving to U	 	
+r g e b w 
+r y p b w 
+y r p r g 
+ 	 Moving to L	 	
+r e g b w 
+r y p b w 
+y r p r g 
+ 	 Moving to L	 	
+e r g b w 
+r y p b w 
+y r p r g 
+ 	 Moving to D	 	
+r r g b w 
+e y p b w 
+y r p r g 
+ 	 Moving to R	 	
+r r g b w 
+y e p b w 
+y r p r g 
+ 	 Moving to U	 	
+r e g b w 
+y r p b w 
+y r p r g 
+ 	 Moving to L	 	
+e r g b w 
+y r p b w 
+y r p r g 
+ 	 Moving to D	 	
+y r g b w 
+e r p b w 
+y r p r g 
+ 	 Moving to D	 	
+y r g b w 
+y r p b w 
+e r p r g 
+ 	 Moving to R	 	
+y r g b w 
+y r p b w 
+r e p r g 
+ 	 Moving to U	 	
+y r g b w 
+y e p b w 
+r r p r g 
+ 	 Moving to U	 	
+y e g b w 
+y r p b w 
+r r p r g 
+ 	 Moving to L	 	
+e y g b w 
+y r p b w 
+r r p r g 
+ 	 Moving to D	 	
+y y g b w 
+e r p b w 
+r r p r g 
+ 	 Moving to R	 	
+y y g b w 
+r e p b w 
+r r p r g 
+ 	 Moving to U	 	
+y e g b w 
+r y p b w 
+r r p r g 
+ 	 Moving to L	 	
+e y g b w 
+r y p b w 
+r r p r g 
+ 	 Moving to D	 	
+r y g b w 
+e y p b w 
+r r p r g 
+ 	 Moving to D	 	
+r y g b w 
+r y p b w 
+e r p r g 
+ 	 Moving to R	 	
+r y g b w 
+r y p b w 
+r e p r g 
+ 	 Moving to U	 	
+r y g b w 
+r e p b w 
+r y p r g 
+ 	 Moving to U	 	
+r e g b w 
+r y p b w 
+r y p r g 
+ 	 Moving to R	 	
+r g e b w 
+r y p b w 
+r y p r g 
+ 	 Moving to D	 	
+r g p b w 
+r y e b w 
+r y p r g 
+ 	 Moving to D	 	
+r g p b w 
+r y p b w 
+r y e r g 
+ 	 Moving to R	 	
+r g p b w 
+r y p b w 
+r y r e g 
+ 	 Moving to R	 	
+r g p b w 
+r y p b w 
+r y r g e 
+ 	 Moving to U	 	
+r g p b w 
+r y p b e 
+r y r g w 
+ 	 Moving to L	 	
+r g p b w 
+r y p e b 
+r y r g w 
+ 	 Moving to D	 	
+r g p b w 
+r y p g b 
+r y r e w 
+ 	 Moving to L	 	
+r g p b w 
+r y p g b 
+r y e r w 
+ 	 Moving to U	 	
+r g p b w 
+r y e g b 
+r y p r w 
+ 	 Moving to R	 	
+r g p b w 
+r y g e b 
+r y p r w 
+ 	 Moving to R	 	
+r g p b w 
+r y g b e 
+r y p r w 
+ 	 Moving to D	 	
+r g p b w 
+r y g b w 
+r y p r e 
+ 	 Moving to L	 	
+r g p b w 
+r y g b w 
+r y p e r 
+ 	 Moving to U	 	
+r g p b w 
+r y g e w 
+r y p b r 
+ 	 Moving to L	 	
+r g p b w 
+r y e g w 
+r y p b r 
+ 	 Moving to U	 	
+r g e b w 
+r y p g w 
+r y p b r 
+ 	 Moving to L	 	
+r e g b w 
+r y p g w 
+r y p b r 
+ 	 Moving to D	 	
+r y g b w 
+r e p g w 
+r y p b r 
+ 	 Moving to D	 	
+r y g b w 
+r y p g w 
+r e p b r 
+ 	 Moving to R	 	
+r y g b w 
+r y p g w 
+r p e b r 
+ 	 Moving to U	 	
+r y g b w 
+r y e g w 
+r p p b r 
+ 	 Moving to R	 	
+r y g b w 
+r y g e w 
+r p p b r 
+ 	 Moving to D	 	
+r y g b w 
+r y g b w 
+r p p e r 
+ 	 Moving to L	 	
+r y g b w 
+r y g b w 
+r p e p r 
+ 	 Moving to L	 	
+r y g b w 
+r y g b w 
+r e p p r 
+ 	 Moving to L	 	
+r y g b w 
+r y g b w 
+e r p p r 
+ 	 Moving to U	 	
+r y g b w 
+e y g b w 
+r r p p r 
+ 	 Moving to U	 	
+e y g b w 
+r y g b w 
+r r p p r 
+ 	 Moving to R	 	
+y e g b w 
+r y g b w 
+r r p p r 
+ 	 Moving to D	 	
+y y g b w 
+r e g b w 
+r r p p r 
+ 	 Moving to L	 	
+y y g b w 
+e r g b w 
+r r p p r 
+ 	 Moving to U	 	
+e y g b w 
+y r g b w 
+r r p p r 
+ 	 Moving to R	 	
+y e g b w 
+y r g b w 
+r r p p r 
+ 	 Moving to D	 	
+y r g b w 
+y e g b w 
+r r p p r 
+ 	 Moving to D	 	
+y r g b w 
+y r g b w 
+r e p p r 
+ 	 Moving to L	 	
+y r g b w 
+y r g b w 
+e r p p r 
+ 	 Moving to U	 	
+y r g b w 
+e r g b w 
+y r p p r 
+ 	 Moving to U	 	
+e r g b w 
+y r g b w 
+y r p p r 
+ 	 Moving to R	 	
+r e g b w 
+y r g b w 
+y r p p r 
+ 	 Moving to D	 	
+r r g b w 
+y e g b w 
+y r p p r 
+ 	 Moving to R	 	
+r r g b w 
+y g e b w 
+y r p p r 
+ 	 Moving to D	 	
+r r g b w 
+y g p b w 
+y r e p r 
+ 	 Moving to R	 	
+r r g b w 
+y g p b w 
+y r p e r 
+ 	 Moving to U	 	
+r r g b w 
+y g p e w 
+y r p b r 
+ 	 Moving to U	 	
+r r g e w 
+y g p b w 
+y r p b r 
+ 	 Moving to L	 	
+r r e g w 
+y g p b w 
+y r p b r 
+ 	 Moving to D	 	
+r r p g w 
+y g e b w 
+y r p b r 
+ 	 Moving to L	 	
+r r p g w 
+y e g b w 
+y r p b r 
+ 	 Moving to U	 	
+r e p g w 
+y r g b w 
+y r p b r 
+ 	 Moving to L	 	
+e r p g w 
+y r g b w 
+y r p b r 
+ 	 Moving to D	 	
+y r p g w 
+e r g b w 
+y r p b r 
+ 	 Moving to R	 	
+y r p g w 
+r e g b w 
+y r p b r 
+ 	 Moving to R	 	
+y r p g w 
+r g e b w 
+y r p b r 
+ 	 Moving to U	 	
+y r e g w 
+r g p b w 
+y r p b r 
+ 	 Moving to L	 	
+y e r g w 
+r g p b w 
+y r p b r 
+ 	 Moving to D	 	
+y g r g w 
+r e p b w 
+y r p b r 
+ 	 Moving to L	 	
+y g r g w 
+e r p b w 
+y r p b r 
+ 	 Moving to U	 	
+e g r g w 
+y r p b w 
+y r p b r 
+ 	 Moving to R	 	
+g e r g w 
+y r p b w 
+y r p b r 
+ 	 Moving to R	 	
+g r e g w 
+y r p b w 
+y r p b r 
+ 	 Moving to R	 	
+g r g e w 
+y r p b w 
+y r p b r 
+ 	 Moving to D	 	
+g r g b w 
+y r p e w 
+y r p b r 
+ 	 Moving to L	 	
+g r g b w 
+y r e p w 
+y r p b r 
+ 	 Moving to U	 	
+g r e b w 
+y r g p w 
+y r p b r 
+ 	 Moving to L	 	
+g e r b w 
+y r g p w 
+y r p b r 
+ 	 Moving to D	 	
+g r r b w 
+y e g p w 
+y r p b r 
+ 	 Moving to R	 	
+g r r b w 
+y g e p w 
+y r p b r 
+ 	 Moving to U	 	
+g r e b w 
+y g r p w 
+y r p b r 
+ 	 Moving to L	 	
+g e r b w 
+y g r p w 
+y r p b r 
+ 	 Moving to L	 	
+e g r b w 
+y g r p w 
+y r p b r 
+ 	 Moving to D	 	
+y g r b w 
+e g r p w 
+y r p b r 
+ 	 Moving to D	 	
+y g r b w 
+y g r p w 
+e r p b r 
+ 	 Moving to R	 	
+y g r b w 
+y g r p w 
+r e p b r 
+ 	 Moving to U	 	
+y g r b w 
+y e r p w 
+r g p b r 
+ 	 Moving to R	 	
+y g r b w 
+y r e p w 
+r g p b r 
+ 	 Moving to R	 	
+y g r b w 
+y r p e w 
+r g p b r 
+ 	 Moving to D	 	
+y g r b w 
+y r p b w 
+r g p e r 
+ 	 Moving to L	 	
+y g r b w 
+y r p b w 
+r g e p r 
+ 	 Moving to U	 	
+y g r b w 
+y r e b w 
+r g p p r 
+ 	 Moving to L	 	
+y g r b w 
+y e r b w 
+r g p p r 
+ 	 Moving to D	 	
+y g r b w 
+y g r b w 
+r e p p r 
+ 	 Moving to R	 	
+y g r b w 
+y g r b w 
+r p e p r 
+ 	 Moving to U	 	
+y g r b w 
+y g e b w 
+r p r p r 
+ 	 Moving to R	 	
+y g r b w 
+y g b e w 
+r p r p r 
+ 	 Moving to D	 	
+y g r b w 
+y g b p w 
+r p r e r 
+ 	 Moving to R	 	
+y g r b w 
+y g b p w 
+r p r r e 
+ 	 Moving to U	 	
+y g r b w 
+y g b p e 
+r p r r w 
+ 	 Moving to L	 	
+y g r b w 
+y g b e p 
+r p r r w 
+ 	 Moving to L	 	
+y g r b w 
+y g e b p 
+r p r r w 
+ 	 Moving to D	 	
+y g r b w 
+y g r b p 
+r p e r w 
+ 	 Moving to L	 	
+y g r b w 
+y g r b p 
+r e p r w 
+ 	 Moving to U	 	
+y g r b w 
+y e r b p 
+r g p r w 
+ 	 Moving to R	 	
+y g r b w 
+y r e b p 
+r g p r w 
+ 	 Moving to D	 	
+y g r b w 
+y r p b p 
+r g e r w 
+ 	 Moving to R	 	
+y g r b w 
+y r p b p 
+r g r e w 
+ 	 Moving to U	 	
+y g r b w 
+y r p e p 
+r g r b w 
+ 	 Moving to L	 	
+y g r b w 
+y r e p p 
+r g r b w 
+ 	 Moving to L	 	
+y g r b w 
+y e r p p 
+r g r b w 
+ 	 Moving to D	 	
+y g r b w 
+y g r p p 
+r e r b w 
+ 	 Moving to L	 	
+y g r b w 
+y g r p p 
+e r r b w 
+ 	 Moving to U	 	
+y g r b w 
+e g r p p 
+y r r b w 
+ 	 Moving to R	 	
+y g r b w 
+g e r p p 
+y r r b w 
+ 	 Moving to U	 	
+y e r b w 
+g g r p p 
+y r r b w 
+ 	 Moving to R	 	
+y r e b w 
+g g r p p 
+y r r b w 
+ 	 Moving to D	 	
+y r r b w 
+g g e p p 
+y r r b w 
+ Solving game 13
+ 13- Original Config : 
+
+r p y w r 
+r g w e b 
+y g p r b 	 	 Solution states : 
+ 	 Moving to L	 	
+r p y w r 
+r g e w b 
+y g p r b 
+ 	 Moving to D	 	
+r p y w r 
+r g p w b 
+y g e r b 
+ 	 Moving to R	 	
+r p y w r 
+r g p w b 
+y g r e b 
+ 	 Moving to U	 	
+r p y w r 
+r g p e b 
+y g r w b 
+ 	 Moving to L	 	
+r p y w r 
+r g e p b 
+y g r w b 
+ 	 Moving to U	 	
+r p e w r 
+r g y p b 
+y g r w b 
+ 	 Moving to L	 	
+r e p w r 
+r g y p b 
+y g r w b 
+ 	 Moving to D	 	
+r g p w r 
+r e y p b 
+y g r w b 
+ 	 Moving to D	 	
+r g p w r 
+r g y p b 
+y e r w b 
+ 	 Moving to R	 	
+r g p w r 
+r g y p b 
+y r e w b 
+ 	 Moving to U	 	
+r g p w r 
+r g e p b 
+y r y w b 
+ 	 Moving to R	 	
+r g p w r 
+r g p e b 
+y r y w b 
+ 	 Moving to D	 	
+r g p w r 
+r g p w b 
+y r y e b 
+ 	 Moving to L	 	
+r g p w r 
+r g p w b 
+y r e y b 
+ 	 Moving to L	 	
+r g p w r 
+r g p w b 
+y e r y b 
+ 	 Moving to L	 	
+r g p w r 
+r g p w b 
+e y r y b 
+ 	 Moving to U	 	
+r g p w r 
+e g p w b 
+r y r y b 
+ 	 Moving to R	 	
+r g p w r 
+g e p w b 
+r y r y b 
+ 	 Moving to D	 	
+r g p w r 
+g y p w b 
+r e r y b 
+ 	 Moving to R	 	
+r g p w r 
+g y p w b 
+r r e y b 
+ 	 Moving to U	 	
+r g p w r 
+g y e w b 
+r r p y b 
+ 	 Moving to L	 	
+r g p w r 
+g e y w b 
+r r p y b 
+ 	 Moving to L	 	
+r g p w r 
+e g y w b 
+r r p y b 
+ 	 Moving to D	 	
+r g p w r 
+r g y w b 
+e r p y b 
+ 	 Moving to R	 	
+r g p w r 
+r g y w b 
+r e p y b 
+ 	 Moving to U	 	
+r g p w r 
+r e y w b 
+r g p y b 
+ 	 Moving to R	 	
+r g p w r 
+r y e w b 
+r g p y b 
+ 	 Moving to D	 	
+r g p w r 
+r y p w b 
+r g e y b 
+ 	 Moving to R	 	
+r g p w r 
+r y p w b 
+r g y e b 
+ 	 Moving to U	 	
+r g p w r 
+r y p e b 
+r g y w b 
+ 	 Moving to U	 	
+r g p e r 
+r y p w b 
+r g y w b 
+ 	 Moving to L	 	
+r g e p r 
+r y p w b 
+r g y w b 
+ 	 Moving to D	 	
+r g p p r 
+r y e w b 
+r g y w b 
+ 	 Moving to L	 	
+r g p p r 
+r e y w b 
+r g y w b 
+ 	 Moving to U	 	
+r e p p r 
+r g y w b 
+r g y w b 
+ 	 Moving to R	 	
+r p e p r 
+r g y w b 
+r g y w b 
+ 	 Moving to D	 	
+r p y p r 
+r g e w b 
+r g y w b 
+ 	 Moving to R	 	
+r p y p r 
+r g w e b 
+r g y w b 
+ 	 Moving to U	 	
+r p y e r 
+r g w p b 
+r g y w b 
+ 	 Moving to R	 	
+r p y r e 
+r g w p b 
+r g y w b 
+ 	 Moving to D	 	
+r p y r b 
+r g w p e 
+r g y w b 
+ 	 Moving to L	 	
+r p y r b 
+r g w e p 
+r g y w b 
+ 	 Moving to L	 	
+r p y r b 
+r g e w p 
+r g y w b 
+ 	 Moving to U	 	
+r p e r b 
+r g y w p 
+r g y w b 
+ 	 Moving to L	 	
+r e p r b 
+r g y w p 
+r g y w b 
+ 	 Moving to D	 	
+r g p r b 
+r e y w p 
+r g y w b 
+ 	 Moving to R	 	
+r g p r b 
+r y e w p 
+r g y w b 
+ 	 Moving to U	 	
+r g e r b 
+r y p w p 
+r g y w b 
+ 	 Moving to R	 	
+r g r e b 
+r y p w p 
+r g y w b 
+ 	 Moving to D	 	
+r g r w b 
+r y p e p 
+r g y w b 
+ 	 Moving to L	 	
+r g r w b 
+r y e p p 
+r g y w b 
+ 	 Moving to L	 	
+r g r w b 
+r e y p p 
+r g y w b 
+ 	 Moving to U	 	
+r e r w b 
+r g y p p 
+r g y w b 
+ 	 Moving to R	 	
+r r e w b 
+r g y p p 
+r g y w b 
+ 	 Moving to D	 	
+r r y w b 
+r g e p p 
+r g y w b 
+ 	 Moving to L	 	
+r r y w b 
+r e g p p 
+r g y w b 
+ 	 Moving to D	 	
+r r y w b 
+r g g p p 
+r e y w b 
+ 	 Moving to L	 	
+r r y w b 
+r g g p p 
+e r y w b 
+ 	 Moving to U	 	
+r r y w b 
+e g g p p 
+r r y w b 
+ Solving game 14
+ 14- Original Config : 
+
+r y r r b 
+r e w w g 
+y p p g b 	 	 Solution states : 
+ 	 Moving to D	 	
+r y r r b 
+r p w w g 
+y e p g b 
+ 	 Moving to R	 	
+r y r r b 
+r p w w g 
+y p e g b 
+ 	 Moving to U	 	
+r y r r b 
+r p e w g 
+y p w g b 
+ 	 Moving to R	 	
+r y r r b 
+r p w e g 
+y p w g b 
+ 	 Moving to R	 	
+r y r r b 
+r p w g e 
+y p w g b 
+ 	 Moving to U	 	
+r y r r e 
+r p w g b 
+y p w g b 
+ 	 Moving to L	 	
+r y r e r 
+r p w g b 
+y p w g b 
+ 	 Moving to L	 	
+r y e r r 
+r p w g b 
+y p w g b 
+ 	 Moving to L	 	
+r e y r r 
+r p w g b 
+y p w g b 
+ 	 Moving to D	 	
+r p y r r 
+r e w g b 
+y p w g b 
+ 	 Moving to R	 	
+r p y r r 
+r w e g b 
+y p w g b 
+ 	 Moving to U	 	
+r p e r r 
+r w y g b 
+y p w g b 
+ 	 Moving to R	 	
+r p r e r 
+r w y g b 
+y p w g b 
+ 	 Moving to D	 	
+r p r g r 
+r w y e b 
+y p w g b 
+ 	 Moving to L	 	
+r p r g r 
+r w e y b 
+y p w g b 
+ 	 Moving to L	 	
+r p r g r 
+r e w y b 
+y p w g b 
+ 	 Moving to U	 	
+r e r g r 
+r p w y b 
+y p w g b 
+ 	 Moving to R	 	
+r r e g r 
+r p w y b 
+y p w g b 
+ 	 Moving to D	 	
+r r w g r 
+r p e y b 
+y p w g b 
+ 	 Moving to L	 	
+r r w g r 
+r e p y b 
+y p w g b 
+ 	 Moving to D	 	
+r r w g r 
+r p p y b 
+y e w g b 
+ 	 Moving to L	 	
+r r w g r 
+r p p y b 
+e y w g b 
+ 	 Moving to U	 	
+r r w g r 
+e p p y b 
+r y w g b 
+ 	 Moving to U	 	
+e r w g r 
+r p p y b 
+r y w g b 
+ 	 Moving to R	 	
+r e w g r 
+r p p y b 
+r y w g b 
+ 	 Moving to D	 	
+r p w g r 
+r e p y b 
+r y w g b 
+ 	 Moving to R	 	
+r p w g r 
+r p e y b 
+r y w g b 
+ 	 Moving to D	 	
+r p w g r 
+r p w y b 
+r y e g b 
+ 	 Moving to L	 	
+r p w g r 
+r p w y b 
+r e y g b 
+ 	 Moving to U	 	
+r p w g r 
+r e w y b 
+r p y g b 
+ 	 Moving to U	 	
+r e w g r 
+r p w y b 
+r p y g b 
+ 	 Moving to R	 	
+r w e g r 
+r p w y b 
+r p y g b 
+ 	 Moving to D	 	
+r w w g r 
+r p e y b 
+r p y g b 
+ 	 Moving to R	 	
+r w w g r 
+r p y e b 
+r p y g b 
+ 	 Moving to U	 	
+r w w e r 
+r p y g b 
+r p y g b 
+ 	 Moving to L	 	
+r w e w r 
+r p y g b 
+r p y g b 
+ 	 Moving to L	 	
+r e w w r 
+r p y g b 
+r p y g b 
+ 	 Moving to D	 	
+r p w w r 
+r e y g b 
+r p y g b 
+ 	 Moving to R	 	
+r p w w r 
+r y e g b 
+r p y g b 
+ 	 Moving to U	 	
+r p e w r 
+r y w g b 
+r p y g b 
+ 	 Moving to R	 	
+r p w e r 
+r y w g b 
+r p y g b 
+ 	 Moving to D	 	
+r p w g r 
+r y w e b 
+r p y g b 
+ 	 Moving to D	 	
+r p w g r 
+r y w g b 
+r p y e b 
+ 	 Moving to L	 	
+r p w g r 
+r y w g b 
+r p e y b 
+ 	 Moving to U	 	
+r p w g r 
+r y e g b 
+r p w y b 
+ 	 Moving to L	 	
+r p w g r 
+r e y g b 
+r p w y b 
+ 	 Moving to D	 	
+r p w g r 
+r p y g b 
+r e w y b 
+ 	 Moving to L	 	
+r p w g r 
+r p y g b 
+e r w y b 
+ 	 Moving to U	 	
+r p w g r 
+e p y g b 
+r r w y b 
+ 	 Moving to U	 	
+e p w g r 
+r p y g b 
+r r w y b 
+ 	 Moving to R	 	
+p e w g r 
+r p y g b 
+r r w y b 
+ 	 Moving to D	 	
+p p w g r 
+r e y g b 
+r r w y b 
+ 	 Moving to L	 	
+p p w g r 
+e r y g b 
+r r w y b 
+ 	 Moving to U	 	
+e p w g r 
+p r y g b 
+r r w y b 
+ 	 Moving to R	 	
+p e w g r 
+p r y g b 
+r r w y b 
+ 	 Moving to D	 	
+p r w g r 
+p e y g b 
+r r w y b 
+ 	 Moving to R	 	
+p r w g r 
+p y e g b 
+r r w y b 
+ 	 Moving to D	 	
+p r w g r 
+p y w g b 
+r r e y b 
+ 	 Moving to R	 	
+p r w g r 
+p y w g b 
+r r y e b 
+ 	 Moving to U	 	
+p r w g r 
+p y w e b 
+r r y g b 
+ 	 Moving to L	 	
+p r w g r 
+p y e w b 
+r r y g b 
+ 	 Moving to L	 	
+p r w g r 
+p e y w b 
+r r y g b 
+ 	 Moving to D	 	
+p r w g r 
+p r y w b 
+r e y g b 
+ 	 Moving to L	 	
+p r w g r 
+p r y w b 
+e r y g b 
+ 	 Moving to U	 	
+p r w g r 
+e r y w b 
+p r y g b 
+ 	 Moving to U	 	
+e r w g r 
+p r y w b 
+p r y g b 
+ 	 Moving to R	 	
+r e w g r 
+p r y w b 
+p r y g b 
+ 	 Moving to R	 	
+r w e g r 
+p r y w b 
+p r y g b 
+ 	 Moving to D	 	
+r w y g r 
+p r e w b 
+p r y g b 
+ 	 Moving to R	 	
+r w y g r 
+p r w e b 
+p r y g b 
+ 	 Moving to U	 	
+r w y e r 
+p r w g b 
+p r y g b 
+ 	 Moving to R	 	
+r w y r e 
+p r w g b 
+p r y g b 
+ 	 Moving to D	 	
+r w y r b 
+p r w g e 
+p r y g b 
+ 	 Moving to L	 	
+r w y r b 
+p r w e g 
+p r y g b 
+ 	 Moving to L	 	
+r w y r b 
+p r e w g 
+p r y g b 
+ 	 Moving to U	 	
+r w e r b 
+p r y w g 
+p r y g b 
+ 	 Moving to R	 	
+r w r e b 
+p r y w g 
+p r y g b 
+ 	 Moving to D	 	
+r w r w b 
+p r y e g 
+p r y g b 
+ 	 Moving to R	 	
+r w r w b 
+p r y g e 
+p r y g b 
+ 	 Moving to U	 	
+r w r w e 
+p r y g b 
+p r y g b 
+ 	 Moving to L	 	
+r w r e w 
+p r y g b 
+p r y g b 
+ 	 Moving to L	 	
+r w e r w 
+p r y g b 
+p r y g b 
+ 	 Moving to L	 	
+r e w r w 
+p r y g b 
+p r y g b 
+ 	 Moving to L	 	
+e r w r w 
+p r y g b 
+p r y g b 
+ 	 Moving to D	 	
+p r w r w 
+e r y g b 
+p r y g b 
+ 	 Moving to R	 	
+p r w r w 
+r e y g b 
+p r y g b 
+ 	 Moving to R	 	
+p r w r w 
+r y e g b 
+p r y g b 
+ 	 Moving to U	 	
+p r e r w 
+r y w g b 
+p r y g b 
+ 	 Moving to R	 	
+p r r e w 
+r y w g b 
+p r y g b 
+ 	 Moving to D	 	
+p r r g w 
+r y w e b 
+p r y g b 
+ 	 Moving to L	 	
+p r r g w 
+r y e w b 
+p r y g b 
+ 	 Moving to L	 	
+p r r g w 
+r e y w b 
+p r y g b 
+ 	 Moving to U	 	
+p e r g w 
+r r y w b 
+p r y g b 
+ 	 Moving to R	 	
+p r e g w 
+r r y w b 
+p r y g b 
+ 	 Moving to D	 	
+p r y g w 
+r r e w b 
+p r y g b 
+ 	 Moving to R	 	
+p r y g w 
+r r w e b 
+p r y g b 
+ 	 Moving to U	 	
+p r y e w 
+r r w g b 
+p r y g b 
+ 	 Moving to R	 	
+p r y w e 
+r r w g b 
+p r y g b 
+ 	 Moving to D	 	
+p r y w b 
+r r w g e 
+p r y g b 
+ 	 Moving to L	 	
+p r y w b 
+r r w e g 
+p r y g b 
+ 	 Moving to L	 	
+p r y w b 
+r r e w g 
+p r y g b 
+ 	 Moving to U	 	
+p r e w b 
+r r y w g 
+p r y g b 
+ 	 Moving to R	 	
+p r w e b 
+r r y w g 
+p r y g b 
+ 	 Moving to D	 	
+p r w w b 
+r r y e g 
+p r y g b 
+ 	 Moving to R	 	
+p r w w b 
+r r y g e 
+p r y g b 
+ 	 Moving to U	 	
+p r w w e 
+r r y g b 
+p r y g b 
+ 	 Moving to L	 	
+p r w e w 
+r r y g b 
+p r y g b 
+ 	 Moving to L	 	
+p r e w w 
+r r y g b 
+p r y g b 
+ 	 Moving to D	 	
+p r y w w 
+r r e g b 
+p r y g b 
+ 	 Moving to L	 	
+p r y w w 
+r e r g b 
+p r y g b 
+ 	 Moving to L	 	
+p r y w w 
+e r r g b 
+p r y g b 
+ 	 Moving to D	 	
+p r y w w 
+p r r g b 
+e r y g b 
+ 	 Moving to R	 	
+p r y w w 
+p r r g b 
+r e y g b 
+ 	 Moving to U	 	
+p r y w w 
+p e r g b 
+r r y g b 
+ 	 Moving to R	 	
+p r y w w 
+p r e g b 
+r r y g b 
+ 	 Moving to U	 	
+p r e w w 
+p r y g b 
+r r y g b 
+ 	 Moving to L	 	
+p e r w w 
+p r y g b 
+r r y g b 
+ 	 Moving to D	 	
+p r r w w 
+p e y g b 
+r r y g b 
+ 	 Moving to D	 	
+p r r w w 
+p r y g b 
+r e y g b 
+ 	 Moving to L	 	
+p r r w w 
+p r y g b 
+e r y g b 
+ 	 Moving to U	 	
+p r r w w 
+e r y g b 
+p r y g b 
+ 	 Moving to U	 	
+e r r w w 
+p r y g b 
+p r y g b 
+ 	 Moving to R	 	
+r e r w w 
+p r y g b 
+p r y g b 
+ 	 Moving to D	 	
+r r r w w 
+p e y g b 
+p r y g b 
+ 	 Moving to D	 	
+r r r w w 
+p r y g b 
+p e y g b 
+ 	 Moving to R	 	
+r r r w w 
+p r y g b 
+p y e g b 
+ 	 Moving to U	 	
+r r r w w 
+p r e g b 
+p y y g b 
+ 	 Moving to L	 	
+r r r w w 
+p e r g b 
+p y y g b 
+ 	 Moving to D	 	
+r r r w w 
+p y r g b 
+p e y g b 
+ 	 Moving to R	 	
+r r r w w 
+p y r g b 
+p y e g b 
+ 	 Moving to U	 	
+r r r w w 
+p y e g b 
+p y r g b 
+ 	 Moving to U	 	
+r r e w w 
+p y r g b 
+p y r g b 
+ 	 Moving to L	 	
+r e r w w 
+p y r g b 
+p y r g b 
+ 	 Moving to L	 	
+e r r w w 
+p y r g b 
+p y r g b 
+ 	 Moving to D	 	
+p r r w w 
+e y r g b 
+p y r g b 
+ 	 Moving to D	 	
+p r r w w 
+p y r g b 
+e y r g b 
+ 	 Moving to R	 	
+p r r w w 
+p y r g b 
+y e r g b 
+ 	 Moving to U	 	
+p r r w w 
+p e r g b 
+y y r g b 
+ 	 Moving to R	 	
+p r r w w 
+p r e g b 
+y y r g b 
+ 	 Moving to R	 	
+p r r w w 
+p r g e b 
+y y r g b 
+ 	 Moving to U	 	
+p r r e w 
+p r g w b 
+y y r g b 
+ 	 Moving to R	 	
+p r r w e 
+p r g w b 
+y y r g b 
+ 	 Moving to D	 	
+p r r w b 
+p r g w e 
+y y r g b 
+ 	 Moving to D	 	
+p r r w b 
+p r g w b 
+y y r g e 
+ 	 Moving to L	 	
+p r r w b 
+p r g w b 
+y y r e g 
+ 	 Moving to L	 	
+p r r w b 
+p r g w b 
+y y e r g 
+ 	 Moving to U	 	
+p r r w b 
+p r e w b 
+y y g r g 
+ 	 Moving to L	 	
+p r r w b 
+p e r w b 
+y y g r g 
+ 	 Moving to D	 	
+p r r w b 
+p y r w b 
+y e g r g 
+ 	 Moving to L	 	
+p r r w b 
+p y r w b 
+e y g r g 
+ 	 Moving to U	 	
+p r r w b 
+e y r w b 
+p y g r g 
+ 	 Moving to U	 	
+e r r w b 
+p y r w b 
+p y g r g 
+ 	 Moving to R	 	
+r e r w b 
+p y r w b 
+p y g r g 
+ 	 Moving to D	 	
+r y r w b 
+p e r w b 
+p y g r g 
+ 	 Moving to D	 	
+r y r w b 
+p y r w b 
+p e g r g 
+ 	 Moving to R	 	
+r y r w b 
+p y r w b 
+p g e r g 
+ 	 Moving to R	 	
+r y r w b 
+p y r w b 
+p g r e g 
+ 	 Moving to U	 	
+r y r w b 
+p y r e b 
+p g r w g 
+ 	 Moving to U	 	
+r y r e b 
+p y r w b 
+p g r w g 
+ 	 Moving to L	 	
+r y e r b 
+p y r w b 
+p g r w g 
+ 	 Moving to D	 	
+r y r r b 
+p y e w b 
+p g r w g 
+ 	 Moving to D	 	
+r y r r b 
+p y r w b 
+p g e w g 
+ 	 Moving to R	 	
+r y r r b 
+p y r w b 
+p g w e g 
+ 	 Moving to U	 	
+r y r r b 
+p y r e b 
+p g w w g 
+ 	 Moving to L	 	
+r y r r b 
+p y e r b 
+p g w w g 
+ 	 Moving to D	 	
+r y r r b 
+p y w r b 
+p g e w g 
+ 	 Moving to R	 	
+r y r r b 
+p y w r b 
+p g w e g 
+ 	 Moving to U	 	
+r y r r b 
+p y w e b 
+p g w r g 
+ 	 Moving to U	 	
+r y r e b 
+p y w r b 
+p g w r g 
+ 	 Moving to L	 	
+r y e r b 
+p y w r b 
+p g w r g 
+ 	 Moving to D	 	
+r y w r b 
+p y e r b 
+p g w r g 
+ 	 Moving to D	 	
+r y w r b 
+p y w r b 
+p g e r g 
+ 	 Moving to R	 	
+r y w r b 
+p y w r b 
+p g r e g 
+ 	 Moving to R	 	
+r y w r b 
+p y w r b 
+p g r g e 
+ 	 Moving to U	 	
+r y w r b 
+p y w r e 
+p g r g b 
+ 	 Moving to L	 	
+r y w r b 
+p y w e r 
+p g r g b 
+ 	 Moving to D	 	
+r y w r b 
+p y w g r 
+p g r e b 
+ 	 Moving to L	 	
+r y w r b 
+p y w g r 
+p g e r b 
+ 	 Moving to U	 	
+r y w r b 
+p y e g r 
+p g w r b 
+ 	 Moving to R	 	
+r y w r b 
+p y g e r 
+p g w r b 
+ 	 Moving to R	 	
+r y w r b 
+p y g r e 
+p g w r b 
+ 	 Moving to U	 	
+r y w r e 
+p y g r b 
+p g w r b 
+ 	 Moving to L	 	
+r y w e r 
+p y g r b 
+p g w r b 
+ 	 Moving to D	 	
+r y w r r 
+p y g e b 
+p g w r b 
+ 	 Moving to L	 	
+r y w r r 
+p y e g b 
+p g w r b 
+ 	 Moving to D	 	
+r y w r r 
+p y w g b 
+p g e r b 
+ 	 Moving to L	 	
+r y w r r 
+p y w g b 
+p e g r b 
+ 	 Moving to U	 	
+r y w r r 
+p e w g b 
+p y g r b 
+ 	 Moving to U	 	
+r e w r r 
+p y w g b 
+p y g r b 
+ 	 Moving to R	 	
+r w e r r 
+p y w g b 
+p y g r b 
+ 	 Moving to D	 	
+r w w r r 
+p y e g b 
+p y g r b 
+ 	 Moving to R	 	
+r w w r r 
+p y g e b 
+p y g r b 
+ 	 Moving to U	 	
+r w w e r 
+p y g r b 
+p y g r b 
+ 	 Moving to R	 	
+r w w r e 
+p y g r b 
+p y g r b 
+ 	 Moving to D	 	
+r w w r b 
+p y g r e 
+p y g r b 
+ 	 Moving to D	 	
+r w w r b 
+p y g r b 
+p y g r e 
+ 	 Moving to L	 	
+r w w r b 
+p y g r b 
+p y g e r 
+ 	 Moving to U	 	
+r w w r b 
+p y g e b 
+p y g r r 
+ 	 Moving to U	 	
+r w w e b 
+p y g r b 
+p y g r r 
+ 	 Moving to L	 	
+r w e w b 
+p y g r b 
+p y g r r 
+ 	 Moving to D	 	
+r w g w b 
+p y e r b 
+p y g r r 
+ 	 Moving to L	 	
+r w g w b 
+p e y r b 
+p y g r r 
+ 	 Moving to U	 	
+r e g w b 
+p w y r b 
+p y g r r 
+ 	 Moving to L	 	
+e r g w b 
+p w y r b 
+p y g r r 
+ 	 Moving to D	 	
+p r g w b 
+e w y r b 
+p y g r r 
+ 	 Moving to R	 	
+p r g w b 
+w e y r b 
+p y g r r 
+ 	 Moving to R	 	
+p r g w b 
+w y e r b 
+p y g r r 
+ 	 Moving to U	 	
+p r e w b 
+w y g r b 
+p y g r r 
+ 	 Moving to R	 	
+p r w e b 
+w y g r b 
+p y g r r 
+ 	 Moving to D	 	
+p r w r b 
+w y g e b 
+p y g r r 
+ 	 Moving to D	 	
+p r w r b 
+w y g r b 
+p y g e r 
+ 	 Moving to R	 	
+p r w r b 
+w y g r b 
+p y g r e 
+ 	 Moving to U	 	
+p r w r b 
+w y g r e 
+p y g r b 
+ 	 Moving to U	 	
+p r w r e 
+w y g r b 
+p y g r b 
+ 	 Moving to L	 	
+p r w e r 
+w y g r b 
+p y g r b 
+ 	 Moving to L	 	
+p r e w r 
+w y g r b 
+p y g r b 
+ 	 Moving to D	 	
+p r g w r 
+w y e r b 
+p y g r b 
+ 	 Moving to R	 	
+p r g w r 
+w y r e b 
+p y g r b 
+ 	 Moving to U	 	
+p r g e r 
+w y r w b 
+p y g r b 
+ 	 Moving to R	 	
+p r g r e 
+w y r w b 
+p y g r b 
+ 	 Moving to D	 	
+p r g r b 
+w y r w e 
+p y g r b 
+ 	 Moving to L	 	
+p r g r b 
+w y r e w 
+p y g r b 
+ 	 Moving to L	 	
+p r g r b 
+w y e r w 
+p y g r b 
+ 	 Moving to U	 	
+p r e r b 
+w y g r w 
+p y g r b 
+ 	 Moving to L	 	
+p e r r b 
+w y g r w 
+p y g r b 
+ 	 Moving to D	 	
+p y r r b 
+w e g r w 
+p y g r b 
+ 	 Moving to R	 	
+p y r r b 
+w g e r w 
+p y g r b 
+ 	 Moving to D	 	
+p y r r b 
+w g g r w 
+p y e r b 
+ 	 Moving to R	 	
+p y r r b 
+w g g r w 
+p y r e b 
+ 	 Moving to U	 	
+p y r r b 
+w g g e w 
+p y r r b 
+ Solving game 15
+ 15- Original Config : 
+
+r g b w r 
+r r p e y 
+y g p w b 	 	 Solution states : 
+ 	 Moving to U	 	
+r g b e r 
+r r p w y 
+y g p w b 
+ 	 Moving to L	 	
+r g e b r 
+r r p w y 
+y g p w b 
+ 	 Moving to D	 	
+r g p b r 
+r r e w y 
+y g p w b 
+ 	 Moving to L	 	
+r g p b r 
+r e r w y 
+y g p w b 
+ 	 Moving to D	 	
+r g p b r 
+r g r w y 
+y e p w b 
+ 	 Moving to L	 	
+r g p b r 
+r g r w y 
+e y p w b 
+ 	 Moving to U	 	
+r g p b r 
+e g r w y 
+r y p w b 
+ 	 Moving to R	 	
+r g p b r 
+g e r w y 
+r y p w b 
+ 	 Moving to D	 	
+r g p b r 
+g y r w y 
+r e p w b 
+ 	 Moving to L	 	
+r g p b r 
+g y r w y 
+e r p w b 
+ 	 Moving to U	 	
+r g p b r 
+e y r w y 
+g r p w b 
+ 	 Moving to R	 	
+r g p b r 
+y e r w y 
+g r p w b 
+ 	 Moving to U	 	
+r e p b r 
+y g r w y 
+g r p w b 
+ 	 Moving to L	 	
+e r p b r 
+y g r w y 
+g r p w b 
+ 	 Moving to D	 	
+y r p b r 
+e g r w y 
+g r p w b 
+ 	 Moving to R	 	
+y r p b r 
+g e r w y 
+g r p w b 
+ 	 Moving to R	 	
+y r p b r 
+g r e w y 
+g r p w b 
+ 	 Moving to R	 	
+y r p b r 
+g r w e y 
+g r p w b 
+ 	 Moving to U	 	
+y r p e r 
+g r w b y 
+g r p w b 
+ 	 Moving to R	 	
+y r p r e 
+g r w b y 
+g r p w b 
+ 	 Moving to D	 	
+y r p r y 
+g r w b e 
+g r p w b 
+ 	 Moving to L	 	
+y r p r y 
+g r w e b 
+g r p w b 
+ 	 Moving to L	 	
+y r p r y 
+g r e w b 
+g r p w b 
+ 	 Moving to U	 	
+y r e r y 
+g r p w b 
+g r p w b 
+ 	 Moving to R	 	
+y r r e y 
+g r p w b 
+g r p w b 
+ 	 Moving to D	 	
+y r r w y 
+g r p e b 
+g r p w b 
+ 	 Moving to D	 	
+y r r w y 
+g r p w b 
+g r p e b 
+ 	 Moving to L	 	
+y r r w y 
+g r p w b 
+g r e p b 
+ 	 Moving to L	 	
+y r r w y 
+g r p w b 
+g e r p b 
+ 	 Moving to U	 	
+y r r w y 
+g e p w b 
+g r r p b 
+ 	 Moving to R	 	
+y r r w y 
+g p e w b 
+g r r p b 
+ 	 Moving to U	 	
+y r e w y 
+g p r w b 
+g r r p b 
+ 	 Moving to L	 	
+y e r w y 
+g p r w b 
+g r r p b 
+ 	 Moving to L	 	
+e y r w y 
+g p r w b 
+g r r p b 
+ 	 Moving to D	 	
+g y r w y 
+e p r w b 
+g r r p b 
+ 	 Moving to R	 	
+g y r w y 
+p e r w b 
+g r r p b 
+ 	 Moving to U	 	
+g e r w y 
+p y r w b 
+g r r p b 
+ 	 Moving to R	 	
+g r e w y 
+p y r w b 
+g r r p b 
+ 	 Moving to D	 	
+g r r w y 
+p y e w b 
+g r r p b 
+ 	 Moving to L	 	
+g r r w y 
+p e y w b 
+g r r p b 
+ 	 Moving to D	 	
+g r r w y 
+p r y w b 
+g e r p b 
+ 	 Moving to R	 	
+g r r w y 
+p r y w b 
+g r e p b 
+ 	 Moving to R	 	
+g r r w y 
+p r y w b 
+g r p e b 
+ 	 Moving to U	 	
+g r r w y 
+p r y e b 
+g r p w b 
+ 	 Moving to L	 	
+g r r w y 
+p r e y b 
+g r p w b 
+ 	 Moving to D	 	
+g r r w y 
+p r p y b 
+g r e w b 
+ 	 Moving to L	 	
+g r r w y 
+p r p y b 
+g e r w b 
+ 	 Moving to U	 	
+g r r w y 
+p e p y b 
+g r r w b 
+ 	 Moving to R	 	
+g r r w y 
+p p e y b 
+g r r w b 
+ 	 Moving to D	 	
+g r r w y 
+p p r y b 
+g r e w b 
+ 	 Moving to L	 	
+g r r w y 
+p p r y b 
+g e r w b 
+ 	 Moving to U	 	
+g r r w y 
+p e r y b 
+g p r w b 
+ 	 Moving to L	 	
+g r r w y 
+e p r y b 
+g p r w b 
+ 	 Moving to U	 	
+e r r w y 
+g p r y b 
+g p r w b 
+ 	 Moving to R	 	
+r e r w y 
+g p r y b 
+g p r w b 
+ 	 Moving to D	 	
+r p r w y 
+g e r y b 
+g p r w b 
+ 	 Moving to D	 	
+r p r w y 
+g p r y b 
+g e r w b 
+ 	 Moving to R	 	
+r p r w y 
+g p r y b 
+g r e w b 
+ 	 Moving to U	 	
+r p r w y 
+g p e y b 
+g r r w b 
+ 	 Moving to R	 	
+r p r w y 
+g p y e b 
+g r r w b 
+ 	 Moving to U	 	
+r p r e y 
+g p y w b 
+g r r w b 
+ 	 Moving to R	 	
+r p r y e 
+g p y w b 
+g r r w b 
+ 	 Moving to D	 	
+r p r y b 
+g p y w e 
+g r r w b 
+ 	 Moving to D	 	
+r p r y b 
+g p y w b 
+g r r w e 
+ 	 Moving to L	 	
+r p r y b 
+g p y w b 
+g r r e w 
+ 	 Moving to U	 	
+r p r y b 
+g p y e b 
+g r r w w 
+ 	 Moving to L	 	
+r p r y b 
+g p e y b 
+g r r w w 
+ 	 Moving to D	 	
+r p r y b 
+g p r y b 
+g r e w w 
+ 	 Moving to R	 	
+r p r y b 
+g p r y b 
+g r w e w 
+ 	 Moving to R	 	
+r p r y b 
+g p r y b 
+g r w w e 
+ 	 Moving to U	 	
+r p r y b 
+g p r y e 
+g r w w b 
+ 	 Moving to L	 	
+r p r y b 
+g p r e y 
+g r w w b 
+ 	 Moving to D	 	
+r p r y b 
+g p r w y 
+g r w e b 
+ 	 Moving to L	 	
+r p r y b 
+g p r w y 
+g r e w b 
+ 	 Moving to L	 	
+r p r y b 
+g p r w y 
+g e r w b 
+ 	 Moving to U	 	
+r p r y b 
+g e r w y 
+g p r w b 
+ 	 Moving to U	 	
+r e r y b 
+g p r w y 
+g p r w b 
+ 	 Moving to R	 	
+r r e y b 
+g p r w y 
+g p r w b 
+ 	 Moving to D	 	
+r r r y b 
+g p e w y 
+g p r w b 
+ 	 Moving to R	 	
+r r r y b 
+g p w e y 
+g p r w b 
+ 	 Moving to R	 	
+r r r y b 
+g p w y e 
+g p r w b 
+ 	 Moving to D	 	
+r r r y b 
+g p w y b 
+g p r w e 
+ 	 Moving to L	 	
+r r r y b 
+g p w y b 
+g p r e w 
+ 	 Moving to U	 	
+r r r y b 
+g p w e b 
+g p r y w 
+ 	 Moving to L	 	
+r r r y b 
+g p e w b 
+g p r y w 
+ 	 Moving to U	 	
+r r e y b 
+g p r w b 
+g p r y w 
+ 	 Moving to L	 	
+r e r y b 
+g p r w b 
+g p r y w 
+ 	 Moving to L	 	
+e r r y b 
+g p r w b 
+g p r y w 
+ 	 Moving to D	 	
+g r r y b 
+e p r w b 
+g p r y w 
+ 	 Moving to R	 	
+g r r y b 
+p e r w b 
+g p r y w 
+ 	 Moving to R	 	
+g r r y b 
+p r e w b 
+g p r y w 
+ 	 Moving to R	 	
+g r r y b 
+p r w e b 
+g p r y w 
+ 	 Moving to U	 	
+g r r e b 
+p r w y b 
+g p r y w 
+ 	 Moving to L	 	
+g r e r b 
+p r w y b 
+g p r y w 
+ 	 Moving to D	 	
+g r w r b 
+p r e y b 
+g p r y w 
+ 	 Moving to L	 	
+g r w r b 
+p e r y b 
+g p r y w 
+ 	 Moving to L	 	
+g r w r b 
+e p r y b 
+g p r y w 
+ 	 Moving to U	 	
+e r w r b 
+g p r y b 
+g p r y w 
+ 	 Moving to R	 	
+r e w r b 
+g p r y b 
+g p r y w 
+ 	 Moving to R	 	
+r w e r b 
+g p r y b 
+g p r y w 
+ 	 Moving to D	 	
+r w r r b 
+g p e y b 
+g p r y w 
+ 	 Moving to L	 	
+r w r r b 
+g e p y b 
+g p r y w 
+ 	 Moving to U	 	
+r e r r b 
+g w p y b 
+g p r y w 
+ 	 Moving to L	 	
+e r r r b 
+g w p y b 
+g p r y w 
+ 	 Moving to D	 	
+g r r r b 
+e w p y b 
+g p r y w 
+ 	 Moving to R	 	
+g r r r b 
+w e p y b 
+g p r y w 
+ 	 Moving to R	 	
+g r r r b 
+w p e y b 
+g p r y w 
+ 	 Moving to U	 	
+g r e r b 
+w p r y b 
+g p r y w 
+ 	 Moving to L	 	
+g e r r b 
+w p r y b 
+g p r y w 
+ 	 Moving to D	 	
+g p r r b 
+w e r y b 
+g p r y w 
+ 	 Moving to D	 	
+g p r r b 
+w p r y b 
+g e r y w 
+ 	 Moving to R	 	
+g p r r b 
+w p r y b 
+g r e y w 
+ 	 Moving to R	 	
+g p r r b 
+w p r y b 
+g r y e w 
+ 	 Moving to R	 	
+g p r r b 
+w p r y b 
+g r y w e 
+ 	 Moving to U	 	
+g p r r b 
+w p r y e 
+g r y w b 
+ 	 Moving to L	 	
+g p r r b 
+w p r e y 
+g r y w b 
+ 	 Moving to L	 	
+g p r r b 
+w p e r y 
+g r y w b 
+ 	 Moving to D	 	
+g p r r b 
+w p y r y 
+g r e w b 
+ 	 Moving to L	 	
+g p r r b 
+w p y r y 
+g e r w b 
+ 	 Moving to U	 	
+g p r r b 
+w e y r y 
+g p r w b 
+ 	 Moving to R	 	
+g p r r b 
+w y e r y 
+g p r w b 
+ 	 Moving to R	 	
+g p r r b 
+w y r e y 
+g p r w b 
+ 	 Moving to D	 	
+g p r r b 
+w y r w y 
+g p r e b 
+ 	 Moving to L	 	
+g p r r b 
+w y r w y 
+g p e r b 
+ 	 Moving to U	 	
+g p r r b 
+w y e w y 
+g p r r b 
+ Solving game 16
+ 16- Original Config : 
+
+r r r w y 
+r g w y e 
+p p g b b 	 	 Solution states : 
+ 	 Moving to L	 	
+r r r w y 
+r g w e y 
+p p g b b 
+ 	 Moving to L	 	
+r r r w y 
+r g e w y 
+p p g b b 
+ 	 Moving to L	 	
+r r r w y 
+r e g w y 
+p p g b b 
+ 	 Moving to D	 	
+r r r w y 
+r p g w y 
+p e g b b 
+ 	 Moving to L	 	
+r r r w y 
+r p g w y 
+e p g b b 
+ 	 Moving to U	 	
+r r r w y 
+e p g w y 
+r p g b b 
+ 	 Moving to U	 	
+e r r w y 
+r p g w y 
+r p g b b 
+ 	 Moving to R	 	
+r e r w y 
+r p g w y 
+r p g b b 
+ 	 Moving to D	 	
+r p r w y 
+r e g w y 
+r p g b b 
+ 	 Moving to D	 	
+r p r w y 
+r p g w y 
+r e g b b 
+ 	 Moving to L	 	
+r p r w y 
+r p g w y 
+e r g b b 
+ 	 Moving to U	 	
+r p r w y 
+e p g w y 
+r r g b b 
+ 	 Moving to U	 	
+e p r w y 
+r p g w y 
+r r g b b 
+ 	 Moving to R	 	
+p e r w y 
+r p g w y 
+r r g b b 
+ 	 Moving to R	 	
+p r e w y 
+r p g w y 
+r r g b b 
+ 	 Moving to D	 	
+p r g w y 
+r p e w y 
+r r g b b 
+ 	 Moving to L	 	
+p r g w y 
+r e p w y 
+r r g b b 
+ 	 Moving to L	 	
+p r g w y 
+e r p w y 
+r r g b b 
+ 	 Moving to U	 	
+e r g w y 
+p r p w y 
+r r g b b 
+ 	 Moving to R	 	
+r e g w y 
+p r p w y 
+r r g b b 
+ 	 Moving to D	 	
+r r g w y 
+p e p w y 
+r r g b b 
+ 	 Moving to L	 	
+r r g w y 
+e p p w y 
+r r g b b 
+ 	 Moving to U	 	
+e r g w y 
+r p p w y 
+r r g b b 
+ 	 Moving to R	 	
+r e g w y 
+r p p w y 
+r r g b b 
+ 	 Moving to D	 	
+r p g w y 
+r e p w y 
+r r g b b 
+ 	 Moving to R	 	
+r p g w y 
+r p e w y 
+r r g b b 
+ 	 Moving to R	 	
+r p g w y 
+r p w e y 
+r r g b b 
+ 	 Moving to D	 	
+r p g w y 
+r p w b y 
+r r g e b 
+ 	 Moving to R	 	
+r p g w y 
+r p w b y 
+r r g b e 
+ 	 Moving to U	 	
+r p g w y 
+r p w b e 
+r r g b y 
+ 	 Moving to U	 	
+r p g w e 
+r p w b y 
+r r g b y 
+ 	 Moving to L	 	
+r p g e w 
+r p w b y 
+r r g b y 
+ 	 Moving to D	 	
+r p g b w 
+r p w e y 
+r r g b y 
+ 	 Moving to L	 	
+r p g b w 
+r p e w y 
+r r g b y 
+ 	 Moving to U	 	
+r p e b w 
+r p g w y 
+r r g b y 
+ 	 Moving to L	 	
+r e p b w 
+r p g w y 
+r r g b y 
+ 	 Moving to L	 	
+e r p b w 
+r p g w y 
+r r g b y 
+ 	 Moving to D	 	
+r r p b w 
+e p g w y 
+r r g b y 
+ 	 Moving to R	 	
+r r p b w 
+p e g w y 
+r r g b y 
+ 	 Moving to U	 	
+r e p b w 
+p r g w y 
+r r g b y 
+ 	 Moving to R	 	
+r p e b w 
+p r g w y 
+r r g b y 
+ 	 Moving to D	 	
+r p g b w 
+p r e w y 
+r r g b y 
+ 	 Moving to R	 	
+r p g b w 
+p r w e y 
+r r g b y 
+ 	 Moving to U	 	
+r p g e w 
+p r w b y 
+r r g b y 
+ 	 Moving to R	 	
+r p g w e 
+p r w b y 
+r r g b y 
+ 	 Moving to D	 	
+r p g w y 
+p r w b e 
+r r g b y 
+ 	 Moving to L	 	
+r p g w y 
+p r w e b 
+r r g b y 
+ 	 Moving to L	 	
+r p g w y 
+p r e w b 
+r r g b y 
+ 	 Moving to U	 	
+r p e w y 
+p r g w b 
+r r g b y 
+ 	 Moving to L	 	
+r e p w y 
+p r g w b 
+r r g b y 
+ 	 Moving to D	 	
+r r p w y 
+p e g w b 
+r r g b y 
+ 	 Moving to L	 	
+r r p w y 
+e p g w b 
+r r g b y 
+ 	 Moving to U	 	
+e r p w y 
+r p g w b 
+r r g b y 
+ 	 Moving to R	 	
+r e p w y 
+r p g w b 
+r r g b y 
+ 	 Moving to R	 	
+r p e w y 
+r p g w b 
+r r g b y 
+ 	 Moving to D	 	
+r p g w y 
+r p e w b 
+r r g b y 
+ 	 Moving to D	 	
+r p g w y 
+r p g w b 
+r r e b y 
+ 	 Moving to L	 	
+r p g w y 
+r p g w b 
+r e r b y 
+ 	 Moving to L	 	
+r p g w y 
+r p g w b 
+e r r b y 
+ 	 Moving to U	 	
+r p g w y 
+e p g w b 
+r r r b y 
+ 	 Moving to U	 	
+e p g w y 
+r p g w b 
+r r r b y 
+ 	 Moving to R	 	
+p e g w y 
+r p g w b 
+r r r b y 
+ 	 Moving to D	 	
+p p g w y 
+r e g w b 
+r r r b y 
+ 	 Moving to L	 	
+p p g w y 
+e r g w b 
+r r r b y 
+ 	 Moving to U	 	
+e p g w y 
+p r g w b 
+r r r b y 
+ 	 Moving to R	 	
+p e g w y 
+p r g w b 
+r r r b y 
+ 	 Moving to D	 	
+p r g w y 
+p e g w b 
+r r r b y 
+ 	 Moving to D	 	
+p r g w y 
+p r g w b 
+r e r b y 
+ 	 Moving to R	 	
+p r g w y 
+p r g w b 
+r r e b y 
+ 	 Moving to U	 	
+p r g w y 
+p r e w b 
+r r g b y 
+ 	 Moving to R	 	
+p r g w y 
+p r w e b 
+r r g b y 
+ 	 Moving to R	 	
+p r g w y 
+p r w b e 
+r r g b y 
+ 	 Moving to D	 	
+p r g w y 
+p r w b y 
+r r g b e 
+ 	 Moving to L	 	
+p r g w y 
+p r w b y 
+r r g e b 
+ 	 Moving to U	 	
+p r g w y 
+p r w e y 
+r r g b b 
+ 	 Moving to L	 	
+p r g w y 
+p r e w y 
+r r g b b 
+ 	 Moving to U	 	
+p r e w y 
+p r g w y 
+r r g b b 
+ 	 Moving to L	 	
+p e r w y 
+p r g w y 
+r r g b b 
+ 	 Moving to D	 	
+p r r w y 
+p e g w y 
+r r g b b 
+ 	 Moving to D	 	
+p r r w y 
+p r g w y 
+r e g b b 
+ 	 Moving to L	 	
+p r r w y 
+p r g w y 
+e r g b b 
+ 	 Moving to U	 	
+p r r w y 
+e r g w y 
+p r g b b 
+ 	 Moving to U	 	
+e r r w y 
+p r g w y 
+p r g b b 
+ 	 Moving to R	 	
+r e r w y 
+p r g w y 
+p r g b b 
+ 	 Moving to D	 	
+r r r w y 
+p e g w y 
+p r g b b 
+ 	 Moving to R	 	
+r r r w y 
+p g e w y 
+p r g b b 
+ 	 Moving to U	 	
+r r e w y 
+p g r w y 
+p r g b b 
+ 	 Moving to L	 	
+r e r w y 
+p g r w y 
+p r g b b 
+ 	 Moving to L	 	
+e r r w y 
+p g r w y 
+p r g b b 
+ 	 Moving to D	 	
+p r r w y 
+e g r w y 
+p r g b b 
+ 	 Moving to D	 	
+p r r w y 
+p g r w y 
+e r g b b 
+ 	 Moving to R	 	
+p r r w y 
+p g r w y 
+r e g b b 
+ 	 Moving to R	 	
+p r r w y 
+p g r w y 
+r g e b b 
+ 	 Moving to U	 	
+p r r w y 
+p g e w y 
+r g r b b 
+ 	 Moving to U	 	
+p r e w y 
+p g r w y 
+r g r b b 
+ 	 Moving to L	 	
+p e r w y 
+p g r w y 
+r g r b b 
+ 	 Moving to D	 	
+p g r w y 
+p e r w y 
+r g r b b 
+ 	 Moving to D	 	
+p g r w y 
+p g r w y 
+r e r b b 
+ 	 Moving to R	 	
+p g r w y 
+p g r w y 
+r r e b b 
+ 	 Moving to R	 	
+p g r w y 
+p g r w y 
+r r b e b 
+ 	 Moving to R	 	
+p g r w y 
+p g r w y 
+r r b b e 
+ 	 Moving to U	 	
+p g r w y 
+p g r w e 
+r r b b y 
+ 	 Moving to L	 	
+p g r w y 
+p g r e w 
+r r b b y 
+ 	 Moving to D	 	
+p g r w y 
+p g r b w 
+r r b e y 
+ 	 Moving to L	 	
+p g r w y 
+p g r b w 
+r r e b y 
+ 	 Moving to L	 	
+p g r w y 
+p g r b w 
+r e r b y 
+ 	 Moving to U	 	
+p g r w y 
+p e r b w 
+r g r b y 
+ 	 Moving to U	 	
+p e r w y 
+p g r b w 
+r g r b y 
+ 	 Moving to R	 	
+p r e w y 
+p g r b w 
+r g r b y 
+ 	 Moving to R	 	
+p r w e y 
+p g r b w 
+r g r b y 
+ 	 Moving to D	 	
+p r w b y 
+p g r e w 
+r g r b y 
+ 	 Moving to L	 	
+p r w b y 
+p g e r w 
+r g r b y 
+ 	 Moving to U	 	
+p r e b y 
+p g w r w 
+r g r b y 
+ 	 Moving to L	 	
+p e r b y 
+p g w r w 
+r g r b y 
+ 	 Moving to D	 	
+p g r b y 
+p e w r w 
+r g r b y 
+ 	 Moving to R	 	
+p g r b y 
+p w e r w 
+r g r b y 
+ 	 Moving to R	 	
+p g r b y 
+p w r e w 
+r g r b y 
+ 	 Moving to D	 	
+p g r b y 
+p w r b w 
+r g r e y 
+ 	 Moving to L	 	
+p g r b y 
+p w r b w 
+r g e r y 
+ 	 Moving to U	 	
+p g r b y 
+p w e b w 
+r g r r y 
+ 	 Moving to L	 	
+p g r b y 
+p e w b w 
+r g r r y 
+ 	 Moving to D	 	
+p g r b y 
+p g w b w 
+r e r r y 
+ 	 Moving to L	 	
+p g r b y 
+p g w b w 
+e r r r y 
+ 	 Moving to U	 	
+p g r b y 
+e g w b w 
+p r r r y 
+ 	 Moving to R	 	
+p g r b y 
+g e w b w 
+p r r r y 
+ 	 Moving to D	 	
+p g r b y 
+g r w b w 
+p e r r y 
+ 	 Moving to R	 	
+p g r b y 
+g r w b w 
+p r e r y 
+ 	 Moving to R	 	
+p g r b y 
+g r w b w 
+p r r e y 
+ 	 Moving to U	 	
+p g r b y 
+g r w e w 
+p r r b y 
+ 	 Moving to L	 	
+p g r b y 
+g r e w w 
+p r r b y 
+ 	 Moving to L	 	
+p g r b y 
+g e r w w 
+p r r b y 
+ 	 Moving to U	 	
+p e r b y 
+g g r w w 
+p r r b y 
+ 	 Moving to R	 	
+p r e b y 
+g g r w w 
+p r r b y 
+ 	 Moving to D	 	
+p r r b y 
+g g e w w 
+p r r b y 
+ Solving game 17
+ 17- Original Config : 
+
+r g w e b 
+p r p r w 
+y y g r b 	 	 Solution states : 
+ 	 Moving to D	 	
+r g w r b 
+p r p e w 
+y y g r b 
+ 	 Moving to L	 	
+r g w r b 
+p r e p w 
+y y g r b 
+ 	 Moving to D	 	
+r g w r b 
+p r g p w 
+y y e r b 
+ 	 Moving to L	 	
+r g w r b 
+p r g p w 
+y e y r b 
+ 	 Moving to L	 	
+r g w r b 
+p r g p w 
+e y y r b 
+ 	 Moving to U	 	
+r g w r b 
+e r g p w 
+p y y r b 
+ 	 Moving to R	 	
+r g w r b 
+r e g p w 
+p y y r b 
+ 	 Moving to R	 	
+r g w r b 
+r g e p w 
+p y y r b 
+ 	 Moving to D	 	
+r g w r b 
+r g y p w 
+p y e r b 
+ 	 Moving to L	 	
+r g w r b 
+r g y p w 
+p e y r b 
+ 	 Moving to L	 	
+r g w r b 
+r g y p w 
+e p y r b 
+ 	 Moving to U	 	
+r g w r b 
+e g y p w 
+r p y r b 
+ 	 Moving to R	 	
+r g w r b 
+g e y p w 
+r p y r b 
+ 	 Moving to R	 	
+r g w r b 
+g y e p w 
+r p y r b 
+ 	 Moving to R	 	
+r g w r b 
+g y p e w 
+r p y r b 
+ 	 Moving to U	 	
+r g w e b 
+g y p r w 
+r p y r b 
+ 	 Moving to L	 	
+r g e w b 
+g y p r w 
+r p y r b 
+ 	 Moving to D	 	
+r g p w b 
+g y e r w 
+r p y r b 
+ 	 Moving to L	 	
+r g p w b 
+g e y r w 
+r p y r b 
+ 	 Moving to D	 	
+r g p w b 
+g p y r w 
+r e y r b 
+ 	 Moving to R	 	
+r g p w b 
+g p y r w 
+r y e r b 
+ 	 Moving to U	 	
+r g p w b 
+g p e r w 
+r y y r b 
+ 	 Moving to L	 	
+r g p w b 
+g e p r w 
+r y y r b 
+ 	 Moving to D	 	
+r g p w b 
+g y p r w 
+r e y r b 
+ 	 Moving to R	 	
+r g p w b 
+g y p r w 
+r y e r b 
+ 	 Moving to R	 	
+r g p w b 
+g y p r w 
+r y r e b 
+ 	 Moving to U	 	
+r g p w b 
+g y p e w 
+r y r r b 
+ 	 Moving to R	 	
+r g p w b 
+g y p w e 
+r y r r b 
+ 	 Moving to D	 	
+r g p w b 
+g y p w b 
+r y r r e 
+ 	 Moving to L	 	
+r g p w b 
+g y p w b 
+r y r e r 
+ 	 Moving to L	 	
+r g p w b 
+g y p w b 
+r y e r r 
+ 	 Moving to L	 	
+r g p w b 
+g y p w b 
+r e y r r 
+ 	 Moving to U	 	
+r g p w b 
+g e p w b 
+r y y r r 
+ 	 Moving to L	 	
+r g p w b 
+e g p w b 
+r y y r r 
+ 	 Moving to D	 	
+r g p w b 
+r g p w b 
+e y y r r 
+ 	 Moving to R	 	
+r g p w b 
+r g p w b 
+y e y r r 
+ 	 Moving to R	 	
+r g p w b 
+r g p w b 
+y y e r r 
+ 	 Moving to U	 	
+r g p w b 
+r g e w b 
+y y p r r 
+ 	 Moving to L	 	
+r g p w b 
+r e g w b 
+y y p r r 
+ 	 Moving to D	 	
+r g p w b 
+r y g w b 
+y e p r r 
+ 	 Moving to L	 	
+r g p w b 
+r y g w b 
+e y p r r 
+ 	 Moving to U	 	
+r g p w b 
+e y g w b 
+r y p r r 
+ 	 Moving to R	 	
+r g p w b 
+y e g w b 
+r y p r r 
+ 	 Moving to R	 	
+r g p w b 
+y g e w b 
+r y p r r 
+ 	 Moving to D	 	
+r g p w b 
+y g p w b 
+r y e r r 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r y r e r 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r y r r e 
+ 	 Moving to U	 	
+r g p w b 
+y g p w e 
+r y r r b 
+ 	 Moving to L	 	
+r g p w b 
+y g p e w 
+r y r r b 
+ 	 Moving to D	 	
+r g p w b 
+y g p r w 
+r y r e b 
+ 	 Moving to L	 	
+r g p w b 
+y g p r w 
+r y e r b 
+ 	 Moving to U	 	
+r g p w b 
+y g e r w 
+r y p r b 
+ 	 Moving to R	 	
+r g p w b 
+y g r e w 
+r y p r b 
+ 	 Moving to R	 	
+r g p w b 
+y g r w e 
+r y p r b 
+ 	 Moving to D	 	
+r g p w b 
+y g r w b 
+r y p r e 
+ 	 Moving to L	 	
+r g p w b 
+y g r w b 
+r y p e r 
+ 	 Moving to U	 	
+r g p w b 
+y g r e b 
+r y p w r 
+ 	 Moving to L	 	
+r g p w b 
+y g e r b 
+r y p w r 
+ 	 Moving to D	 	
+r g p w b 
+y g p r b 
+r y e w r 
+ 	 Moving to L	 	
+r g p w b 
+y g p r b 
+r e y w r 
+ 	 Moving to U	 	
+r g p w b 
+y e p r b 
+r g y w r 
+ 	 Moving to R	 	
+r g p w b 
+y p e r b 
+r g y w r 
+ 	 Moving to R	 	
+r g p w b 
+y p r e b 
+r g y w r 
+ 	 Moving to D	 	
+r g p w b 
+y p r w b 
+r g y e r 
+ 	 Moving to L	 	
+r g p w b 
+y p r w b 
+r g e y r 
+ 	 Moving to U	 	
+r g p w b 
+y p e w b 
+r g r y r 
+ 	 Moving to L	 	
+r g p w b 
+y e p w b 
+r g r y r 
+ 	 Moving to D	 	
+r g p w b 
+y g p w b 
+r e r y r 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r e y r 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r y e r 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r y r e 
+ 	 Moving to U	 	
+r g p w b 
+y g p w e 
+r r y r b 
+ 	 Moving to L	 	
+r g p w b 
+y g p e w 
+r r y r b 
+ 	 Moving to D	 	
+r g p w b 
+y g p r w 
+r r y e b 
+ 	 Moving to L	 	
+r g p w b 
+y g p r w 
+r r e y b 
+ 	 Moving to U	 	
+r g p w b 
+y g e r w 
+r r p y b 
+ 	 Moving to R	 	
+r g p w b 
+y g r e w 
+r r p y b 
+ 	 Moving to R	 	
+r g p w b 
+y g r w e 
+r r p y b 
+ 	 Moving to D	 	
+r g p w b 
+y g r w b 
+r r p y e 
+ 	 Moving to L	 	
+r g p w b 
+y g r w b 
+r r p e y 
+ 	 Moving to U	 	
+r g p w b 
+y g r e b 
+r r p w y 
+ 	 Moving to L	 	
+r g p w b 
+y g e r b 
+r r p w y 
+ 	 Moving to D	 	
+r g p w b 
+y g p r b 
+r r e w y 
+ 	 Moving to L	 	
+r g p w b 
+y g p r b 
+r e r w y 
+ 	 Moving to U	 	
+r g p w b 
+y e p r b 
+r g r w y 
+ 	 Moving to R	 	
+r g p w b 
+y p e r b 
+r g r w y 
+ 	 Moving to R	 	
+r g p w b 
+y p r e b 
+r g r w y 
+ 	 Moving to D	 	
+r g p w b 
+y p r w b 
+r g r e y 
+ 	 Moving to L	 	
+r g p w b 
+y p r w b 
+r g e r y 
+ 	 Moving to U	 	
+r g p w b 
+y p e w b 
+r g r r y 
+ 	 Moving to L	 	
+r g p w b 
+y e p w b 
+r g r r y 
+ 	 Moving to D	 	
+r g p w b 
+y g p w b 
+r e r r y 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r e r y 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r r e y 
+ 	 Moving to R	 	
+r g p w b 
+y g p w b 
+r r r y e 
+ 	 Moving to U	 	
+r g p w b 
+y g p w e 
+r r r y b 
+ 	 Moving to L	 	
+r g p w b 
+y g p e w 
+r r r y b 
+ 	 Moving to D	 	
+r g p w b 
+y g p y w 
+r r r e b 
+ 	 Moving to L	 	
+r g p w b 
+y g p y w 
+r r e r b 
+ 	 Moving to U	 	
+r g p w b 
+y g e y w 
+r r p r b 
+ 	 Moving to R	 	
+r g p w b 
+y g y e w 
+r r p r b 
+ 	 Moving to R	 	
+r g p w b 
+y g y w e 
+r r p r b 
+ 	 Moving to D	 	
+r g p w b 
+y g y w b 
+r r p r e 
+ 	 Moving to L	 	
+r g p w b 
+y g y w b 
+r r p e r 
+ 	 Moving to U	 	
+r g p w b 
+y g y e b 
+r r p w r 
+ 	 Moving to L	 	
+r g p w b 
+y g e y b 
+r r p w r 
+ 	 Moving to L	 	
+r g p w b 
+y e g y b 
+r r p w r 
+ 	 Moving to L	 	
+r g p w b 
+e y g y b 
+r r p w r 
+ 	 Moving to U	 	
+e g p w b 
+r y g y b 
+r r p w r 
+ 	 Moving to R	 	
+g e p w b 
+r y g y b 
+r r p w r 
+ 	 Moving to D	 	
+g y p w b 
+r e g y b 
+r r p w r 
+ 	 Moving to R	 	
+g y p w b 
+r g e y b 
+r r p w r 
+ 	 Moving to U	 	
+g y e w b 
+r g p y b 
+r r p w r 
+ 	 Moving to L	 	
+g e y w b 
+r g p y b 
+r r p w r 
+ 	 Moving to L	 	
+e g y w b 
+r g p y b 
+r r p w r 
+ 	 Moving to D	 	
+r g y w b 
+e g p y b 
+r r p w r 
+ 	 Moving to D	 	
+r g y w b 
+r g p y b 
+e r p w r 
+ 	 Moving to R	 	
+r g y w b 
+r g p y b 
+r e p w r 
+ 	 Moving to U	 	
+r g y w b 
+r e p y b 
+r g p w r 
+ 	 Moving to R	 	
+r g y w b 
+r p e y b 
+r g p w r 
+ 	 Moving to R	 	
+r g y w b 
+r p y e b 
+r g p w r 
+ 	 Moving to D	 	
+r g y w b 
+r p y w b 
+r g p e r 
+ 	 Moving to L	 	
+r g y w b 
+r p y w b 
+r g e p r 
+ 	 Moving to U	 	
+r g y w b 
+r p e w b 
+r g y p r 
+ 	 Moving to L	 	
+r g y w b 
+r e p w b 
+r g y p r 
+ 	 Moving to U	 	
+r e y w b 
+r g p w b 
+r g y p r 
+ 	 Moving to L	 	
+e r y w b 
+r g p w b 
+r g y p r 
+ 	 Moving to D	 	
+r r y w b 
+e g p w b 
+r g y p r 
+ 	 Moving to D	 	
+r r y w b 
+r g p w b 
+e g y p r 
+ 	 Moving to R	 	
+r r y w b 
+r g p w b 
+g e y p r 
+ 	 Moving to U	 	
+r r y w b 
+r e p w b 
+g g y p r 
+ 	 Moving to L	 	
+r r y w b 
+e r p w b 
+g g y p r 
+ 	 Moving to D	 	
+r r y w b 
+g r p w b 
+e g y p r 
+ 	 Moving to R	 	
+r r y w b 
+g r p w b 
+g e y p r 
+ 	 Moving to U	 	
+r r y w b 
+g e p w b 
+g r y p r 
+ 	 Moving to R	 	
+r r y w b 
+g p e w b 
+g r y p r 
+ 	 Moving to D	 	
+r r y w b 
+g p y w b 
+g r e p r 
+ 	 Moving to R	 	
+r r y w b 
+g p y w b 
+g r p e r 
+ 	 Moving to U	 	
+r r y w b 
+g p y e b 
+g r p w r 
+ 	 Moving to L	 	
+r r y w b 
+g p e y b 
+g r p w r 
+ 	 Moving to L	 	
+r r y w b 
+g e p y b 
+g r p w r 
+ 	 Moving to U	 	
+r e y w b 
+g r p y b 
+g r p w r 
+ 	 Moving to L	 	
+e r y w b 
+g r p y b 
+g r p w r 
+ 	 Moving to D	 	
+g r y w b 
+e r p y b 
+g r p w r 
+ 	 Moving to D	 	
+g r y w b 
+g r p y b 
+e r p w r 
+ 	 Moving to R	 	
+g r y w b 
+g r p y b 
+r e p w r 
+ 	 Moving to R	 	
+g r y w b 
+g r p y b 
+r p e w r 
+ 	 Moving to U	 	
+g r y w b 
+g r e y b 
+r p p w r 
+ 	 Moving to R	 	
+g r y w b 
+g r y e b 
+r p p w r 
+ 	 Moving to D	 	
+g r y w b 
+g r y w b 
+r p p e r 
+ 	 Moving to L	 	
+g r y w b 
+g r y w b 
+r p e p r 
+ 	 Moving to L	 	
+g r y w b 
+g r y w b 
+r e p p r 
+ 	 Moving to L	 	
+g r y w b 
+g r y w b 
+e r p p r 
+ 	 Moving to U	 	
+g r y w b 
+e r y w b 
+g r p p r 
+ 	 Moving to U	 	
+e r y w b 
+g r y w b 
+g r p p r 
+ 	 Moving to R	 	
+r e y w b 
+g r y w b 
+g r p p r 
+ 	 Moving to D	 	
+r r y w b 
+g e y w b 
+g r p p r 
+ 	 Moving to D	 	
+r r y w b 
+g r y w b 
+g e p p r 
+ 	 Moving to R	 	
+r r y w b 
+g r y w b 
+g p e p r 
+ 	 Moving to U	 	
+r r y w b 
+g r e w b 
+g p y p r 
+ 	 Moving to R	 	
+r r y w b 
+g r w e b 
+g p y p r 
+ 	 Moving to D	 	
+r r y w b 
+g r w p b 
+g p y e r 
+ 	 Moving to R	 	
+r r y w b 
+g r w p b 
+g p y r e 
+ 	 Moving to U	 	
+r r y w b 
+g r w p e 
+g p y r b 
+ 	 Moving to L	 	
+r r y w b 
+g r w e p 
+g p y r b 
+ 	 Moving to L	 	
+r r y w b 
+g r e w p 
+g p y r b 
+ 	 Moving to D	 	
+r r y w b 
+g r y w p 
+g p e r b 
+ 	 Moving to L	 	
+r r y w b 
+g r y w p 
+g e p r b 
+ 	 Moving to U	 	
+r r y w b 
+g e y w p 
+g r p r b 
+ 	 Moving to U	 	
+r e y w b 
+g r y w p 
+g r p r b 
+ 	 Moving to L	 	
+e r y w b 
+g r y w p 
+g r p r b 
+ 	 Moving to D	 	
+g r y w b 
+e r y w p 
+g r p r b 
+ 	 Moving to D	 	
+g r y w b 
+g r y w p 
+e r p r b 
+ 	 Moving to R	 	
+g r y w b 
+g r y w p 
+r e p r b 
+ 	 Moving to R	 	
+g r y w b 
+g r y w p 
+r p e r b 
+ 	 Moving to U	 	
+g r y w b 
+g r e w p 
+r p y r b 
+ 	 Moving to L	 	
+g r y w b 
+g e r w p 
+r p y r b 
+ 	 Moving to D	 	
+g r y w b 
+g p r w p 
+r e y r b 
+ 	 Moving to L	 	
+g r y w b 
+g p r w p 
+e r y r b 
+ 	 Moving to U	 	
+g r y w b 
+e p r w p 
+g r y r b 
+ 	 Moving to R	 	
+g r y w b 
+p e r w p 
+g r y r b 
+ 	 Moving to R	 	
+g r y w b 
+p r e w p 
+g r y r b 
+ 	 Moving to D	 	
+g r y w b 
+p r y w p 
+g r e r b 
+ 	 Moving to R	 	
+g r y w b 
+p r y w p 
+g r r e b 
+ 	 Moving to U	 	
+g r y w b 
+p r y e p 
+g r r w b 
+ 	 Moving to L	 	
+g r y w b 
+p r e y p 
+g r r w b 
+ 	 Moving to U	 	
+g r e w b 
+p r y y p 
+g r r w b 
+ 	 Moving to L	 	
+g e r w b 
+p r y y p 
+g r r w b 
+ 	 Moving to D	 	
+g r r w b 
+p e y y p 
+g r r w b 
+ Solving game 18
+ 18- Original Config : 
+
+r w r y g 
+p b w g p 
+e r y r b 	 	 Solution states : 
+ 	 Moving to R	 	
+r w r y g 
+p b w g p 
+r e y r b 
+ 	 Moving to R	 	
+r w r y g 
+p b w g p 
+r y e r b 
+ 	 Moving to R	 	
+r w r y g 
+p b w g p 
+r y r e b 
+ 	 Moving to R	 	
+r w r y g 
+p b w g p 
+r y r b e 
+ 	 Moving to U	 	
+r w r y g 
+p b w g e 
+r y r b p 
+ 	 Moving to L	 	
+r w r y g 
+p b w e g 
+r y r b p 
+ 	 Moving to L	 	
+r w r y g 
+p b e w g 
+r y r b p 
+ 	 Moving to L	 	
+r w r y g 
+p e b w g 
+r y r b p 
+ 	 Moving to L	 	
+r w r y g 
+e p b w g 
+r y r b p 
+ 	 Moving to D	 	
+r w r y g 
+r p b w g 
+e y r b p 
+ 	 Moving to R	 	
+r w r y g 
+r p b w g 
+y e r b p 
+ 	 Moving to U	 	
+r w r y g 
+r e b w g 
+y p r b p 
+ 	 Moving to L	 	
+r w r y g 
+e r b w g 
+y p r b p 
+ 	 Moving to D	 	
+r w r y g 
+y r b w g 
+e p r b p 
+ 	 Moving to R	 	
+r w r y g 
+y r b w g 
+p e r b p 
+ 	 Moving to R	 	
+r w r y g 
+y r b w g 
+p r e b p 
+ 	 Moving to R	 	
+r w r y g 
+y r b w g 
+p r b e p 
+ 	 Moving to R	 	
+r w r y g 
+y r b w g 
+p r b p e 
+ 	 Moving to U	 	
+r w r y g 
+y r b w e 
+p r b p g 
+ 	 Moving to L	 	
+r w r y g 
+y r b e w 
+p r b p g 
+ 	 Moving to D	 	
+r w r y g 
+y r b p w 
+p r b e g 
+ 	 Moving to L	 	
+r w r y g 
+y r b p w 
+p r e b g 
+ 	 Moving to L	 	
+r w r y g 
+y r b p w 
+p e r b g 
+ 	 Moving to L	 	
+r w r y g 
+y r b p w 
+e p r b g 
+ 	 Moving to U	 	
+r w r y g 
+e r b p w 
+y p r b g 
+ 	 Moving to R	 	
+r w r y g 
+r e b p w 
+y p r b g 
+ 	 Moving to R	 	
+r w r y g 
+r b e p w 
+y p r b g 
+ 	 Moving to R	 	
+r w r y g 
+r b p e w 
+y p r b g 
+ 	 Moving to R	 	
+r w r y g 
+r b p w e 
+y p r b g 
+ 	 Moving to U	 	
+r w r y e 
+r b p w g 
+y p r b g 
+ 	 Moving to L	 	
+r w r e y 
+r b p w g 
+y p r b g 
+ 	 Moving to D	 	
+r w r w y 
+r b p e g 
+y p r b g 
+ 	 Moving to L	 	
+r w r w y 
+r b e p g 
+y p r b g 
+ 	 Moving to L	 	
+r w r w y 
+r e b p g 
+y p r b g 
+ 	 Moving to U	 	
+r e r w y 
+r w b p g 
+y p r b g 
+ 	 Moving to R	 	
+r r e w y 
+r w b p g 
+y p r b g 
+ 	 Moving to R	 	
+r r w e y 
+r w b p g 
+y p r b g 
+ 	 Moving to D	 	
+r r w p y 
+r w b e g 
+y p r b g 
+ 	 Moving to L	 	
+r r w p y 
+r w e b g 
+y p r b g 
+ 	 Moving to L	 	
+r r w p y 
+r e w b g 
+y p r b g 
+ 	 Moving to D	 	
+r r w p y 
+r p w b g 
+y e r b g 
+ 	 Moving to R	 	
+r r w p y 
+r p w b g 
+y r e b g 
+ 	 Moving to U	 	
+r r w p y 
+r p e b g 
+y r w b g 
+ 	 Moving to L	 	
+r r w p y 
+r e p b g 
+y r w b g 
+ 	 Moving to L	 	
+r r w p y 
+e r p b g 
+y r w b g 
+ 	 Moving to D	 	
+r r w p y 
+y r p b g 
+e r w b g 
+ 	 Moving to R	 	
+r r w p y 
+y r p b g 
+r e w b g 
+ 	 Moving to U	 	
+r r w p y 
+y e p b g 
+r r w b g 
+ 	 Moving to R	 	
+r r w p y 
+y p e b g 
+r r w b g 
+ 	 Moving to U	 	
+r r e p y 
+y p w b g 
+r r w b g 
+ 	 Moving to R	 	
+r r p e y 
+y p w b g 
+r r w b g 
+ 	 Moving to D	 	
+r r p b y 
+y p w e g 
+r r w b g 
+ 	 Moving to L	 	
+r r p b y 
+y p e w g 
+r r w b g 
+ 	 Moving to L	 	
+r r p b y 
+y e p w g 
+r r w b g 
+ 	 Moving to U	 	
+r e p b y 
+y r p w g 
+r r w b g 
+ 	 Moving to R	 	
+r p e b y 
+y r p w g 
+r r w b g 
+ 	 Moving to D	 	
+r p p b y 
+y r e w g 
+r r w b g 
+ 	 Moving to R	 	
+r p p b y 
+y r w e g 
+r r w b g 
+ 	 Moving to U	 	
+r p p e y 
+y r w b g 
+r r w b g 
+ 	 Moving to L	 	
+r p e p y 
+y r w b g 
+r r w b g 
+ 	 Moving to L	 	
+r e p p y 
+y r w b g 
+r r w b g 
+ 	 Moving to D	 	
+r r p p y 
+y e w b g 
+r r w b g 
+ 	 Moving to L	 	
+r r p p y 
+e y w b g 
+r r w b g 
+ 	 Moving to U	 	
+e r p p y 
+r y w b g 
+r r w b g 
+ 	 Moving to R	 	
+r e p p y 
+r y w b g 
+r r w b g 
+ 	 Moving to R	 	
+r p e p y 
+r y w b g 
+r r w b g 
+ 	 Moving to D	 	
+r p w p y 
+r y e b g 
+r r w b g 
+ 	 Moving to L	 	
+r p w p y 
+r e y b g 
+r r w b g 
+ 	 Moving to U	 	
+r e w p y 
+r p y b g 
+r r w b g 
+ 	 Moving to L	 	
+e r w p y 
+r p y b g 
+r r w b g 
+ 	 Moving to D	 	
+r r w p y 
+e p y b g 
+r r w b g 
+ 	 Moving to R	 	
+r r w p y 
+p e y b g 
+r r w b g 
+ 	 Moving to D	 	
+r r w p y 
+p r y b g 
+r e w b g 
+ 	 Moving to L	 	
+r r w p y 
+p r y b g 
+e r w b g 
+ 	 Moving to U	 	
+r r w p y 
+e r y b g 
+p r w b g 
+ 	 Moving to R	 	
+r r w p y 
+r e y b g 
+p r w b g 
+ 	 Moving to R	 	
+r r w p y 
+r y e b g 
+p r w b g 
+ 	 Moving to R	 	
+r r w p y 
+r y b e g 
+p r w b g 
+ 	 Moving to U	 	
+r r w e y 
+r y b p g 
+p r w b g 
+ 	 Moving to R	 	
+r r w y e 
+r y b p g 
+p r w b g 
+ 	 Moving to D	 	
+r r w y g 
+r y b p e 
+p r w b g 
+ 	 Moving to L	 	
+r r w y g 
+r y b e p 
+p r w b g 
+ 	 Moving to L	 	
+r r w y g 
+r y e b p 
+p r w b g 
+ 	 Moving to L	 	
+r r w y g 
+r e y b p 
+p r w b g 
+ 	 Moving to L	 	
+r r w y g 
+e r y b p 
+p r w b g 
+ 	 Moving to D	 	
+r r w y g 
+p r y b p 
+e r w b g 
+ 	 Moving to R	 	
+r r w y g 
+p r y b p 
+r e w b g 
+ 	 Moving to U	 	
+r r w y g 
+p e y b p 
+r r w b g 
+ 	 Moving to R	 	
+r r w y g 
+p y e b p 
+r r w b g 
+ 	 Moving to U	 	
+r r e y g 
+p y w b p 
+r r w b g 
+ 	 Moving to R	 	
+r r y e g 
+p y w b p 
+r r w b g 
+ 	 Moving to D	 	
+r r y b g 
+p y w e p 
+r r w b g 
+ 	 Moving to L	 	
+r r y b g 
+p y e w p 
+r r w b g 
+ 	 Moving to L	 	
+r r y b g 
+p e y w p 
+r r w b g 
+ 	 Moving to L	 	
+r r y b g 
+e p y w p 
+r r w b g 
+ 	 Moving to D	 	
+r r y b g 
+r p y w p 
+e r w b g 
+ 	 Moving to R	 	
+r r y b g 
+r p y w p 
+r e w b g 
+ 	 Moving to R	 	
+r r y b g 
+r p y w p 
+r w e b g 
+ 	 Moving to U	 	
+r r y b g 
+r p e w p 
+r w y b g 
+ 	 Moving to L	 	
+r r y b g 
+r e p w p 
+r w y b g 
+ 	 Moving to D	 	
+r r y b g 
+r w p w p 
+r e y b g 
+ 	 Moving to L	 	
+r r y b g 
+r w p w p 
+e r y b g 
+ 	 Moving to U	 	
+r r y b g 
+e w p w p 
+r r y b g 
+ Solving game 19
+ 19- Original Config : 
+
+r e w g y 
+g p p w y 
+r b r r b 	 	 Solution states : 
+ 	 Moving to D	 	
+r p w g y 
+g e p w y 
+r b r r b 
+ 	 Moving to R	 	
+r p w g y 
+g p e w y 
+r b r r b 
+ 	 Moving to R	 	
+r p w g y 
+g p w e y 
+r b r r b 
+ 	 Moving to D	 	
+r p w g y 
+g p w r y 
+r b r e b 
+ 	 Moving to L	 	
+r p w g y 
+g p w r y 
+r b e r b 
+ 	 Moving to U	 	
+r p w g y 
+g p e r y 
+r b w r b 
+ 	 Moving to U	 	
+r p e g y 
+g p w r y 
+r b w r b 
+ 	 Moving to R	 	
+r p g e y 
+g p w r y 
+r b w r b 
+ 	 Moving to D	 	
+r p g r y 
+g p w e y 
+r b w r b 
+ 	 Moving to L	 	
+r p g r y 
+g p e w y 
+r b w r b 
+ 	 Moving to L	 	
+r p g r y 
+g e p w y 
+r b w r b 
+ 	 Moving to L	 	
+r p g r y 
+e g p w y 
+r b w r b 
+ 	 Moving to D	 	
+r p g r y 
+r g p w y 
+e b w r b 
+ 	 Moving to R	 	
+r p g r y 
+r g p w y 
+b e w r b 
+ 	 Moving to U	 	
+r p g r y 
+r e p w y 
+b g w r b 
+ 	 Moving to R	 	
+r p g r y 
+r p e w y 
+b g w r b 
+ 	 Moving to U	 	
+r p e r y 
+r p g w y 
+b g w r b 
+ 	 Moving to L	 	
+r e p r y 
+r p g w y 
+b g w r b 
+ 	 Moving to D	 	
+r p p r y 
+r e g w y 
+b g w r b 
+ 	 Moving to R	 	
+r p p r y 
+r g e w y 
+b g w r b 
+ 	 Moving to U	 	
+r p e r y 
+r g p w y 
+b g w r b 
+ 	 Moving to L	 	
+r e p r y 
+r g p w y 
+b g w r b 
+ 	 Moving to D	 	
+r g p r y 
+r e p w y 
+b g w r b 
+ 	 Moving to D	 	
+r g p r y 
+r g p w y 
+b e w r b 
+ 	 Moving to R	 	
+r g p r y 
+r g p w y 
+b w e r b 
+ 	 Moving to U	 	
+r g p r y 
+r g e w y 
+b w p r b 
+ 	 Moving to L	 	
+r g p r y 
+r e g w y 
+b w p r b 
+ 	 Moving to D	 	
+r g p r y 
+r w g w y 
+b e p r b 
+ 	 Moving to L	 	
+r g p r y 
+r w g w y 
+e b p r b 
+ 	 Moving to U	 	
+r g p r y 
+e w g w y 
+r b p r b 
+ 	 Moving to R	 	
+r g p r y 
+w e g w y 
+r b p r b 
+ 	 Moving to R	 	
+r g p r y 
+w g e w y 
+r b p r b 
+ 	 Moving to D	 	
+r g p r y 
+w g p w y 
+r b e r b 
+ 	 Moving to L	 	
+r g p r y 
+w g p w y 
+r e b r b 
+ 	 Moving to U	 	
+r g p r y 
+w e p w y 
+r g b r b 
+ 	 Moving to R	 	
+r g p r y 
+w p e w y 
+r g b r b 
+ 	 Moving to R	 	
+r g p r y 
+w p w e y 
+r g b r b 
+ 	 Moving to D	 	
+r g p r y 
+w p w r y 
+r g b e b 
+ 	 Moving to L	 	
+r g p r y 
+w p w r y 
+r g e b b 
+ 	 Moving to U	 	
+r g p r y 
+w p e r y 
+r g w b b 
+ 	 Moving to L	 	
+r g p r y 
+w e p r y 
+r g w b b 
+ 	 Moving to D	 	
+r g p r y 
+w g p r y 
+r e w b b 
+ 	 Moving to R	 	
+r g p r y 
+w g p r y 
+r w e b b 
+ 	 Moving to U	 	
+r g p r y 
+w g e r y 
+r w p b b 
+ 	 Moving to R	 	
+r g p r y 
+w g r e y 
+r w p b b 
+ 	 Moving to D	 	
+r g p r y 
+w g r b y 
+r w p e b 
+ 	 Moving to R	 	
+r g p r y 
+w g r b y 
+r w p b e 
+ 	 Moving to U	 	
+r g p r y 
+w g r b e 
+r w p b y 
+ 	 Moving to L	 	
+r g p r y 
+w g r e b 
+r w p b y 
+ 	 Moving to L	 	
+r g p r y 
+w g e r b 
+r w p b y 
+ 	 Moving to U	 	
+r g e r y 
+w g p r b 
+r w p b y 
+ 	 Moving to R	 	
+r g r e y 
+w g p r b 
+r w p b y 
+ 	 Moving to D	 	
+r g r r y 
+w g p e b 
+r w p b y 
+ 	 Moving to R	 	
+r g r r y 
+w g p b e 
+r w p b y 
+ 	 Moving to U	 	
+r g r r e 
+w g p b y 
+r w p b y 
+ 	 Moving to L	 	
+r g r e r 
+w g p b y 
+r w p b y 
+ 	 Moving to L	 	
+r g e r r 
+w g p b y 
+r w p b y 
+ 	 Moving to L	 	
+r e g r r 
+w g p b y 
+r w p b y 
+ 	 Moving to D	 	
+r g g r r 
+w e p b y 
+r w p b y 
+ 	 Moving to L	 	
+r g g r r 
+e w p b y 
+r w p b y 
+ 	 Moving to U	 	
+e g g r r 
+r w p b y 
+r w p b y 
+ 	 Moving to R	 	
+g e g r r 
+r w p b y 
+r w p b y 
+ 	 Moving to D	 	
+g w g r r 
+r e p b y 
+r w p b y 
+ 	 Moving to R	 	
+g w g r r 
+r p e b y 
+r w p b y 
+ 	 Moving to U	 	
+g w e r r 
+r p g b y 
+r w p b y 
+ 	 Moving to R	 	
+g w r e r 
+r p g b y 
+r w p b y 
+ 	 Moving to D	 	
+g w r b r 
+r p g e y 
+r w p b y 
+ 	 Moving to L	 	
+g w r b r 
+r p e g y 
+r w p b y 
+ 	 Moving to L	 	
+g w r b r 
+r e p g y 
+r w p b y 
+ 	 Moving to U	 	
+g e r b r 
+r w p g y 
+r w p b y 
+ 	 Moving to R	 	
+g r e b r 
+r w p g y 
+r w p b y 
+ 	 Moving to D	 	
+g r p b r 
+r w e g y 
+r w p b y 
+ 	 Moving to L	 	
+g r p b r 
+r e w g y 
+r w p b y 
+ 	 Moving to L	 	
+g r p b r 
+e r w g y 
+r w p b y 
+ 	 Moving to U	 	
+e r p b r 
+g r w g y 
+r w p b y 
+ 	 Moving to R	 	
+r e p b r 
+g r w g y 
+r w p b y 
+ 	 Moving to D	 	
+r r p b r 
+g e w g y 
+r w p b y 
+ 	 Moving to L	 	
+r r p b r 
+e g w g y 
+r w p b y 
+ 	 Moving to U	 	
+e r p b r 
+r g w g y 
+r w p b y 
+ 	 Moving to R	 	
+r e p b r 
+r g w g y 
+r w p b y 
+ 	 Moving to D	 	
+r g p b r 
+r e w g y 
+r w p b y 
+ 	 Moving to R	 	
+r g p b r 
+r w e g y 
+r w p b y 
+ 	 Moving to U	 	
+r g e b r 
+r w p g y 
+r w p b y 
+ 	 Moving to L	 	
+r e g b r 
+r w p g y 
+r w p b y 
+ 	 Moving to D	 	
+r w g b r 
+r e p g y 
+r w p b y 
+ 	 Moving to D	 	
+r w g b r 
+r w p g y 
+r e p b y 
+ 	 Moving to R	 	
+r w g b r 
+r w p g y 
+r p e b y 
+ 	 Moving to U	 	
+r w g b r 
+r w e g y 
+r p p b y 
+ 	 Moving to R	 	
+r w g b r 
+r w g e y 
+r p p b y 
+ 	 Moving to D	 	
+r w g b r 
+r w g b y 
+r p p e y 
+ 	 Moving to L	 	
+r w g b r 
+r w g b y 
+r p e p y 
+ 	 Moving to L	 	
+r w g b r 
+r w g b y 
+r e p p y 
+ 	 Moving to U	 	
+r w g b r 
+r e g b y 
+r w p p y 
+ 	 Moving to U	 	
+r e g b r 
+r w g b y 
+r w p p y 
+ 	 Moving to L	 	
+e r g b r 
+r w g b y 
+r w p p y 
+ 	 Moving to D	 	
+r r g b r 
+e w g b y 
+r w p p y 
+ 	 Moving to D	 	
+r r g b r 
+r w g b y 
+e w p p y 
+ 	 Moving to R	 	
+r r g b r 
+r w g b y 
+w e p p y 
+ 	 Moving to U	 	
+r r g b r 
+r e g b y 
+w w p p y 
+ 	 Moving to L	 	
+r r g b r 
+e r g b y 
+w w p p y 
+ 	 Moving to D	 	
+r r g b r 
+w r g b y 
+e w p p y 
+ 	 Moving to R	 	
+r r g b r 
+w r g b y 
+w e p p y 
+ 	 Moving to U	 	
+r r g b r 
+w e g b y 
+w r p p y 
+ 	 Moving to U	 	
+r e g b r 
+w r g b y 
+w r p p y 
+ 	 Moving to L	 	
+e r g b r 
+w r g b y 
+w r p p y 
+ 	 Moving to D	 	
+w r g b r 
+e r g b y 
+w r p p y 
+ 	 Moving to R	 	
+w r g b r 
+r e g b y 
+w r p p y 
+ 	 Moving to R	 	
+w r g b r 
+r g e b y 
+w r p p y 
+ 	 Moving to D	 	
+w r g b r 
+r g p b y 
+w r e p y 
+ 	 Moving to R	 	
+w r g b r 
+r g p b y 
+w r p e y 
+ 	 Moving to U	 	
+w r g b r 
+r g p e y 
+w r p b y 
+ 	 Moving to U	 	
+w r g e r 
+r g p b y 
+w r p b y 
+ 	 Moving to L	 	
+w r e g r 
+r g p b y 
+w r p b y 
+ 	 Moving to D	 	
+w r p g r 
+r g e b y 
+w r p b y 
+ 	 Moving to R	 	
+w r p g r 
+r g b e y 
+w r p b y 
+ 	 Moving to U	 	
+w r p e r 
+r g b g y 
+w r p b y 
+ 	 Moving to R	 	
+w r p r e 
+r g b g y 
+w r p b y 
+ 	 Moving to D	 	
+w r p r y 
+r g b g e 
+w r p b y 
+ 	 Moving to L	 	
+w r p r y 
+r g b e g 
+w r p b y 
+ 	 Moving to L	 	
+w r p r y 
+r g e b g 
+w r p b y 
+ 	 Moving to D	 	
+w r p r y 
+r g p b g 
+w r e b y 
+ 	 Moving to L	 	
+w r p r y 
+r g p b g 
+w e r b y 
+ 	 Moving to U	 	
+w r p r y 
+r e p b g 
+w g r b y 
+ 	 Moving to L	 	
+w r p r y 
+e r p b g 
+w g r b y 
+ 	 Moving to D	 	
+w r p r y 
+w r p b g 
+e g r b y 
+ 	 Moving to R	 	
+w r p r y 
+w r p b g 
+g e r b y 
+ 	 Moving to R	 	
+w r p r y 
+w r p b g 
+g r e b y 
+ 	 Moving to U	 	
+w r p r y 
+w r e b g 
+g r p b y 
+ 	 Moving to U	 	
+w r e r y 
+w r p b g 
+g r p b y 
+ 	 Moving to R	 	
+w r r e y 
+w r p b g 
+g r p b y 
+ 	 Moving to D	 	
+w r r b y 
+w r p e g 
+g r p b y 
+ 	 Moving to L	 	
+w r r b y 
+w r e p g 
+g r p b y 
+ 	 Moving to D	 	
+w r r b y 
+w r p p g 
+g r e b y 
+ 	 Moving to L	 	
+w r r b y 
+w r p p g 
+g e r b y 
+ 	 Moving to U	 	
+w r r b y 
+w e p p g 
+g r r b y 
+ 	 Moving to R	 	
+w r r b y 
+w p e p g 
+g r r b y 
+ 	 Moving to D	 	
+w r r b y 
+w p r p g 
+g r e b y 
+ 	 Moving to L	 	
+w r r b y 
+w p r p g 
+g e r b y 
+ 	 Moving to L	 	
+w r r b y 
+w p r p g 
+e g r b y 
+ 	 Moving to U	 	
+w r r b y 
+e p r p g 
+w g r b y 
+ 	 Moving to R	 	
+w r r b y 
+p e r p g 
+w g r b y 
+ 	 Moving to D	 	
+w r r b y 
+p g r p g 
+w e r b y 
+ 	 Moving to R	 	
+w r r b y 
+p g r p g 
+w r e b y 
+ 	 Moving to U	 	
+w r r b y 
+p g e p g 
+w r r b y 
+ Solving game 20
+ 20- Original Config : 
+
+r p g p w 
+y w b r r 
+e r g y b 	 	 Solution states : 
+ 	 Moving to R	 	
+r p g p w 
+y w b r r 
+r e g y b 
+ 	 Moving to U	 	
+r p g p w 
+y e b r r 
+r w g y b 
+ 	 Moving to U	 	
+r e g p w 
+y p b r r 
+r w g y b 
+ 	 Moving to L	 	
+e r g p w 
+y p b r r 
+r w g y b 
+ 	 Moving to D	 	
+y r g p w 
+e p b r r 
+r w g y b 
+ 	 Moving to R	 	
+y r g p w 
+p e b r r 
+r w g y b 
+ 	 Moving to R	 	
+y r g p w 
+p b e r r 
+r w g y b 
+ 	 Moving to D	 	
+y r g p w 
+p b g r r 
+r w e y b 
+ 	 Moving to R	 	
+y r g p w 
+p b g r r 
+r w y e b 
+ 	 Moving to U	 	
+y r g p w 
+p b g e r 
+r w y r b 
+ 	 Moving to R	 	
+y r g p w 
+p b g r e 
+r w y r b 
+ 	 Moving to D	 	
+y r g p w 
+p b g r b 
+r w y r e 
+ 	 Moving to L	 	
+y r g p w 
+p b g r b 
+r w y e r 
+ 	 Moving to L	 	
+y r g p w 
+p b g r b 
+r w e y r 
+ 	 Moving to L	 	
+y r g p w 
+p b g r b 
+r e w y r 
+ 	 Moving to U	 	
+y r g p w 
+p e g r b 
+r b w y r 
+ 	 Moving to L	 	
+y r g p w 
+e p g r b 
+r b w y r 
+ 	 Moving to U	 	
+e r g p w 
+y p g r b 
+r b w y r 
+ 	 Moving to R	 	
+r e g p w 
+y p g r b 
+r b w y r 
+ 	 Moving to D	 	
+r p g p w 
+y e g r b 
+r b w y r 
+ 	 Moving to R	 	
+r p g p w 
+y g e r b 
+r b w y r 
+ 	 Moving to R	 	
+r p g p w 
+y g r e b 
+r b w y r 
+ 	 Moving to U	 	
+r p g e w 
+y g r p b 
+r b w y r 
+ 	 Moving to R	 	
+r p g w e 
+y g r p b 
+r b w y r 
+ 	 Moving to D	 	
+r p g w b 
+y g r p e 
+r b w y r 
+ 	 Moving to L	 	
+r p g w b 
+y g r e p 
+r b w y r 
+ 	 Moving to L	 	
+r p g w b 
+y g e r p 
+r b w y r 
+ 	 Moving to L	 	
+r p g w b 
+y e g r p 
+r b w y r 
+ 	 Moving to D	 	
+r p g w b 
+y b g r p 
+r e w y r 
+ 	 Moving to R	 	
+r p g w b 
+y b g r p 
+r w e y r 
+ 	 Moving to U	 	
+r p g w b 
+y b e r p 
+r w g y r 
+ 	 Moving to R	 	
+r p g w b 
+y b r e p 
+r w g y r 
+ 	 Moving to U	 	
+r p g e b 
+y b r w p 
+r w g y r 
+ 	 Moving to R	 	
+r p g b e 
+y b r w p 
+r w g y r 
+ 	 Moving to D	 	
+r p g b p 
+y b r w e 
+r w g y r 
+ 	 Moving to L	 	
+r p g b p 
+y b r e w 
+r w g y r 
+ 	 Moving to L	 	
+r p g b p 
+y b e r w 
+r w g y r 
+ 	 Moving to U	 	
+r p e b p 
+y b g r w 
+r w g y r 
+ 	 Moving to L	 	
+r e p b p 
+y b g r w 
+r w g y r 
+ 	 Moving to D	 	
+r b p b p 
+y e g r w 
+r w g y r 
+ 	 Moving to R	 	
+r b p b p 
+y g e r w 
+r w g y r 
+ 	 Moving to R	 	
+r b p b p 
+y g r e w 
+r w g y r 
+ 	 Moving to R	 	
+r b p b p 
+y g r w e 
+r w g y r 
+ 	 Moving to U	 	
+r b p b e 
+y g r w p 
+r w g y r 
+ 	 Moving to L	 	
+r b p e b 
+y g r w p 
+r w g y r 
+ 	 Moving to L	 	
+r b e p b 
+y g r w p 
+r w g y r 
+ 	 Moving to L	 	
+r e b p b 
+y g r w p 
+r w g y r 
+ 	 Moving to L	 	
+e r b p b 
+y g r w p 
+r w g y r 
+ 	 Moving to D	 	
+y r b p b 
+e g r w p 
+r w g y r 
+ 	 Moving to R	 	
+y r b p b 
+g e r w p 
+r w g y r 
+ 	 Moving to R	 	
+y r b p b 
+g r e w p 
+r w g y r 
+ 	 Moving to U	 	
+y r e p b 
+g r b w p 
+r w g y r 
+ 	 Moving to L	 	
+y e r p b 
+g r b w p 
+r w g y r 
+ 	 Moving to L	 	
+e y r p b 
+g r b w p 
+r w g y r 
+ 	 Moving to D	 	
+g y r p b 
+e r b w p 
+r w g y r 
+ 	 Moving to R	 	
+g y r p b 
+r e b w p 
+r w g y r 
+ 	 Moving to R	 	
+g y r p b 
+r b e w p 
+r w g y r 
+ 	 Moving to R	 	
+g y r p b 
+r b w e p 
+r w g y r 
+ 	 Moving to D	 	
+g y r p b 
+r b w y p 
+r w g e r 
+ 	 Moving to L	 	
+g y r p b 
+r b w y p 
+r w e g r 
+ 	 Moving to U	 	
+g y r p b 
+r b e y p 
+r w w g r 
+ 	 Moving to L	 	
+g y r p b 
+r e b y p 
+r w w g r 
+ 	 Moving to D	 	
+g y r p b 
+r w b y p 
+r e w g r 
+ 	 Moving to R	 	
+g y r p b 
+r w b y p 
+r w e g r 
+ 	 Moving to R	 	
+g y r p b 
+r w b y p 
+r w g e r 
+ 	 Moving to U	 	
+g y r p b 
+r w b e p 
+r w g y r 
+ 	 Moving to L	 	
+g y r p b 
+r w e b p 
+r w g y r 
+ 	 Moving to D	 	
+g y r p b 
+r w g b p 
+r w e y r 
+ 	 Moving to R	 	
+g y r p b 
+r w g b p 
+r w y e r 
+ 	 Moving to R	 	
+g y r p b 
+r w g b p 
+r w y r e 
+ 	 Moving to U	 	
+g y r p b 
+r w g b e 
+r w y r p 
+ 	 Moving to L	 	
+g y r p b 
+r w g e b 
+r w y r p 
+ 	 Moving to L	 	
+g y r p b 
+r w e g b 
+r w y r p 
+ 	 Moving to L	 	
+g y r p b 
+r e w g b 
+r w y r p 
+ 	 Moving to U	 	
+g e r p b 
+r y w g b 
+r w y r p 
+ 	 Moving to R	 	
+g r e p b 
+r y w g b 
+r w y r p 
+ 	 Moving to D	 	
+g r w p b 
+r y e g b 
+r w y r p 
+ 	 Moving to L	 	
+g r w p b 
+r e y g b 
+r w y r p 
+ 	 Moving to D	 	
+g r w p b 
+r w y g b 
+r e y r p 
+ 	 Moving to R	 	
+g r w p b 
+r w y g b 
+r y e r p 
+ 	 Moving to U	 	
+g r w p b 
+r w e g b 
+r y y r p 
+ 	 Moving to L	 	
+g r w p b 
+r e w g b 
+r y y r p 
+ 	 Moving to D	 	
+g r w p b 
+r y w g b 
+r e y r p 
+ 	 Moving to R	 	
+g r w p b 
+r y w g b 
+r y e r p 
+ 	 Moving to U	 	
+g r w p b 
+r y e g b 
+r y w r p 
+ 	 Moving to R	 	
+g r w p b 
+r y g e b 
+r y w r p 
+ 	 Moving to U	 	
+g r w e b 
+r y g p b 
+r y w r p 
+ 	 Moving to R	 	
+g r w b e 
+r y g p b 
+r y w r p 
+ 	 Moving to D	 	
+g r w b b 
+r y g p e 
+r y w r p 
+ 	 Moving to L	 	
+g r w b b 
+r y g e p 
+r y w r p 
+ 	 Moving to U	 	
+g r w e b 
+r y g b p 
+r y w r p 
+ 	 Moving to R	 	
+g r w b e 
+r y g b p 
+r y w r p 
+ 	 Moving to D	 	
+g r w b p 
+r y g b e 
+r y w r p 
+ 	 Moving to L	 	
+g r w b p 
+r y g e b 
+r y w r p 
+ 	 Moving to L	 	
+g r w b p 
+r y e g b 
+r y w r p 
+ 	 Moving to D	 	
+g r w b p 
+r y w g b 
+r y e r p 
+ 	 Moving to R	 	
+g r w b p 
+r y w g b 
+r y r e p 
+ 	 Moving to U	 	
+g r w b p 
+r y w e b 
+r y r g p 
+ 	 Moving to R	 	
+g r w b p 
+r y w b e 
+r y r g p 
+ 	 Moving to D	 	
+g r w b p 
+r y w b p 
+r y r g e 
+ 	 Moving to L	 	
+g r w b p 
+r y w b p 
+r y r e g 
+ 	 Moving to L	 	
+g r w b p 
+r y w b p 
+r y e r g 
+ 	 Moving to U	 	
+g r w b p 
+r y e b p 
+r y w r g 
+ 	 Moving to L	 	
+g r w b p 
+r e y b p 
+r y w r g 
+ 	 Moving to L	 	
+g r w b p 
+e r y b p 
+r y w r g 
+ 	 Moving to U	 	
+e r w b p 
+g r y b p 
+r y w r g 
+ 	 Moving to R	 	
+r e w b p 
+g r y b p 
+r y w r g 
+ 	 Moving to D	 	
+r r w b p 
+g e y b p 
+r y w r g 
+ 	 Moving to L	 	
+r r w b p 
+e g y b p 
+r y w r g 
+ 	 Moving to D	 	
+r r w b p 
+r g y b p 
+e y w r g 
+ 	 Moving to R	 	
+r r w b p 
+r g y b p 
+y e w r g 
+ 	 Moving to U	 	
+r r w b p 
+r e y b p 
+y g w r g 
+ 	 Moving to R	 	
+r r w b p 
+r y e b p 
+y g w r g 
+ 	 Moving to D	 	
+r r w b p 
+r y w b p 
+y g e r g 
+ 	 Moving to L	 	
+r r w b p 
+r y w b p 
+y e g r g 
+ 	 Moving to L	 	
+r r w b p 
+r y w b p 
+e y g r g 
+ 	 Moving to U	 	
+r r w b p 
+e y w b p 
+r y g r g 
+ 	 Moving to U	 	
+e r w b p 
+r y w b p 
+r y g r g 
+ 	 Moving to R	 	
+r e w b p 
+r y w b p 
+r y g r g 
+ 	 Moving to D	 	
+r y w b p 
+r e w b p 
+r y g r g 
+ 	 Moving to D	 	
+r y w b p 
+r y w b p 
+r e g r g 
+ 	 Moving to R	 	
+r y w b p 
+r y w b p 
+r g e r g 
+ 	 Moving to U	 	
+r y w b p 
+r y e b p 
+r g w r g 
+ 	 Moving to R	 	
+r y w b p 
+r y b e p 
+r g w r g 
+ 	 Moving to D	 	
+r y w b p 
+r y b r p 
+r g w e g 
+ 	 Moving to R	 	
+r y w b p 
+r y b r p 
+r g w g e 
+ 	 Moving to U	 	
+r y w b p 
+r y b r e 
+r g w g p 
+ 	 Moving to L	 	
+r y w b p 
+r y b e r 
+r g w g p 
+ 	 Moving to L	 	
+r y w b p 
+r y e b r 
+r g w g p 
+ 	 Moving to D	 	
+r y w b p 
+r y w b r 
+r g e g p 
+ 	 Moving to R	 	
+r y w b p 
+r y w b r 
+r g g e p 
+ 	 Moving to U	 	
+r y w b p 
+r y w e r 
+r g g b p 
+ 	 Moving to L	 	
+r y w b p 
+r y e w r 
+r g g b p 
+ 	 Moving to D	 	
+r y w b p 
+r y g w r 
+r g e b p 
+ 	 Moving to L	 	
+r y w b p 
+r y g w r 
+r e g b p 
+ 	 Moving to U	 	
+r y w b p 
+r e g w r 
+r y g b p 
+ 	 Moving to R	 	
+r y w b p 
+r g e w r 
+r y g b p 
+ 	 Moving to R	 	
+r y w b p 
+r g w e r 
+r y g b p 
+ 	 Moving to D	 	
+r y w b p 
+r g w b r 
+r y g e p 
+ 	 Moving to L	 	
+r y w b p 
+r g w b r 
+r y e g p 
+ 	 Moving to U	 	
+r y w b p 
+r g e b r 
+r y w g p 
+ 	 Moving to R	 	
+r y w b p 
+r g b e r 
+r y w g p 
+ 	 Moving to R	 	
+r y w b p 
+r g b r e 
+r y w g p 
+ 	 Moving to D	 	
+r y w b p 
+r g b r p 
+r y w g e 
+ 	 Moving to L	 	
+r y w b p 
+r g b r p 
+r y w e g 
+ 	 Moving to U	 	
+r y w b p 
+r g b e p 
+r y w r g 
+ 	 Moving to L	 	
+r y w b p 
+r g e b p 
+r y w r g 
+ 	 Moving to D	 	
+r y w b p 
+r g w b p 
+r y e r g 
+ 	 Moving to R	 	
+r y w b p 
+r g w b p 
+r y r e g 
+ 	 Moving to U	 	
+r y w b p 
+r g w e p 
+r y r b g 
+ 	 Moving to L	 	
+r y w b p 
+r g e w p 
+r y r b g 
+ 	 Moving to L	 	
+r y w b p 
+r e g w p 
+r y r b g 
+ 	 Moving to D	 	
+r y w b p 
+r y g w p 
+r e r b g 
+ 	 Moving to R	 	
+r y w b p 
+r y g w p 
+r r e b g 
+ 	 Moving to U	 	
+r y w b p 
+r y e w p 
+r r g b g 
+ 	 Moving to R	 	
+r y w b p 
+r y w e p 
+r r g b g 
+ 	 Moving to D	 	
+r y w b p 
+r y w b p 
+r r g e g 
+ 	 Moving to L	 	
+r y w b p 
+r y w b p 
+r r e g g 
+ 	 Moving to L	 	
+r y w b p 
+r y w b p 
+r e r g g 
+ 	 Moving to U	 	
+r y w b p 
+r e w b p 
+r y r g g 
+ 	 Moving to U	 	
+r e w b p 
+r y w b p 
+r y r g g 
+ 	 Moving to L	 	
+e r w b p 
+r y w b p 
+r y r g g 
+ 	 Moving to D	 	
+r r w b p 
+e y w b p 
+r y r g g 
+ 	 Moving to R	 	
+r r w b p 
+y e w b p 
+r y r g g 
+ 	 Moving to U	 	
+r e w b p 
+y r w b p 
+r y r g g 
+ 	 Moving to L	 	
+e r w b p 
+y r w b p 
+r y r g g 
+ 	 Moving to D	 	
+y r w b p 
+e r w b p 
+r y r g g 
+ 	 Moving to R	 	
+y r w b p 
+r e w b p 
+r y r g g 
+ 	 Moving to D	 	
+y r w b p 
+r y w b p 
+r e r g g 
+ 	 Moving to R	 	
+y r w b p 
+r y w b p 
+r r e g g 
+ 	 Moving to U	 	
+y r w b p 
+r y e b p 
+r r w g g 
+ 	 Moving to U	 	
+y r e b p 
+r y w b p 
+r r w g g 
+ 	 Moving to L	 	
+y e r b p 
+r y w b p 
+r r w g g 
+ 	 Moving to L	 	
+e y r b p 
+r y w b p 
+r r w g g 
+ 	 Moving to D	 	
+r y r b p 
+e y w b p 
+r r w g g 
+ 	 Moving to D	 	
+r y r b p 
+r y w b p 
+e r w g g 
+ 	 Moving to R	 	
+r y r b p 
+r y w b p 
+r e w g g 
+ 	 Moving to U	 	
+r y r b p 
+r e w b p 
+r y w g g 
+ 	 Moving to U	 	
+r e r b p 
+r y w b p 
+r y w g g 
+ 	 Moving to R	 	
+r r e b p 
+r y w b p 
+r y w g g 
+ 	 Moving to D	 	
+r r w b p 
+r y e b p 
+r y w g g 
+ 	 Moving to R	 	
+r r w b p 
+r y b e p 
+r y w g g 
+ 	 Moving to D	 	
+r r w b p 
+r y b g p 
+r y w e g 
+ 	 Moving to R	 	
+r r w b p 
+r y b g p 
+r y w g e 
+ 	 Moving to U	 	
+r r w b p 
+r y b g e 
+r y w g p 
+ 	 Moving to U	 	
+r r w b e 
+r y b g p 
+r y w g p 
+ 	 Moving to L	 	
+r r w e b 
+r y b g p 
+r y w g p 
+ 	 Moving to D	 	
+r r w g b 
+r y b e p 
+r y w g p 
+ 	 Moving to L	 	
+r r w g b 
+r y e b p 
+r y w g p 
+ 	 Moving to U	 	
+r r e g b 
+r y w b p 
+r y w g p 
+ 	 Moving to L	 	
+r e r g b 
+r y w b p 
+r y w g p 
+ 	 Moving to D	 	
+r y r g b 
+r e w b p 
+r y w g p 
+ 	 Moving to D	 	
+r y r g b 
+r y w b p 
+r e w g p 
+ 	 Moving to L	 	
+r y r g b 
+r y w b p 
+e r w g p 
+ 	 Moving to U	 	
+r y r g b 
+e y w b p 
+r r w g p 
+ 	 Moving to R	 	
+r y r g b 
+y e w b p 
+r r w g p 
+ 	 Moving to D	 	
+r y r g b 
+y r w b p 
+r e w g p 
+ 	 Moving to L	 	
+r y r g b 
+y r w b p 
+e r w g p 
+ 	 Moving to U	 	
+r y r g b 
+e r w b p 
+y r w g p 
+ 	 Moving to R	 	
+r y r g b 
+r e w b p 
+y r w g p 
+ 	 Moving to U	 	
+r e r g b 
+r y w b p 
+y r w g p 
+ 	 Moving to R	 	
+r r e g b 
+r y w b p 
+y r w g p 
+ 	 Moving to D	 	
+r r w g b 
+r y e b p 
+y r w g p 
+ 	 Moving to R	 	
+r r w g b 
+r y b e p 
+y r w g p 
+ 	 Moving to U	 	
+r r w e b 
+r y b g p 
+y r w g p 
+ 	 Moving to R	 	
+r r w b e 
+r y b g p 
+y r w g p 
+ 	 Moving to D	 	
+r r w b p 
+r y b g e 
+y r w g p 
+ 	 Moving to L	 	
+r r w b p 
+r y b e g 
+y r w g p 
+ 	 Moving to L	 	
+r r w b p 
+r y e b g 
+y r w g p 
+ 	 Moving to D	 	
+r r w b p 
+r y w b g 
+y r e g p 
+ 	 Moving to L	 	
+r r w b p 
+r y w b g 
+y e r g p 
+ 	 Moving to L	 	
+r r w b p 
+r y w b g 
+e y r g p 
+ 	 Moving to U	 	
+r r w b p 
+e y w b g 
+r y r g p 
+ 	 Moving to U	 	
+e r w b p 
+r y w b g 
+r y r g p 
+ 	 Moving to R	 	
+r e w b p 
+r y w b g 
+r y r g p 
+ 	 Moving to D	 	
+r y w b p 
+r e w b g 
+r y r g p 
+ 	 Moving to D	 	
+r y w b p 
+r y w b g 
+r e r g p 
+ 	 Moving to R	 	
+r y w b p 
+r y w b g 
+r r e g p 
+ 	 Moving to R	 	
+r y w b p 
+r y w b g 
+r r g e p 
+ 	 Moving to U	 	
+r y w b p 
+r y w e g 
+r r g b p 
+ 	 Moving to L	 	
+r y w b p 
+r y e w g 
+r r g b p 
+ 	 Moving to D	 	
+r y w b p 
+r y g w g 
+r r e b p 
+ 	 Moving to L	 	
+r y w b p 
+r y g w g 
+r e r b p 
+ 	 Moving to U	 	
+r y w b p 
+r e g w g 
+r y r b p 
+ 	 Moving to R	 	
+r y w b p 
+r g e w g 
+r y r b p 
+ 	 Moving to R	 	
+r y w b p 
+r g w e g 
+r y r b p 
+ 	 Moving to D	 	
+r y w b p 
+r g w b g 
+r y r e p 
+ 	 Moving to L	 	
+r y w b p 
+r g w b g 
+r y e r p 
+ 	 Moving to U	 	
+r y w b p 
+r g e b g 
+r y w r p 
+ 	 Moving to L	 	
+r y w b p 
+r e g b g 
+r y w r p 
+ 	 Moving to U	 	
+r e w b p 
+r y g b g 
+r y w r p 
+ 	 Moving to L	 	
+e r w b p 
+r y g b g 
+r y w r p 
+ 	 Moving to D	 	
+r r w b p 
+e y g b g 
+r y w r p 
+ 	 Moving to D	 	
+r r w b p 
+r y g b g 
+e y w r p 
+ 	 Moving to R	 	
+r r w b p 
+r y g b g 
+y e w r p 
+ 	 Moving to U	 	
+r r w b p 
+r e g b g 
+y y w r p 
+ 	 Moving to L	 	
+r r w b p 
+e r g b g 
+y y w r p 
+ 	 Moving to D	 	
+r r w b p 
+y r g b g 
+e y w r p 
+ 	 Moving to R	 	
+r r w b p 
+y r g b g 
+y e w r p 
+ 	 Moving to U	 	
+r r w b p 
+y e g b g 
+y r w r p 
+ 	 Moving to U	 	
+r e w b p 
+y r g b g 
+y r w r p 
+ 	 Moving to L	 	
+e r w b p 
+y r g b g 
+y r w r p 
+ 	 Moving to D	 	
+y r w b p 
+e r g b g 
+y r w r p 
+ 	 Moving to D	 	
+y r w b p 
+y r g b g 
+e r w r p 
+ 	 Moving to R	 	
+y r w b p 
+y r g b g 
+r e w r p 
+ 	 Moving to U	 	
+y r w b p 
+y e g b g 
+r r w r p 
+ 	 Moving to R	 	
+y r w b p 
+y g e b g 
+r r w r p 
+ 	 Moving to D	 	
+y r w b p 
+y g w b g 
+r r e r p 
+ 	 Moving to R	 	
+y r w b p 
+y g w b g 
+r r r e p 
+ 	 Moving to U	 	
+y r w b p 
+y g w e g 
+r r r b p 
+ 	 Moving to L	 	
+y r w b p 
+y g e w g 
+r r r b p 
+ 	 Moving to D	 	
+y r w b p 
+y g r w g 
+r r e b p 
+ 	 Moving to L	 	
+y r w b p 
+y g r w g 
+r e r b p 
+ 	 Moving to L	 	
+y r w b p 
+y g r w g 
+e r r b p 
+ 	 Moving to U	 	
+y r w b p 
+e g r w g 
+y r r b p 
+ 	 Moving to R	 	
+y r w b p 
+g e r w g 
+y r r b p 
+ 	 Moving to R	 	
+y r w b p 
+g r e w g 
+y r r b p 
+ 	 Moving to U	 	
+y r e b p 
+g r w w g 
+y r r b p 
+ 	 Moving to L	 	
+y e r b p 
+g r w w g 
+y r r b p 
+ 	 Moving to D	 	
+y r r b p 
+g e w w g 
+y r r b p 
+ Solving game 21
